@@ -1,3 +1,29 @@
+#########################
+# Warcraft Game Files
+#########################
+Cache/*
+Data/*
+Logs/*
+Errors/*
+Screenshots/*
+Utils/*
+Interface/Addons/Blizzard_*
+Updates/*
+*.exe
+*.dll
+*.*fil
+*.db
+*cache*
+*.manifest
+*.mpq
+*.bak
+WTF/Account/BENWINGERT95/SavedVariables/Blizzard_CombatLog.lua
+WTF/Account/SavedVariables/Blizzard_CombatLog.lua
+.patch.result
+.curseclient
+.build.info
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -26,7 +52,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

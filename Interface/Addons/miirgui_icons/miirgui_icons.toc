@@ -1,0 +1,8 @@
+## Interface: 60000
+## Title: miir|cff44CCFFGui|r Icons
+## Version: 3
+## Notes: Adds custom icons to your frames.
+## Author: Miiru - lordaeron
+## Dependencies: miirGui
+miirgui_icons.lua
+inspect.lua

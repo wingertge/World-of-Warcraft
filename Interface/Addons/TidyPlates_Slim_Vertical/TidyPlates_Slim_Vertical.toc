@@ -1,0 +1,8 @@
+## Interface: 60000
+## Title: Tidy Plates: Slim Vertical
+## Notes: 
+## Author: Dotfix
+## Version: 2.0
+## Dependencies: TidyPlates, TidyPlatesHub
+
+Slim_Vertical.lua

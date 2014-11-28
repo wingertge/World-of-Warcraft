@@ -1,0 +1,51 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("PetBattleMaster", "ruRU", false)
+if (L) then
+--@START
+L["Activates PetBattleMaster's team manager in the pet journal"] = "Активирует управление группами в журнале питомцев" -- Needs review
+L["Activates the minimap button"] = "Задействовать кнопку у миникарты"
+L["Alpha value for the background texture of the team view"] = "Прозрачность фона окна групп"
+L["Automatically opens the team view after a pet battle."] = "Автоматически открывать окно группы после битвы" -- Needs review
+L["Auto open team view"] = "Автооткрытие окна групп" -- Needs review
+L["Battle"] = "Битва" -- Needs review
+L["Catch indicator"] = "Индикатор поимки" -- Needs review
+L["Catch indicator (%s %s)"] = "Индикатор поимки (%s %s)" -- Needs review
+L["Color of the team view border"] = "Цвет рамки окна групп"
+L["Create team"] = "Сформировать группу" -- Needs review
+L["Deals damage"] = "Наносит урон"
+L["Deals increased damage to %s"] = "Наносит увеличенный урон %s"
+L["Deals reduced damage to %s"] = "Наносит уменьшенный урон %s"
+L["Delete team"] = "Расформировать группу" -- Needs review
+L["Do you really want to delete the team?"] = "Вы действительно хотите расформировать группу?" -- Needs review
+L["Edits the name and the icon of team \"%s\""] = "Изменить имя и значок у группы \"%s\""
+L["Enter pet journal to switch between pets"] = "Открыть журнал для смены питомцев"
+L["Extra info view"] = "Окно доп. информации" -- Needs review
+L["General"] = "Основное" -- Needs review
+L["Locked"] = "Заблокировано"
+L["Locks the views"] = "Заблокировать окно"
+L["Makes the pet journal movable"] = "Позволяет передвинуть журнал питомцев" -- Needs review
+L["Minimap button"] = "Кнопка у миникарты"
+L["Missing pet. Go and catch it!"] = "Новый пет. Поймай его!"
+L["Owned pet: "] = "У нас: "
+L["Pet journal movable"] = "Перемещаемый журнал питомцев" -- Needs review
+L["Pet manager active"] = "Управление питомцами активно" -- Needs review
+L["Pet portrait"] = "Портрет питомца"
+L["Receives damage"] = "Получает урон"
+L["Receives increased damage from %s"] = "Получает увеличенный урон от %s"
+L["Receives reduced damage from %s"] = "Получает уменьшенный урон от %s"
+L["Selects the team \"%s\""] = "Выбрать группу \"%s\""
+L["Shows a catch indicator on Blizzard's pet unit frames"] = "Показывать индикатор поимки на фреймах питомцев Blizzard" -- Needs review
+L["Shows an extra view with helpful information during battles"] = "Показывать окно доп. информации в подсказке во время битвы" -- Needs review
+L["%sLeft-click%s to open pet team view"] = "%sЛевая кнопка%s - окно групп"
+L["%sRight-click%s to open configuration"] = " %sПравая кнопка%s - настройки"
+L["Team name"] = "Название группы"
+L["Team name/icon edit"] = "Изменить название/значок группы"
+L["Team %s"] = "Группа %s"
+L["Team selection"] = "Выбор группы"
+L["Team view alpha"] = "Прозрачность окна групп"
+L["Team view border color"] = "Цвет рамки окна групп"
+L["TOOLTIP_LEVEL"] = "(%s)"
+L["Unnamed"] = "Неназвано"
+L["You are missing this pet!"] = "У Вас нет такого питомца!" -- Needs review
+L["You own this pet with level %s and quality %s"] = "У Вас есть этот питомец уровня %s и качества %s" -- Needs review
+--@END	
+end

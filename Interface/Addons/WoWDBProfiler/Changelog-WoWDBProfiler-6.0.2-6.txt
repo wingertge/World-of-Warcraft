@@ -1,0 +1,8 @@
+2014-11-22  MMOSimca  <MMOSimca@gmail.com>
+
+[4a4ed54e4201] [6.0.2-6]
+* Comments.lua, Main.lua:
+
+Fixed comment issue with quests (take two) and fixed broken debug statement (take two).
+
+

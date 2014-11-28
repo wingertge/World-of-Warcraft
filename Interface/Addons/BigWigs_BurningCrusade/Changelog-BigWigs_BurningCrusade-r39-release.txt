@@ -1,0 +1,31 @@
+------------------------------------------------------------------------
+r39 | funkydude | 2014-10-29 00:22:18 +0000 (Wed, 29 Oct 2014) | 1 line
+Changed paths:
+   A /tags/r39-release (from /trunk:38)
+
+Tagging as r39-release
+------------------------------------------------------------------------
+r38 | stanzilla | 2014-10-22 17:45:42 +0000 (Wed, 22 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/TheEye/Kaelthas.lua
+
+bump msg with the same 10s
+------------------------------------------------------------------------
+r37 | stanzilla | 2014-10-22 06:12:55 +0000 (Wed, 22 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/TheEye/Kaelthas.lua
+
+Kaelthas, adds revive 10 seconds later
+------------------------------------------------------------------------
+r35 | funkydude | 2014-10-14 19:49:36 +0000 (Tue, 14 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs_BurningCrusade.toc
+
+bump toc
+------------------------------------------------------------------------
+r34 | ananhaid | 2014-09-16 03:11:47 +0000 (Tue, 16 Sep 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs_BurningCrusade.toc
+
+- zhCN update.
+------------------------------------------------------------------------

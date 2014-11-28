@@ -1,0 +1,20 @@
+## Interface: 60000
+## Title: Transcriptor
+## Notes: Logging utility for boss encounters.
+## Notes-zhCN: 战斗纪录器
+## Notes-zhTW: 戰鬥紀錄器
+## Author: Funkydude
+## X-Credits: Kyahx, Rabbit, MysticalOS
+## X-Category: Development Tools
+## SavedVariables: TranscriptDB
+## X-Curse-Packaged-Version: r216-release
+## X-Curse-Project-Name: Transcriptor
+## X-Curse-Project-ID: transcriptor
+## X-Curse-Repository-ID: wow/transcriptor/mainline
+
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1.lua
+
+Transcriptor.lua
+

@@ -1,0 +1,9 @@
+## Interface: 60000
+## Title: HealBot Brazilian Localization
+## Author: aldetal
+## Notes: HealBot Localization for ptBR
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 6.0.3.1
+
+HealBot_Localization.br.lua

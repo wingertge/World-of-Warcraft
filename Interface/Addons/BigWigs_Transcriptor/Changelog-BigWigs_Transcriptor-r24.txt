@@ -1,0 +1,32 @@
+------------------------------------------------------------------------
+r24 | nebula169 | 2014-11-27 00:20:15 +0000 (Thu, 27 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+tweak the disable print
+------------------------------------------------------------------------
+r23 | nebula169 | 2014-11-27 00:10:14 +0000 (Thu, 27 Nov 2014) | 2 lines
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+remove the difficulty check (always allow logging if we have a module for the fight)
+pull the event list from Transcriptor
+------------------------------------------------------------------------
+r22 | nebula169 | 2014-11-17 17:06:31 +0000 (Mon, 17 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+options panel shenanigans
+------------------------------------------------------------------------
+r21 | nebula169 | 2014-11-17 16:19:30 +0000 (Mon, 17 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+allow enabling in dungeons, move mem check to on stop, some other tweaks
+------------------------------------------------------------------------
+r20 | nebula169 | 2014-10-23 00:23:29 +0000 (Thu, 23 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+update difficulties
+------------------------------------------------------------------------

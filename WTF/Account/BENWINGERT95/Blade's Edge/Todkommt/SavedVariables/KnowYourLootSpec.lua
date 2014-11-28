@@ -1,0 +1,4 @@
+
+KnowYourLootSpecSettings = {
+	["AnnounceSpec"] = true,
+}

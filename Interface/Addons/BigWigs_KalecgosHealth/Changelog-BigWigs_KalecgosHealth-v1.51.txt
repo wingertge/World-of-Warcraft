@@ -1,0 +1,36 @@
+------------------------------------------------------------------------
+r7 | ackis | 2009-05-21 16:08:25 +0000 (Thu, 21 May 2009) | 1 line
+Changed paths:
+   A /tags/v1.51 (from /trunk:6)
+
+Tagging as 1.51
+------------------------------------------------------------------------
+r6 | ackis | 2009-05-21 16:07:17 +0000 (Thu, 21 May 2009) | 1 line
+Changed paths:
+   M /trunk/Docs/Main.txt
+
+Update docs.
+------------------------------------------------------------------------
+r5 | ackis | 2009-05-21 16:04:17 +0000 (Thu, 21 May 2009) | 1 line
+Changed paths:
+   M /trunk/BigWigs_KalecgosHealth.toc
+   M /trunk/Docs/Main.txt
+
+Update docs.
+------------------------------------------------------------------------
+r4 | ackis | 2009-05-21 15:16:56 +0000 (Thu, 21 May 2009) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Update .pkgmeta
+------------------------------------------------------------------------
+r3 | ackis | 2009-03-19 15:39:00 +0000 (Thu, 19 Mar 2009) | 1 line
+Changed paths:
+   A /trunk/.docmeta
+   M /trunk/.pkgmeta
+   A /trunk/Docs
+   A /trunk/Docs/Main.txt
+   D /trunk/LICENSE.txt
+
+Make license auto generated and autogenerate the main page.
+------------------------------------------------------------------------

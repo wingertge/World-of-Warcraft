@@ -1,0 +1,10 @@
+## Interface: 50001
+## Title: PetFinder
+## Version: 1.0.2
+## Notes: Displays pets you have not learned upon entering zones
+## Author: cas IV
+## OptionalDeps:Blizzard_PetJournal
+## SavedVariables: PetFinderDB
+
+PetFinder.lua
+

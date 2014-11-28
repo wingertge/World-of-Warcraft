@@ -1,0 +1,5 @@
+
+FBODF_PlayerInfo = {
+	["Outfit"] = {
+	},
+}

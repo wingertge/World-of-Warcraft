@@ -1,0 +1,717 @@
+------------------------------------------------------------------------
+r12212 | funkydude | 2014-11-24 23:43:28 +0000 (Mon, 24 Nov 2014) | 1 line
+Changed paths:
+   A /tags/r12212-release (from /trunk:12211)
+
+Tagging as r12212-release
+------------------------------------------------------------------------
+r12211 | funkydude | 2014-11-24 18:40:52 +0000 (Mon, 24 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+   M /trunk/Plugins/AltPower.lua
+   M /trunk/Plugins/Bars.lua
+   M /trunk/Plugins/InfoBox.lua
+   M /trunk/Plugins/Proximity.lua
+   M /trunk/Plugins/RaidIcon.lua
+   M /trunk/Plugins/Statistics.lua
+
+Fix module resetting since callback change.
+------------------------------------------------------------------------
+r12209 | funkydude | 2014-11-24 02:39:13 +0000 (Mon, 24 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/PluginPrototype.lua
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: Fix player coloring/icons for targeted proximity modes.
+------------------------------------------------------------------------
+r12208 | funkydude | 2014-11-24 02:17:00 +0000 (Mon, 24 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Probably best not to fire enable/disable callbacks after a wipe. If someone needs/wants this, let me know.
+------------------------------------------------------------------------
+r12207 | funkydude | 2014-11-24 00:28:19 +0000 (Mon, 24 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Remove Symbiosis dispels.
+------------------------------------------------------------------------
+r12206 | funkydude | 2014-11-23 13:03:11 +0000 (Sun, 23 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: Enable pulse on targeted proximity modes.
+------------------------------------------------------------------------
+r12205 | funkydude | 2014-11-23 12:43:34 +0000 (Sun, 23 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Core/Constants.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+
+Revert temp changes
+------------------------------------------------------------------------
+r12204 | funkydude | 2014-11-22 22:13:02 +0000 (Sat, 22 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+
+More changes to debug a mac crash issue.
+------------------------------------------------------------------------
+r12203 | MysticalOS | 2014-11-22 20:53:14 +0000 (Sat, 22 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+Bump DBM faker
+------------------------------------------------------------------------
+r12202 | funkydude | 2014-11-21 16:37:45 +0000 (Fri, 21 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Core/Constants.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+
+Some temp changes to see if it solves a crash a user is experiencing.
+------------------------------------------------------------------------
+r12201 | funkydude | 2014-11-20 20:56:48 +0000 (Thu, 20 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: Add Grimrail cinematics.
+------------------------------------------------------------------------
+r12200 | funkydude | 2014-11-19 04:43:41 +0000 (Wed, 19 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/Bars.lua
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: First run through inward/outward pulse animation for targeted proximity modes.
+------------------------------------------------------------------------
+r12199 | nebula169 | 2014-11-18 16:16:45 +0000 (Tue, 18 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/Bars.lua
+
+Bars: prevent double messages with short break timers
+------------------------------------------------------------------------
+r12198 | nebula169 | 2014-11-18 15:45:29 +0000 (Tue, 18 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Draenor/Tarlna.lua
+
+Draenor/Tarlna: add in cast time for Genesis bar
+------------------------------------------------------------------------
+r12197 | nebula169 | 2014-11-18 15:43:35 +0000 (Tue, 18 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Pandaria/Salyis.lua
+
+Pandaria/Salyis: add combat checks for engage/wipe
+------------------------------------------------------------------------
+r12196 | nebula169 | 2014-11-18 15:37:27 +0000 (Tue, 18 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+   M /trunk/Options/Options.lua
+
+compat cleanup
+------------------------------------------------------------------------
+r12195 | funkydude | 2014-11-18 13:04:56 +0000 (Tue, 18 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+   M /trunk/BlackrockFoundry/Oregorger.lua
+   M /trunk/BlackrockFoundry/TheIronMaidens.lua
+   M /trunk/BlackrockFoundry/Thogar.lua
+   M /trunk/Options/Options.lua
+   M /trunk/SiegeOfOrgrimmar/TheFallenProtectors.lua
+
+tweaks
+------------------------------------------------------------------------
+r12194 | funkydude | 2014-11-17 21:46:48 +0000 (Mon, 17 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/Core.lua
+   M /trunk/Options/scripts/authors.lua
+
+Core: add a note about Auchindoun having 2 cinematics, which will need some kind of workaround.
+------------------------------------------------------------------------
+r12193 | funkydude | 2014-11-15 12:08:31 +0000 (Sat, 15 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Add Bloodmaul Slag Mines cinematic.
+------------------------------------------------------------------------
+r12192 | funkydude | 2014-11-15 11:04:55 +0000 (Sat, 15 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Plugins/Statistics.lua
+
+Statistics: We now show the time for defeat/wipe no matter what the difficulty, but restrict the actual saving of said data to specific difficulties.
+------------------------------------------------------------------------
+r12191 | funkydude | 2014-11-14 08:35:08 +0000 (Fri, 14 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+
+Galakras: Fix error from previous commit.
+------------------------------------------------------------------------
+r12190 | funkydude | 2014-11-12 22:55:17 +0000 (Wed, 12 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Blackhand.lua
+   M /trunk/BlackrockFoundry/Darmac.lua
+   M /trunk/BlackrockFoundry/Gruul.lua
+   M /trunk/BlackrockFoundry/HansgarAndFranzok.lua
+   M /trunk/BlackrockFoundry/Kagraz.lua
+   M /trunk/BlackrockFoundry/Kromog.lua
+   M /trunk/BlackrockFoundry/Oregorger.lua
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+   M /trunk/BlackrockFoundry/TheIronMaidens.lua
+   M /trunk/BlackrockFoundry/Thogar.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Draenor/Drov.lua
+   M /trunk/Draenor/Rukhmar.lua
+   M /trunk/Draenor/Tarlna.lua
+   M /trunk/Highmaul/Brackenspore.lua
+   M /trunk/Highmaul/KargathBladefist.lua
+   M /trunk/Highmaul/Koragh.lua
+   M /trunk/Highmaul/Margok.lua
+   M /trunk/Highmaul/Tectus.lua
+   M /trunk/Highmaul/TheButcher.lua
+   M /trunk/Highmaul/TwinOgron.lua
+   M /trunk/Options/Options.lua
+
+Remove WoD compat.
+------------------------------------------------------------------------
+r12189 | funkydude | 2014-11-12 22:49:33 +0000 (Wed, 12 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+ParagonsOfTheKlaxxi: cleanups
+------------------------------------------------------------------------
+r12188 | funkydude | 2014-11-12 22:46:08 +0000 (Wed, 12 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+
+Galakras: convert shaman marker to a simple skull marker.
+------------------------------------------------------------------------
+r12186 | funkydude | 2014-11-11 03:43:35 +0000 (Tue, 11 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: Don't show a 4th MC bar in p2.
+------------------------------------------------------------------------
+r12185 | funkydude | 2014-11-11 01:53:50 +0000 (Tue, 11 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+
+ShaOfPride: Big add pre-warn should be "soon" and spawn should be "spawning".
+------------------------------------------------------------------------
+r12184 | funkydude | 2014-11-11 00:27:13 +0000 (Tue, 11 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Immerseus.lua
+
+Immerseus: uncomment the swirl cast bar.
+------------------------------------------------------------------------
+r12183 | funkydude | 2014-11-11 00:11:31 +0000 (Tue, 11 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+
+ShaOfPride: tweak Unleashed message.
+------------------------------------------------------------------------
+r12182 | funkydude | 2014-11-10 23:44:17 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/Immerseus.lua
+
+Immerseus: If he is still under after 35 seconds, assume we're trying to do the "No More Tears" achievement, and show a Reform bar for the remaining 25 seconds (1 minute hard cap of being under).
+------------------------------------------------------------------------
+r12181 | funkydude | 2014-11-10 22:49:12 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: Add a mapId check for non-specific proximity modes.
+------------------------------------------------------------------------
+r12180 | funkydude | 2014-11-10 22:15:28 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add UnitIsConnected check to solo check.
+------------------------------------------------------------------------
+r12179 | funkydude | 2014-11-10 15:00:25 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: Fix math fail.
+------------------------------------------------------------------------
+r12178 | funkydude | 2014-11-10 14:48:52 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: Restart the Desecrate timer to arrive after Whirling finishes, if he decides to cast it before Desecrate in p2. Don't show a 4th Whirling bar in p2.
+------------------------------------------------------------------------
+r12177 | funkydude | 2014-11-10 13:13:44 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+   M /trunk/EndlessSpring/Locales/koKR.lua
+   M /trunk/Highmaul/Brackenspore.lua
+   M /trunk/Highmaul/Margok.lua
+   M /trunk/Plugins/AltPower.lua
+   M /trunk/Plugins/Proximity.lua
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+Whitespace cleanup.
+------------------------------------------------------------------------
+r12176 | nevcairiel | 2014-11-10 06:36:37 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/TheFallenProtectors.lua
+
+TheFallenProtectors: Fix syntax error
+------------------------------------------------------------------------
+r12175 | funkydude | 2014-11-10 00:25:52 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add solo check before firing the proximity callback to the proximity module (which does an IsInGroup check).
+------------------------------------------------------------------------
+r12174 | funkydude | 2014-11-10 00:17:50 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/TheFallenProtectors.lua
+
+TheFallenProtectors: Protect all instances of Bane timers firing with :Dispeller, not just the cast.
+------------------------------------------------------------------------
+r12173 | funkydude | 2014-11-09 23:35:44 +0000 (Sun, 09 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: No mind control when soloing, cleanup desecrate.
+------------------------------------------------------------------------
+r12172 | funkydude | 2014-11-09 23:27:31 +0000 (Sun, 09 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Mogushan/Garajal.lua
+
+Garajal: No tank banish when soloing.
+------------------------------------------------------------------------
+r12171 | funkydude | 2014-11-09 23:25:38 +0000 (Sun, 09 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Use the solo check when performing a boss target scan rather than IsInGroup.
+------------------------------------------------------------------------
+r12170 | funkydude | 2014-11-09 23:22:05 +0000 (Sun, 09 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add proposed :Solo API for adapting modules to solo situations. Iterates the group to check if there's another unit in the same UnitPosition mapId as you, unless I can think of a better way.
+------------------------------------------------------------------------
+r12169 | funkydude | 2014-11-06 22:28:27 +0000 (Thu, 06 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: Fix berserk
+------------------------------------------------------------------------
+r12168 | funkydude | 2014-11-06 22:15:08 +0000 (Thu, 06 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Allow the boss target scanning to work without large delays (or not at all) when soloing content as you are generally always the "tank".
+------------------------------------------------------------------------
+r12167 | funkydude | 2014-11-06 21:14:47 +0000 (Thu, 06 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/KorKron.lua
+
+KorKron: Fix error spam sub 30% hp.
+------------------------------------------------------------------------
+r12166 | funkydude | 2014-11-06 01:56:35 +0000 (Thu, 06 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Galakras.lua
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+Galakras: relay the "Galakras is hit" message.
+------------------------------------------------------------------------
+r12165 | funkydude | 2014-11-05 22:30:39 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Locales/deDE.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/esES.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/frFR.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/itIT.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/koKR.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/ruRU.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/zhCN.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/zhTW.lua
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+
+ShaOfPride: Trim down titans to 6 marks.
+------------------------------------------------------------------------
+r12164 | funkydude | 2014-11-05 21:08:45 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/KorKron.lua
+
+KorKron: check health of boss2 also
+------------------------------------------------------------------------
+r12163 | funkydude | 2014-11-05 21:03:23 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Locales/deDE.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/esES.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/frFR.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/itIT.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/koKR.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/ruRU.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/zhCN.lua
+   M /trunk/SiegeOfOrgrimmar/Locales/zhTW.lua
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+
+ShaOfPride: Remove note about marking in 25 player. Also seems to always be 2 fragments on mythic.
+------------------------------------------------------------------------
+r12162 | funkydude | 2014-11-05 20:24:52 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+ParagonsOfTheKlaxxi: always assume 5 parasites.
+------------------------------------------------------------------------
+r12161 | funkydude | 2014-11-05 18:41:22 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: add proximity for clump check.
+------------------------------------------------------------------------
+r12160 | funkydude | 2014-11-05 18:30:43 +0000 (Wed, 05 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: don't check the number type on every iteration when target scanning.
+------------------------------------------------------------------------
+r12158 | funkydude | 2014-11-04 01:09:03 +0000 (Tue, 04 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: add say for Malice.
+------------------------------------------------------------------------
+r12157 | funkydude | 2014-11-03 22:15:34 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: add shadowmoon burial grounds cinematic.
+------------------------------------------------------------------------
+r12156 | funkydude | 2014-11-03 22:13:32 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+
+Stop returning 1 for invalid mobIds in certain areas.
+------------------------------------------------------------------------
+r12155 | funkydude | 2014-11-03 19:39:37 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Options/Options.lua
+
+Options: support instance chat for ability print.
+------------------------------------------------------------------------
+r12154 | funkydude | 2014-11-03 14:18:21 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/BossPrototype.lua
+
+bump version
+------------------------------------------------------------------------
+r12153 | funkydude | 2014-11-03 12:41:57 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: also remove pointless parentheses.
+------------------------------------------------------------------------
+r12152 | funkydude | 2014-11-03 12:34:38 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Use a closure in the iterator to prevent any possible headaches.
+------------------------------------------------------------------------
+r12151 | funkydude | 2014-11-02 23:29:26 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Options/Options.lua
+
+Options: tweak
+------------------------------------------------------------------------
+r12150 | funkydude | 2014-11-02 23:28:07 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/EndlessSpring/LeiShi.lua
+   M /trunk/HeartOfFear/Tayak.lua
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+   M /trunk/ThroneOfThunder/DarkAnimus.lua
+   M /trunk/ThroneOfThunder/Durumu.lua
+   M /trunk/ThroneOfThunder/IronQon.lua
+   M /trunk/ThroneOfThunder/Raden.lua
+
+Use :IterateGroup() in our modules
+------------------------------------------------------------------------
+r12149 | funkydude | 2014-11-02 23:03:01 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: build 40 raid units for target scanning.
+------------------------------------------------------------------------
+r12148 | funkydude | 2014-11-02 22:40:02 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: tweak :IterateGroup.
+------------------------------------------------------------------------
+r12147 | nebula169 | 2014-11-02 22:13:18 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: add :IterateGroup API (replacing :GroupCount/:GroupUnit)
+------------------------------------------------------------------------
+r12146 | funkydude | 2014-11-02 13:56:34 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Core/PluginPrototype.lua
+
+tweak
+------------------------------------------------------------------------
+r12145 | funkydude | 2014-11-02 13:50:00 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add proposed :GroupCount and :GroupUnit API.
+------------------------------------------------------------------------
+r12144 | funkydude | 2014-11-02 00:17:50 +0000 (Sun, 02 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+Tweak phase change soon alert.
+------------------------------------------------------------------------
+r12143 | funkydude | 2014-11-01 22:44:53 +0000 (Sat, 01 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: add Firelands bridge lowering cinematic.
+------------------------------------------------------------------------
+r12142 | funkydude | 2014-11-01 20:08:43 +0000 (Sat, 01 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: Tweak initial timers after p3.
+------------------------------------------------------------------------
+r12141 | funkydude | 2014-11-01 19:42:51 +0000 (Sat, 01 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: warn for the first kor'kron wave
+------------------------------------------------------------------------
+r12140 | funkydude | 2014-11-01 18:29:45 +0000 (Sat, 01 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Thok.lua
+
+Thok: LFR doesn't use a custom screetch timer anymore.
+------------------------------------------------------------------------
+r12139 | funkydude | 2014-11-01 14:46:06 +0000 (Sat, 01 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+   M /trunk/SiegeOfOrgrimmar/Immerseus.lua
+   M /trunk/SiegeOfOrgrimmar/IronJuggernaut.lua
+   M /trunk/SiegeOfOrgrimmar/KorKron.lua
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+   M /trunk/SiegeOfOrgrimmar/ShaOfPride.lua
+   M /trunk/SiegeOfOrgrimmar/SiegecrafterBlackfuse.lua
+   M /trunk/SiegeOfOrgrimmar/SpoilsOfPandaria.lua
+   M /trunk/SiegeOfOrgrimmar/TheFallenProtectors.lua
+   M /trunk/SiegeOfOrgrimmar/Thok.lua
+
+Change references from heroic to mythic in various places.
+------------------------------------------------------------------------
+r12137 | funkydude | 2014-10-28 23:56:50 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Norushen.lua
+
+Norushen: tweak
+------------------------------------------------------------------------
+r12136 | funkydude | 2014-10-28 23:40:58 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: change the way we store cinematics.
+------------------------------------------------------------------------
+r12135 | funkydude | 2014-10-28 20:26:12 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+bump DBM faker
+------------------------------------------------------------------------
+r12134 | nebula169 | 2014-10-28 11:27:02 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Brackenspore.lua
+
+Brackenspore: revert Mind Fungus changes
+------------------------------------------------------------------------
+r12133 | nebula169 | 2014-10-28 07:49:03 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Brackenspore.lua
+
+Brackenspore: tweak timers
+------------------------------------------------------------------------
+r12132 | funkydude | 2014-10-28 02:41:06 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/Proximity.lua
+
+Proximity: target proximity now respects being muted.
+------------------------------------------------------------------------
+r12131 | funkydude | 2014-10-28 01:48:24 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+ParagonsOfTheKlaxxi: Remove extra wipe check.
+------------------------------------------------------------------------
+r12130 | funkydude | 2014-10-28 01:25:59 +0000 (Tue, 28 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Another fix for false engaging after a wipe when using .engageId.
+------------------------------------------------------------------------
+r12129 | nebula169 | 2014-10-27 21:20:52 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: update isWOD check
+------------------------------------------------------------------------
+r12128 | funkydude | 2014-10-27 21:16:02 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r12127 | nebula169 | 2014-10-27 20:34:02 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: update isWOD check
+------------------------------------------------------------------------
+r12126 | nebula169 | 2014-10-27 19:25:16 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Tectus.lua
+
+Tectus: fix error
+------------------------------------------------------------------------
+r12125 | funkydude | 2014-10-27 13:05:10 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Brackenspore.lua
+
+Brackenspore: tweak mind fungus
+------------------------------------------------------------------------
+r12124 | nebula169 | 2014-10-27 04:05:21 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Margok.lua
+
+Margok: fix Arcane Wrath debuffs
+------------------------------------------------------------------------
+r12123 | nebula169 | 2014-10-27 03:49:40 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Koragh.lua
+
+Koragh: tweak Suppression Field time
+------------------------------------------------------------------------
+r12122 | nebula169 | 2014-10-27 03:41:13 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Koragh.lua
+
+Koragh: fix Vulnerability warnings, add Caustic Energy, add Dominating Power for Mythic
+------------------------------------------------------------------------
+r12121 | funkydude | 2014-10-27 03:09:54 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Margok.lua
+
+Margok: Fix volatile anomaly icon, tweak phase warnings.
+------------------------------------------------------------------------
+r12120 | funkydude | 2014-10-27 02:20:47 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Koragh.lua
+
+Koragh: add say for arcane
+------------------------------------------------------------------------
+r12119 | funkydude | 2014-10-27 01:59:05 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: cleanups.
+------------------------------------------------------------------------
+r12118 | nebula169 | 2014-10-27 01:54:25 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/TwinOgron.lua
+
+TwinOgron: fix error and make berserk mythic only
+------------------------------------------------------------------------
+r12117 | funkydude | 2014-10-27 01:39:36 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Highmaul/Koragh.lua
+
+Koragh: fix engage id
+------------------------------------------------------------------------
+r12116 | funkydude | 2014-10-27 00:54:24 +0000 (Mon, 27 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: better compat check
+------------------------------------------------------------------------
+r12115 | funkydude | 2014-10-26 23:48:23 +0000 (Sun, 26 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/ThroneOfThunder/LeiShen.lua
+
+LeiShen: Fixes a few issues noticed in the solo video. Enrage timer too short, enrage warnings not showing, first bouncing ball timer too short, intermission timer slightly short.
+------------------------------------------------------------------------
+r12114 | funkydude | 2014-10-26 21:04:08 +0000 (Sun, 26 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: Attempt to fix a rare, unreproducible taint error when a movie starts (killing garrosh) by replacing our hook with a cleaner event based function, and hoping for the best.
+------------------------------------------------------------------------
+r12112 | funkydude | 2014-10-25 18:53:57 +0000 (Sat, 25 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r12111 | funkydude | 2014-10-25 15:14:26 +0000 (Sat, 25 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/TheFallenProtectors.lua
+
+TheFallenProtectors: Heal is 15s on LFR now.
+------------------------------------------------------------------------
+r12110 | funkydude | 2014-10-24 23:25:10 +0000 (Fri, 24 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Norushen.lua
+
+Norushen: Just rely on the yell to start the warmup timer, encounter event may fire after a wipe, we have all the translations anyway.
+------------------------------------------------------------------------
+r12109 | funkydude | 2014-10-24 23:08:53 +0000 (Fri, 24 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Norushen.lua
+
+Norushen: Fixes a rare issue where the inside phase merges with the outside phase, creating loads of "big add spawned" bars at the same time. Requires everyone to update or big add kill events will be missed.
+------------------------------------------------------------------------
+r12108 | funkydude | 2014-10-24 23:01:36 +0000 (Fri, 24 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+
+Core tweaks to syncing.
+------------------------------------------------------------------------
+r12107 | funkydude | 2014-10-24 19:46:15 +0000 (Fri, 24 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Norushen.lua
+
+Norushen: sync the inside big add guid on death so we can implement a throttle.
+------------------------------------------------------------------------
+r12106 | funkydude | 2014-10-24 19:06:33 +0000 (Fri, 24 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/Plugins/AltPower.lua
+
+AltPower: fix self > plugin
+------------------------------------------------------------------------

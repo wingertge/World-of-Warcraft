@@ -1,0 +1,36 @@
+## Title: Big Wigs |cffff0000+|r|cffffffffKalecgos Health|r
+## Title-zhCN: Big Wigs |cffff0000+|r|cffffffff卡雷苟斯生命监视模块|r
+## Title-zhTW: Big Wigs |cffff0000+|r|cffffffff卡雷茍斯生命監視模組|r
+## X-Curse-Packaged-Version: v1.51
+## X-Curse-Project-Name: BigWigs_KalecgosHealth
+## X-Curse-Project-ID: bwkh
+## X-Curse-Repository-ID: wow/bwkh/mainline
+
+## Notes: Displays both Kalecgos and Sathrovarr the Corruptor hit points during the encounter.
+## Notes-enUS: Displays both Kalecgos and Sathrovarr the Corruptor hit points during the encounter.
+## Notes-zhCN: 显示卡雷苟斯与腐蚀者萨索瓦尔生命
+## Notes-zhTW: 顯示卡雷茍斯與『墮落者』塞斯諾瓦生命值
+## Notes-frFR: Affiche les points de vie de Kalecgos et de Sathrovarr le Corrupteur pendant la rencontre.
+
+## Author: Ackis
+## eMail: ackis AT shaw DOT ca
+## X-Donate: Send me UDE Point codes, a Murky Code, or donate a few bucks/hours at your local animal shelter.
+
+## Interface: 30000
+## Version: 1.51
+## X-credits: Funkydude, Saroz
+## X-Revision: 6
+## X-Date: 2009-05-21T16:04:17Z
+
+## X-Category: Raid
+## X-Localizations: enUS, frFR, zhCN, zhTW, deDE, koKR, esES
+## X-Website: http://www.wowwiki.com/BigWigs_KalecgosHealth/
+## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/bwkh.aspx
+
+## X-BigWigs-LoadInZone: Sunwell Plateau
+
+## Dependencies: BigWigs
+
+## LoadOnDemand: 1
+
+BigWigs_KalecgosHealth.lua

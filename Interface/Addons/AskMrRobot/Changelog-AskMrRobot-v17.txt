@@ -1,0 +1,8 @@
+2014-11-09  yellowfive  <yellowfive>
+
+[90175bdc50e6] [v17]
+* AskMrRobot.lua, AskMrRobot.toc, localization/localization.de.lua, localization/localization.en.lua, ui/CombatLogTab.lua, ui/ExportTab.lua, ui/ShoppingListTab.lua, ui/SummaryTab.lua:
+
+fixed some localization issues and added new german translation
+
+

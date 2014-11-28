@@ -1,0 +1,9 @@
+## Interface: 60000
+## Title: HealBot Korean Localization
+## Author: Strife
+## Notes: HealBot Localization for koKR
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 6.0.3.1
+
+HealBot_Localization.kr.lua

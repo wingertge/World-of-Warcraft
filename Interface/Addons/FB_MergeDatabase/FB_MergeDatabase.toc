@@ -1,0 +1,11 @@
+## Interface: 60000
+## Title: Fishing Buddy -- Merge Databases
+## Version: 1.4d
+## Notes: Merge fishing databases across multiple machines
+## Author: Sutorix=AT=hotmail.com
+##  RequiredDeps: FishingBuddy
+## SavedVariables: FB_MergeDatabase
+localization.lua
+localization.es.lua
+localization.zhTW.lua
+FB_MergeDatabase.lua

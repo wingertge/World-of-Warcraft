@@ -1,0 +1,8 @@
+2014-11-05  MMOSimca  <MMOSimca@gmail.com>
+
+[67a1a7f31145] [1.5.6]
+* AutoSafariHat.lua:
+
+Added additional calls to ASH_ButtonShow and additional checks to prevent its failure or repetition.
+
+

@@ -1,0 +1,8 @@
+## Interface: 50400
+## Title: SpamThrottle
+## Notes: Eliminates repeated messages in Trade Chat
+## SavedVariables: SpamThrottleSettings
+## Author: Orukzu
+## Version: v2.8
+
+SpamThrottle.lua

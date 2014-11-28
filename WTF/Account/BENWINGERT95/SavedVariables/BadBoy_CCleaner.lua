@@ -1,0 +1,4 @@
+
+BADBOY_CCLEANER = {
+}
+BADBOY_NOICONS = true

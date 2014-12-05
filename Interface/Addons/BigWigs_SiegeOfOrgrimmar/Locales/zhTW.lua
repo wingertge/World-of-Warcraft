@@ -181,7 +181,7 @@ if L then
 L["bombardment"] = "轟炸"
 L["bombardment_desc"] = "轟炸暴風城，地上會殘留火焰，轟炸期間可觸發鋼鐵之星。"
 L["chain_heal_bar"] = "專注：治療鏈"
-L["chain_heal_desc"] = "治療一個友方目標及附近友方目標40%生命值上限。"
+L["chain_heal_desc"] = "{focus}治療一個友方目標及附近友方目標40%生命值上限。"
 L["chain_heal_message"] = "你的專注目標正在施放治療鏈！"
 L["clump_check_desc"] = "每3秒檢查是否有玩家過於集中，集中會觸發鋼鐵之星。"
 L["clump_check_warning"] = "集中警報，鋼鐵之星觸發"

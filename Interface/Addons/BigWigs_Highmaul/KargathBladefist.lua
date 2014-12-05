@@ -99,7 +99,7 @@ function mod:OnTheHunt(args)
 end
 
 function mod:ArenaSweeper(args)
-	sweeperCount = sweeperCount + 1 -- odd clockwise, even anti-clockwise
+	--sweeperCount = sweeperCount + 1 -- odd clockwise, even anti-clockwise
 	if UnitDebuff("player", self:SpellName(159213)) then -- Monster's Brawl (hurled)
 		self:Message(args.spellId, "Urgent", "Alert", CL.incoming(args.spellName))
 	end
@@ -112,7 +112,7 @@ do
 	end
 	function mod:Impale(args)
 		self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
-		self:CDBar(args.spellId, 37) -- 37.4 cd with chain hurl/berserker rush delaying it
+		self:CDBar(args.spellId, 43) -- delayed by chain hurl/berserker rush
 	end
 end
 
@@ -156,7 +156,7 @@ do
 	function mod:ChainHurl(args)
 		self:Message(args.spellId, "Urgent", "Alert", CL.incoming:format(args.spellName))
 		self:Bar(args.spellId, 3.4)
-		sweeperCount = 0
+		--sweeperCount = 0
 	end
 
 	function mod:ChainHurlApplied(args)

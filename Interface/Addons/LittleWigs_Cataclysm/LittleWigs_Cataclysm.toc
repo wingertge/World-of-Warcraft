@@ -1,0 +1,18 @@
+## Interface: 50001
+## X-Curse-Packaged-Version: r3
+## X-Curse-Project-Name: LittleWigs_Cataclysm
+## X-Curse-Project-ID: littlewigs_cataclysm
+## X-Curse-Repository-ID: wow/littlewigs_cataclysm/mainline
+
+## Title: Little Wigs [|cffeda55fCataclysm|r]
+## Notes: A collection of Little Wigs modules from the Cataclysm era.
+## Author: 7destiny, Funkydude, Ulic
+
+## LoadOnDemand: 1
+## Dependencies: BigWigs
+
+## X-Category: Party
+## X-BigWigs-LoadOn-ZoneId: 753, 756, 820, 757, 819, 747, 759, 764, 768, 767, 769, 816, 781, 793
+
+modules.xml
+

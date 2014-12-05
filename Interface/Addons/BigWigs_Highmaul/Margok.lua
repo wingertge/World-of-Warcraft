@@ -22,7 +22,7 @@ local fixateList = {}
 
 local L = mod:NewLocale("enUS", true)
 if L then
-	L.volatile_anomaly, L.volatile_anomaly_desc = EJ_GetSectionInfo(9919)
+	L.volatile_anomaly = -9919 -- Volatile Anomaly
 	L.volatile_anomaly_icon = "spell_arcane_arcane04"
 
 	L.custom_off_fixate_marker = "Fixate Marker"
@@ -37,14 +37,14 @@ L = mod:GetLocale()
 
 function mod:GetOptions()
 	return {
-		{159515, "TANK"}, 156238, 156467, 156471, {158605, "ICON", "PROXIMITY", "FLASH"}, 157349,
+		{159515, "TANK"}, {156238, "ICON"}, 156467, 156471, {158605, "ICON", "PROXIMITY", "FLASH", "SAY"}, 157349,
 		"volatile_anomaly",
 		{157801, "DISPEL"}, {157763, "FLASH"}, "custom_off_fixate_marker",
 		{158553, "TANK"}, {158563, "TANK"},
 		"stages", "bosskill"
 	}, {
 		[159515] = mod.displayName,
-		["volatile_anomaly"] = CL.intermission,
+		["volatile_anomaly"] = "intermission",
 		[157801] = -9922,
 		[158553] = -9921,
 		["stages"] = "general",
@@ -89,9 +89,14 @@ end
 
 function mod:UNIT_HEALTH_FREQUENT(unit)
 	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
-	if (phase == 1 and hp < 90) or (phase == 2 and hp < 60) or (phase == 3 and hp < 30) then
-		self:Message("stages", "Neutral", "Info", CL.soon:format(CL.phase:format(phase+1)), false)
+	if self:Mythic() then
+		if (phase == 1 and hp < 71) or (phase == 2 and hp < 38) then -- phases at 66% and 33%
+			self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", "boss1")
+			self:Message("stages", "Neutral", "Info", CL.soon:format(CL.phase:format(phase+1)), false)
+		end
+	elseif (phase == 1 and hp < 90) or (phase == 2 and hp < 60) or (phase == 3 and hp < 30) then -- phases at 85%, 55%, and 25%
 		self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", "boss1")
+		self:Message("stages", "Neutral", "Info", CL.soon:format(CL.phase:format(phase+1)), false)
 	end
 end
 
@@ -116,7 +121,9 @@ function mod:Phases(unit, spellName, _, _, spellId)
 		self:CDBar(158605, 28) -- Arcane Aberration
 		self:CDBar(156471, 38) -- Mark of Chaos
 		self:CDBar(157349, 48) -- Force Nova
-		self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
+		if spellId ~= 157964 then -- Replication is the last phase
+			self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
+		end
 	end
 end
 
@@ -133,9 +140,12 @@ end
 
 function mod:ArcaneWrathApplied(args)
 	-- custom marking? replication makes it geometric so after three jumps we'd be capped
-	-- also might be worth doing a proximity for the third person on (50->25->13)
+	-- also might be worth doing a proximity at some point as the jump range lowers (200->100->50->25->13)
+	if args.spellId ~= 164006 then -- Replication
+		self:SecondaryIcon(156238, args.destName)
+	end
 	if self:Me(args.destGUID) then
-		self:Message(156238, "Personal", "Alarm", CL.you:format(self:SpellName(156238)))
+		self:Message(156238, "Personal", "Alarm", CL.you:format(CL.count:format(self:SpellName(156238), args.amount or 1)))
 	end
 end
 
@@ -163,6 +173,9 @@ function mod:MarkOfChaosApplied(args)
 	if self:Me(args.destGUID) then
 		self:Flash(158605)
 		self:OpenProximity(158605, 35)
+		if args.spellId == 164178 then -- Fortification (you're rooted)
+			self:Say(158605)
+		end
 	else
 		if args.spellId == 164178 and self:Range(args.destName) < 35 then -- Fortification (target rooted)
 			self:Flash(158605)
@@ -191,7 +204,7 @@ end
 do
 	local timer = nil
 	local function nextAdd(self)
-		self:Message("volatile_anomaly", "Attention", "Info", CL.incoming:format(L.volatile_anomaly), L.volatile_anomaly_icon)
+		self:Message("volatile_anomaly", "Attention", "Info", CL.incoming:format(self:SpellName(L.volatile_anomaly)), L.volatile_anomaly_icon)
 		self:Bar("volatile_anomaly", 12, L.volatile_anomaly, L.volatile_anomaly_icon)
 		timer = self:ScheduleTimer(nextAdd, 12, self)
 	end

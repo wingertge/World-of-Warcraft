@@ -105,6 +105,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 129317,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Searing Bolt"] = {
+									["count"] = 129317,
+								},
+							},
+							["amount"] = 129317,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 129317,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Fire"] = {
 							["Details"] = {
@@ -118,48 +152,13 @@ RecountPerCharDB = {
 							["amount"] = 15,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 129317,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 129317,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 129317,
-								},
-							},
-							["amount"] = 129317,
-						},
-					},
-					["PartialBlock"] = {
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -167,22 +166,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 18.44,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Lord Marrowgar"] = {
@@ -198,18 +196,20 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 18.44,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 						["Searing Bolt"] = {
 							["Details"] = {
@@ -230,8 +230,9 @@ RecountPerCharDB = {
 							["amount"] = 129317,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 18.44,
 					["TimeDamaging"] = {
 						["Lord Marrowgar"] = {
@@ -244,8 +245,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -262,6 +262,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 129317,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Searing Bolt"] = {
+									["count"] = 129317,
+								},
+							},
+							["amount"] = 129317,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 129317,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Fire"] = {
 							["Details"] = {
@@ -275,48 +309,13 @@ RecountPerCharDB = {
 							["amount"] = 15,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 129317,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 129317,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 129317,
-								},
-							},
-							["amount"] = 129317,
-						},
-					},
-					["PartialBlock"] = {
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -324,22 +323,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 18.44,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Lord Marrowgar"] = {
@@ -355,18 +353,20 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 18.44,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 						["Searing Bolt"] = {
 							["Details"] = {
@@ -387,8 +387,9 @@ RecountPerCharDB = {
 							["amount"] = 129317,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 18.44,
 					["TimeDamaging"] = {
 						["Lord Marrowgar"] = {
@@ -401,8 +402,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -419,41 +419,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -461,22 +460,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -484,55 +482,103 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["Attacks"] = {
-						["Searing Bolt"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 14667,
-									["min"] = 11313,
-									["count"] = 19,
-									["amount"] = 218318,
-								},
-								["Multistrike"] = {
-									["max"] = 4582,
-									["min"] = 4582,
-									["count"] = 8,
-									["amount"] = 36656,
+									["count"] = 1,
 								},
 							},
-							["count"] = 27,
-							["amount"] = 254974,
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
-					["ActiveTime"] = 41.64,
-					["ElementDone"] = {
-						["Fire"] = 254974,
+					["PartialResist"] = {
+						["Crypt Scarabs"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Crypt Scarabs"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 					},
 					["TimeDamaging"] = {
 						["Servant of the Throne"] = {
@@ -568,25 +614,45 @@ RecountPerCharDB = {
 							["amount"] = 8.89,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
+					["TimeSpent"] = {
+						["Servant of the Throne"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Searing Bolt"] = {
+									["count"] = 10.68,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 10.68,
 						},
-						["Physical"] = {
+						["Lord Marrowgar"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Searing Bolt"] = {
+									["count"] = 18.44,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 18.44,
+						},
+						["Lady Deathwhisper"] = {
+							["Details"] = {
+								["Searing Bolt"] = {
+									["count"] = 3.63,
+								},
+							},
+							["amount"] = 3.63,
+						},
+						["Risen Deathspeaker Servant"] = {
+							["Details"] = {
+								["Searing Bolt"] = {
+									["count"] = 8.89,
+								},
+							},
+							["amount"] = 8.89,
 						},
 					},
 					["DamageTaken"] = 186,
+					["ActiveTime"] = 41.64,
+					["ElementDone"] = {
+						["Fire"] = 254974,
+					},
 					["ElementHitsDone"] = {
 						["Fire"] = {
 							["Details"] = {
@@ -598,32 +664,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 27,
-						},
-					},
-					["PartialResist"] = {
-						["Crypt Scarabs"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
 						},
 					},
 					["DamagedWho"] = {
@@ -660,32 +700,6 @@ RecountPerCharDB = {
 							["amount"] = 48609,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Crypt Scarabs"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
 					["TimeDamage"] = 41.64,
 					["WhoDamaged"] = {
 						["Nerub'ar Broodkeeper"] = {
@@ -709,38 +723,24 @@ RecountPerCharDB = {
 						["Melee"] = 78,
 						["Physical"] = 108,
 					},
-					["TimeSpent"] = {
-						["Servant of the Throne"] = {
+					["Attacks"] = {
+						["Searing Bolt"] = {
 							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 10.68,
+								["Hit"] = {
+									["max"] = 14667,
+									["min"] = 11313,
+									["count"] = 19,
+									["amount"] = 218318,
+								},
+								["Multistrike"] = {
+									["max"] = 4582,
+									["min"] = 4582,
+									["count"] = 8,
+									["amount"] = 36656,
 								},
 							},
-							["amount"] = 10.68,
-						},
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 18.44,
-								},
-							},
-							["amount"] = 18.44,
-						},
-						["Lady Deathwhisper"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 3.63,
-								},
-							},
-							["amount"] = 3.63,
-						},
-						["Risen Deathspeaker Servant"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 8.89,
-								},
-							},
-							["amount"] = 8.89,
+							["count"] = 27,
+							["amount"] = 254974,
 						},
 					},
 					["Damage"] = 254974,
@@ -880,7 +880,7 @@ RecountPerCharDB = {
 				9665.283, -- [28]
 				9665.619, -- [29]
 			},
-			["LastAbility"] = 9665.619,
+			["LastAbility"] = 5487.47,
 		},
 		["Deathbringer Saurfang"] = {
 			["GUID"] = "Vehicle-0-3768-631-6719-37813-000074F19B",
@@ -1091,47 +1091,49 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Physical"] = 0,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["DamagedWho"] = {
+						["Shamorn"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Boiling Blood (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -1139,22 +1141,20 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -1174,15 +1174,16 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Boiling Blood (DoT)"] = {
@@ -1199,10 +1200,10 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Shamorn"] = {
+					["ElementHitsDone"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Boiling Blood (DoT)"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -1221,8 +1222,110 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1534,6 +1637,49 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
+					["DamagedWho"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Boiling Blood (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rune of Blood"] = {
+									["count"] = 0,
+								},
+								["Blood Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Boiling Blood (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rune of Blood"] = {
+									["count"] = 0,
+								},
+								["Blood Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["HealingTaken"] = 0,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -1558,6 +1704,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["TimeDamage"] = 0,
 					["WhoDamaged"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -1597,50 +1744,6 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Fire Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Boiling Blood (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rune of Blood"] = {
-									["count"] = 0,
-								},
-								["Blood Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Boiling Blood (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rune of Blood"] = {
-									["count"] = 0,
-								},
-								["Blood Nova"] = {
 									["count"] = 0,
 								},
 							},
@@ -1759,109 +1862,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
@@ -2172,6 +2172,49 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 90,
 					["Damage"] = 70410,
+					["DamagedWho"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Boiling Blood (DoT)"] = {
+									["count"] = 2420,
+								},
+								["Melee"] = {
+									["count"] = 56436,
+								},
+								["Rune of Blood"] = {
+									["count"] = 10766,
+								},
+								["Blood Nova"] = {
+									["count"] = 788,
+								},
+							},
+							["amount"] = 70410,
+						},
+					},
+					["TimeDamaging"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Boiling Blood (DoT)"] = {
+									["count"] = 21.72,
+								},
+								["Melee"] = {
+									["count"] = 87.52,
+								},
+								["Rune of Blood"] = {
+									["count"] = 2.02,
+								},
+								["Blood Nova"] = {
+									["count"] = 1.99,
+								},
+							},
+							["amount"] = 113.25,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 56436,
+						["Physical"] = 13974,
+					},
+					["HealingTaken"] = 107660,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -2196,6 +2239,7 @@ RecountPerCharDB = {
 							["amount"] = 121,
 						},
 					},
+					["TimeDamage"] = 113.25,
 					["WhoDamaged"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -2239,50 +2283,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 791791,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 56436,
-						["Physical"] = 13974,
-					},
-					["HealingTaken"] = 107660,
-					["DamagedWho"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Boiling Blood (DoT)"] = {
-									["count"] = 2420,
-								},
-								["Melee"] = {
-									["count"] = 56436,
-								},
-								["Rune of Blood"] = {
-									["count"] = 10766,
-								},
-								["Blood Nova"] = {
-									["count"] = 788,
-								},
-							},
-							["amount"] = 70410,
-						},
-					},
-					["TimeDamage"] = 113.25,
-					["TimeDamaging"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Boiling Blood (DoT)"] = {
-									["count"] = 21.72,
-								},
-								["Melee"] = {
-									["count"] = 87.52,
-								},
-								["Rune of Blood"] = {
-									["count"] = 2.02,
-								},
-								["Blood Nova"] = {
-									["count"] = 1.99,
-								},
-							},
-							["amount"] = 113.25,
 						},
 					},
 					["Attacks"] = {
@@ -2994,7 +2994,7 @@ RecountPerCharDB = {
 				37622.824, -- [49]
 				37623.563, -- [50]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Greater Fire Elemental <Shamorn>"] = {
 			["GUID"] = "Creature-0-3103-631-5716-15438-000075E988",
@@ -3128,6 +3128,576 @@ RecountPerCharDB = {
 			["UnitLockout"] = 1417013720,
 			["Owner"] = "Shamorn",
 			["Fights"] = {
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 23,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 23,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 808328,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 745583,
+								},
+								["Fire Blast"] = {
+									["count"] = 62745,
+								},
+							},
+							["amount"] = 808328,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 745583,
+						["Fire"] = 62745,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Multistrike"] = {
+									["count"] = 24,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 63.18,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56.97,
+								},
+								["Fire Blast"] = {
+									["count"] = 6.21,
+								},
+							},
+							["amount"] = 63.18,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Coldflame"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 5704,
+									["min"] = 4387,
+									["count"] = 24,
+									["amount"] = 114517,
+								},
+								["Crit"] = {
+									["max"] = 35210,
+									["min"] = 27084,
+									["count"] = 4,
+									["amount"] = 116462,
+								},
+								["Hit"] = {
+									["max"] = 14084,
+									["min"] = 10833,
+									["count"] = 43,
+									["amount"] = 514604,
+								},
+							},
+							["count"] = 72,
+							["amount"] = 745583,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 5035,
+									["min"] = 2014,
+									["count"] = 2,
+									["amount"] = 7049,
+								},
+								["Hit"] = {
+									["max"] = 6465,
+									["min"] = 4972,
+									["count"] = 10,
+									["amount"] = 55696,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 62745,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 63.18,
+					["TimeDamaging"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56.97,
+								},
+								["Fire Blast"] = {
+									["count"] = 6.21,
+								},
+							},
+							["amount"] = 63.18,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 23,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 23,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 808328,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 745583,
+								},
+								["Fire Blast"] = {
+									["count"] = 62745,
+								},
+							},
+							["amount"] = 808328,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 745583,
+						["Fire"] = 62745,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Multistrike"] = {
+									["count"] = 24,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 63.18,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56.97,
+								},
+								["Fire Blast"] = {
+									["count"] = 6.21,
+								},
+							},
+							["amount"] = 63.18,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["Coldflame"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 5704,
+									["min"] = 4387,
+									["count"] = 24,
+									["amount"] = 114517,
+								},
+								["Crit"] = {
+									["max"] = 35210,
+									["min"] = 27084,
+									["count"] = 4,
+									["amount"] = 116462,
+								},
+								["Hit"] = {
+									["max"] = 14084,
+									["min"] = 10833,
+									["count"] = 43,
+									["amount"] = 514604,
+								},
+							},
+							["count"] = 72,
+							["amount"] = 745583,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 5035,
+									["min"] = 2014,
+									["count"] = 2,
+									["amount"] = 7049,
+								},
+								["Hit"] = {
+									["max"] = 6465,
+									["min"] = 4972,
+									["count"] = 10,
+									["amount"] = 55696,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 62745,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 63.18,
+					["TimeDamaging"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 56.97,
+								},
+								["Fire Blast"] = {
+									["count"] = 6.21,
+								},
+							},
+							["amount"] = 63.18,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -3158,37 +3728,22 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -3203,43 +3758,43 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Melee"] = 0,
 						["Fire"] = 0,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Deathbringer Saurfang"] = {
 							["Details"] = {
-								["Multistrike"] = {
+								["Fire Nova"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Fire Blast"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
+								["Fire Nova"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoDamaged"] = {
 						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
@@ -3252,7 +3807,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -3260,13 +3815,7 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["PartialResist"] = {
@@ -3283,11 +3832,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -3321,15 +3874,28 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Fire Nova"] = {
@@ -3400,24 +3966,30 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Deathbringer Saurfang"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fire Nova"] = {
+								["Multistrike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Fire Blast"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Blood Beast <Deathbringer Saurfang>"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Fire Nova"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -3450,579 +4022,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 23,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Multistrike"] = {
-									["count"] = 24,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 72,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 23,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 808328,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 745583,
-						["Fire"] = 62745,
-					},
-					["PartialAbsorb"] = {
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 745583,
-								},
-								["Fire Blast"] = {
-									["count"] = 62745,
-								},
-							},
-							["amount"] = 808328,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Coldflame"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 56.97,
-								},
-								["Fire Blast"] = {
-									["count"] = 6.21,
-								},
-							},
-							["amount"] = 63.18,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 63.18,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Multistrike"] = {
-									["max"] = 5704,
-									["min"] = 4387,
-									["count"] = 24,
-									["amount"] = 114517,
-								},
-								["Crit"] = {
-									["max"] = 35210,
-									["min"] = 27084,
-									["count"] = 4,
-									["amount"] = 116462,
-								},
-								["Hit"] = {
-									["max"] = 14084,
-									["min"] = 10833,
-									["count"] = 43,
-									["amount"] = 514604,
-								},
-							},
-							["count"] = 72,
-							["amount"] = 745583,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 5035,
-									["min"] = 2014,
-									["count"] = 2,
-									["amount"] = 7049,
-								},
-								["Hit"] = {
-									["max"] = 6465,
-									["min"] = 4972,
-									["count"] = 10,
-									["amount"] = 55696,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 62745,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 63.18,
-					["TimeDamaging"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 56.97,
-								},
-								["Fire Blast"] = {
-									["count"] = 6.21,
-								},
-							},
-							["amount"] = 63.18,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 23,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Multistrike"] = {
-									["count"] = 24,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 72,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 23,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 808328,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 745583,
-						["Fire"] = 62745,
-					},
-					["PartialAbsorb"] = {
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 745583,
-								},
-								["Fire Blast"] = {
-									["count"] = 62745,
-								},
-							},
-							["amount"] = 808328,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Coldflame"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 56.97,
-								},
-								["Fire Blast"] = {
-									["count"] = 6.21,
-								},
-							},
-							["amount"] = 63.18,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 63.18,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Multistrike"] = {
-									["max"] = 5704,
-									["min"] = 4387,
-									["count"] = 24,
-									["amount"] = 114517,
-								},
-								["Crit"] = {
-									["max"] = 35210,
-									["min"] = 27084,
-									["count"] = 4,
-									["amount"] = 116462,
-								},
-								["Hit"] = {
-									["max"] = 14084,
-									["min"] = 10833,
-									["count"] = 43,
-									["amount"] = 514604,
-								},
-							},
-							["count"] = 72,
-							["amount"] = 745583,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 5035,
-									["min"] = 2014,
-									["count"] = 2,
-									["amount"] = 7049,
-								},
-								["Hit"] = {
-									["max"] = 6465,
-									["min"] = 4972,
-									["count"] = 10,
-									["amount"] = 55696,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 62745,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 63.18,
-					["TimeDamaging"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 56.97,
-								},
-								["Fire Blast"] = {
-									["count"] = 6.21,
-								},
-							},
-							["amount"] = 63.18,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -4069,13 +4069,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 63.18,
 						},
-						["Cult Fanatic"] = {
+						["Deathbringer Saurfang"] = {
 							["Details"] = {
 								["Fire Nova"] = {
-									["count"] = 2.39,
+									["count"] = 4.57,
+								},
+								["Melee"] = {
+									["count"] = 51.86,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.78,
 								},
 							},
-							["amount"] = 2.39,
+							["amount"] = 61.21,
 						},
 						["Deathspeaker Zealot"] = {
 							["Details"] = {
@@ -4093,20 +4099,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Deathbringer Saurfang"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 4.57,
-								},
-								["Melee"] = {
-									["count"] = 51.86,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.78,
-								},
-							},
-							["amount"] = 61.21,
-						},
 						["Lady Deathwhisper"] = {
 							["Details"] = {
 								["Fire Nova"] = {
@@ -4120,6 +4112,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 60.33,
+						},
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 2.39,
+								},
+							},
+							["amount"] = 2.39,
 						},
 					},
 					["DamageTaken"] = 4306,
@@ -4253,6 +4253,134 @@ RecountPerCharDB = {
 						["Physical"] = 23,
 					},
 					["Damage"] = 2420115,
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 35,
+								},
+								["Parry"] = {
+									["count"] = 16,
+								},
+								["Miss"] = {
+									["count"] = 26,
+								},
+								["Dodge"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 90,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2073696,
+						["Fire"] = 346419,
+					},
+					["DamagedWho"] = {
+						["Deathspeaker Servant"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 27149,
+								},
+							},
+							["amount"] = 27149,
+						},
+						["Blood Beast <Deathbringer Saurfang>"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 8780,
+								},
+							},
+							["amount"] = 8780,
+						},
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 745583,
+								},
+								["Fire Blast"] = {
+									["count"] = 62745,
+								},
+							},
+							["amount"] = 808328,
+						},
+						["Deathbringer Saurfang"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 26153,
+								},
+								["Melee"] = {
+									["count"] = 712377,
+								},
+								["Fire Blast"] = {
+									["count"] = 53261,
+								},
+							},
+							["amount"] = 791791,
+						},
+						["Deathspeaker Zealot"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 47898,
+								},
+							},
+							["amount"] = 47898,
+						},
+						["Deathspeaker Disciple"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 10834,
+								},
+							},
+							["amount"] = 10834,
+						},
+						["Lady Deathwhisper"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 21666,
+								},
+								["Melee"] = {
+									["count"] = 615736,
+								},
+								["Fire Blast"] = {
+									["count"] = 60720,
+								},
+							},
+							["amount"] = 698122,
+						},
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 27213,
+								},
+							},
+							["amount"] = 27213,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -4286,134 +4414,6 @@ RecountPerCharDB = {
 							["amount"] = 67,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 2073696,
-						["Fire"] = 346419,
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 35,
-								},
-								["Parry"] = {
-									["count"] = 16,
-								},
-								["Miss"] = {
-									["count"] = 26,
-								},
-								["Dodge"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 90,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DamagedWho"] = {
-						["Deathspeaker Servant"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 27149,
-								},
-							},
-							["amount"] = 27149,
-						},
-						["Blood Beast <Deathbringer Saurfang>"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 8780,
-								},
-							},
-							["amount"] = 8780,
-						},
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 745583,
-								},
-								["Fire Blast"] = {
-									["count"] = 62745,
-								},
-							},
-							["amount"] = 808328,
-						},
-						["Cult Fanatic"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 27213,
-								},
-							},
-							["amount"] = 27213,
-						},
-						["Deathspeaker Zealot"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 47898,
-								},
-							},
-							["amount"] = 47898,
-						},
-						["Deathspeaker Disciple"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 10834,
-								},
-							},
-							["amount"] = 10834,
-						},
-						["Deathbringer Saurfang"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 26153,
-								},
-								["Melee"] = {
-									["count"] = 712377,
-								},
-								["Fire Blast"] = {
-									["count"] = 53261,
-								},
-							},
-							["amount"] = 791791,
-						},
-						["Lady Deathwhisper"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 21666,
-								},
-								["Melee"] = {
-									["count"] = 615736,
-								},
-								["Fire Blast"] = {
-									["count"] = 60720,
-								},
-							},
-							["amount"] = 698122,
-						},
-					},
 					["TimeDamage"] = 188.49,
 					["TimeDamaging"] = {
 						["Deathspeaker Servant"] = {
@@ -4443,13 +4443,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 63.18,
 						},
-						["Cult Fanatic"] = {
+						["Deathbringer Saurfang"] = {
 							["Details"] = {
 								["Fire Nova"] = {
-									["count"] = 2.39,
+									["count"] = 4.57,
+								},
+								["Melee"] = {
+									["count"] = 51.86,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.78,
 								},
 							},
-							["amount"] = 2.39,
+							["amount"] = 61.21,
 						},
 						["Deathspeaker Zealot"] = {
 							["Details"] = {
@@ -4467,20 +4473,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Deathbringer Saurfang"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 4.57,
-								},
-								["Melee"] = {
-									["count"] = 51.86,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.78,
-								},
-							},
-							["amount"] = 61.21,
-						},
 						["Lady Deathwhisper"] = {
 							["Details"] = {
 								["Fire Nova"] = {
@@ -4494,6 +4486,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 60.33,
+						},
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 2.39,
+								},
+							},
+							["amount"] = 2.39,
 						},
 					},
 					["WhoDamaged"] = {
@@ -4815,7 +4815,7 @@ RecountPerCharDB = {
 				9634.118, -- [49]
 				9634.785, -- [50]
 			},
-			["LastAbility"] = 9642.937,
+			["LastAbility"] = 5487.47,
 		},
 		["Precious"] = {
 			["GUID"] = "Creature-0-3768-631-6719-37217-000074F19C",
@@ -4925,41 +4925,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -4967,22 +4966,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -4990,28 +4988,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5028,33 +5028,35 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoDamaged"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -5067,7 +5069,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -5075,22 +5077,20 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -5102,27 +5102,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5139,41 +5139,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5181,22 +5180,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5204,28 +5202,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5290,7 +5290,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Greater Earth Elemental <Shamorn>"] = {
 			["GUID"] = "Creature-0-3768-631-6719-15352-000074F1FC",
@@ -5543,41 +5543,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5585,22 +5584,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5608,28 +5606,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5646,41 +5646,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5688,22 +5687,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5711,28 +5709,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5957,6 +5957,53 @@ RecountPerCharDB = {
 						["Frost"] = 86,
 					},
 					["Damage"] = 17021,
+					["DamagedWho"] = {
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4674,
+								},
+							},
+							["amount"] = 4674,
+						},
+						["The Damned"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12347,
+								},
+							},
+							["amount"] = 12347,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 17021,
+					},
+					["TimeDamaging"] = {
+						["The Damned"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24.9,
+								},
+							},
+							["amount"] = 24.9,
+						},
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.89,
+								},
+							},
+							["amount"] = 8.89,
+						},
+						["Bone Spike <Shamorn>"] = {
+							["Details"] = {
+								["Angered Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -5978,9 +6025,7 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 17021,
-					},
+					["TimeDamage"] = 33.79,
 					["WhoDamaged"] = {
 						["Coldflame <Lord Marrowgar>"] = {
 							["Details"] = {
@@ -6043,51 +6088,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 16,
-						},
-					},
-					["DamagedWho"] = {
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4674,
-								},
-							},
-							["amount"] = 4674,
-						},
-						["The Damned"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12347,
-								},
-							},
-							["amount"] = 12347,
-						},
-					},
-					["TimeDamage"] = 33.79,
-					["TimeDamaging"] = {
-						["The Damned"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 24.9,
-								},
-							},
-							["amount"] = 24.9,
-						},
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.89,
-								},
-							},
-							["amount"] = 8.89,
-						},
-						["Bone Spike <Shamorn>"] = {
-							["Details"] = {
-								["Angered Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 					},
 					["Attacks"] = {
@@ -6289,7 +6289,7 @@ RecountPerCharDB = {
 				36737.633, -- [49]
 				36737.633, -- [50]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Fire Elemental Totem <Shamorn>"] = {
 			["GUID"] = "Creature-0-3103-631-5716-15439-000075E988",
@@ -6313,109 +6313,6 @@ RecountPerCharDB = {
 			["FightsSaved"] = 5,
 			["LastFlags"] = 2600,
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -6429,41 +6326,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -6471,22 +6367,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -6494,28 +6389,133 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
 					["HOTs"] = {
 					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -6597,7 +6597,7 @@ RecountPerCharDB = {
 				36987.944, -- [1]
 				37587.948, -- [2]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Shamorn"] = {
 			["DeathLogs"] = {
@@ -7463,23 +7463,23 @@ RecountPerCharDB = {
 								["Kor'kron Reaver"] = {
 									["count"] = 6,
 								},
-								["Servant of the Throne"] = {
-									["count"] = 6,
-								},
-								["Nerub'ar Broodkeeper"] = {
-									["count"] = 9,
-								},
-								["Lady Deathwhisper"] = {
-									["count"] = 276,
-								},
-								["Goren Protector"] = {
-									["count"] = 6,
-								},
 								["Kor'kron Templar"] = {
 									["count"] = 9,
 								},
 								["Deathspeaker Attendant"] = {
 									["count"] = 15,
+								},
+								["Deathbringer Saurfang"] = {
+									["count"] = 159,
+								},
+								["Nerub'ar Broodkeeper"] = {
+									["count"] = 9,
+								},
+								["Precious"] = {
+									["count"] = 45,
+								},
+								["Goren Protector"] = {
+									["count"] = 6,
 								},
 								["Lord Marrowgar"] = {
 									["count"] = 252,
@@ -7493,11 +7493,11 @@ RecountPerCharDB = {
 								["Deathspeaker Disciple"] = {
 									["count"] = 3,
 								},
-								["Deathbringer Saurfang"] = {
-									["count"] = 159,
+								["Servant of the Throne"] = {
+									["count"] = 6,
 								},
-								["Precious"] = {
-									["count"] = 45,
+								["Lady Deathwhisper"] = {
+									["count"] = 276,
 								},
 							},
 							["amount"] = 822,
@@ -8071,19 +8071,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 319268,
 						},
-						["Vengeful Fleshreaper"] = {
+						["Risen Deathspeaker Servant"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 174287,
+								["Lava Burst"] = {
+									["count"] = 211044,
 								},
 								["Earthquake"] = {
-									["count"] = 2540837,
+									["count"] = 149517,
 								},
-								["Thunderstorm"] = {
-									["count"] = 421514,
+								["Lightning Shield"] = {
+									["count"] = 45440,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 203064,
+								},
+								["Molten Earth"] = {
+									["count"] = 146551,
 								},
 							},
-							["amount"] = 3136638,
+							["amount"] = 755616,
 						},
 						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
@@ -8147,27 +8153,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15332516,
 						},
-						["Plagued Zombie <Precious>"] = {
+						["Plague Scientist"] = {
 							["Details"] = {
 								["Earthquake"] = {
-									["count"] = 233634,
-								},
-								["Lightning Shield"] = {
-									["count"] = 32676,
-								},
-							},
-							["amount"] = 266310,
-						},
-						["Decaying Colossus"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 190890,
+									["count"] = 16108,
 								},
 								["Thunderstorm"] = {
-									["count"] = 33900,
+									["count"] = 47583,
 								},
 							},
-							["amount"] = 224790,
+							["amount"] = 63691,
+						},
+						["Deathspeaker Servant"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 58205,
+								},
+								["Earthquake"] = {
+									["count"] = 631263,
+								},
+								["Thunderstorm"] = {
+									["count"] = 67453,
+								},
+							},
+							["amount"] = 756921,
 						},
 						["Deathspeaker Attendant"] = {
 							["Details"] = {
@@ -8230,39 +8239,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1888026,
 						},
-						["Deathspeaker Servant"] = {
+						["Decaying Colossus"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 58205,
-								},
 								["Earthquake"] = {
-									["count"] = 631263,
+									["count"] = 190890,
 								},
 								["Thunderstorm"] = {
-									["count"] = 67453,
+									["count"] = 33900,
 								},
 							},
-							["amount"] = 756921,
+							["amount"] = 224790,
 						},
-						["Risen Deathspeaker Servant"] = {
+						["Plagued Zombie <Precious>"] = {
 							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 211044,
-								},
 								["Earthquake"] = {
-									["count"] = 149517,
+									["count"] = 233634,
 								},
 								["Lightning Shield"] = {
-									["count"] = 45440,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 203064,
-								},
-								["Molten Earth"] = {
-									["count"] = 146551,
+									["count"] = 32676,
 								},
 							},
-							["amount"] = 755616,
+							["amount"] = 266310,
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
@@ -8310,16 +8307,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 430007,
 						},
-						["Plague Scientist"] = {
+						["Vengeful Fleshreaper"] = {
 							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 174287,
+								},
 								["Earthquake"] = {
-									["count"] = 16108,
+									["count"] = 2540837,
 								},
 								["Thunderstorm"] = {
-									["count"] = 47583,
+									["count"] = 421514,
 								},
 							},
-							["amount"] = 63691,
+							["amount"] = 3136638,
 						},
 					},
 					["WhoDamaged"] = {
@@ -8557,21 +8557,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 125,
 						},
-						["Plague Scientist"] = {
-							["Details"] = {
-								["Plague Blast"] = {
-									["count"] = 328,
-								},
-							},
-							["amount"] = 328,
-						},
-						["Vengeful Fleshreaper"] = {
+						["Blighted Abomination"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 22946,
+									["count"] = 4586,
+								},
+								["Cleave"] = {
+									["count"] = 1391,
 								},
 							},
-							["amount"] = 22946,
+							["amount"] = 5977,
 						},
 						["Deathspeaker Zealot"] = {
 							["Details"] = {
@@ -8584,13 +8579,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 80789,
 						},
-						["Blood Beast <Deathbringer Saurfang>"] = {
+						["Plagued Zombie <Precious>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 17288,
+									["count"] = 2175,
 								},
 							},
-							["amount"] = 17288,
+							["amount"] = 2175,
 						},
 						["Bone Spike <Shamorn>"] = {
 							["Details"] = {
@@ -8599,6 +8594,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 12853,
+						},
+						["Plague Scientist"] = {
+							["Details"] = {
+								["Plague Blast"] = {
+									["count"] = 328,
+								},
+							},
+							["amount"] = 328,
 						},
 						["Deathspeaker Servant"] = {
 							["Details"] = {
@@ -8642,30 +8645,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 70410,
 						},
-						["Plagued Zombie <Precious>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2175,
-								},
-							},
-							["amount"] = 2175,
-						},
-						["Precious"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3863,
-								},
-							},
-							["amount"] = 3863,
-						},
-						["Deathspeaker Attendant"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 2186,
-								},
-							},
-							["amount"] = 2186,
-						},
 						["Risen Deathspeaker Servant"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -8677,6 +8656,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1597,
 						},
+						["Decaying Colossus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6253,
+								},
+								["Massive Stomp"] = {
+									["count"] = 377,
+								},
+							},
+							["amount"] = 6630,
+						},
+						["Deathspeaker Attendant"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 2186,
+								},
+							},
+							["amount"] = 2186,
+						},
+						["Precious"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3863,
+								},
+							},
+							["amount"] = 3863,
+						},
 						["Environment"] = {
 							["Details"] = {
 								["Falling"] = {
@@ -8685,16 +8691,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5024,
 						},
-						["Blighted Abomination"] = {
+						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 4586,
-								},
-								["Cleave"] = {
-									["count"] = 1391,
+									["count"] = 17288,
 								},
 							},
-							["amount"] = 5977,
+							["amount"] = 17288,
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
@@ -8718,16 +8721,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2784,
 						},
-						["Decaying Colossus"] = {
+						["Vengeful Fleshreaper"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 6253,
-								},
-								["Massive Stomp"] = {
-									["count"] = 377,
+									["count"] = 22946,
 								},
 							},
-							["amount"] = 6630,
+							["amount"] = 22946,
 						},
 					},
 					["TimeHealing"] = {
@@ -8947,16 +8947,16 @@ RecountPerCharDB = {
 							["count"] = 21,
 							["amount"] = 0,
 						},
-						["Consecration"] = {
+						["Deathchill Bolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 213,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 213,
 							["amount"] = 0,
 						},
 						["Consuming Shadows"] = {
@@ -8971,16 +8971,16 @@ RecountPerCharDB = {
 							["count"] = 14,
 							["amount"] = 0,
 						},
-						["Deathchill Bolt"] = {
+						["Curse of Agony"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 213,
+									["count"] = 15,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 213,
+							["count"] = 15,
 							["amount"] = 0,
 						},
 						["Cleave"] = {
@@ -8995,16 +8995,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Curse of Agony"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 15,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 15,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Frostbolt"] = {
@@ -9043,18 +9043,6 @@ RecountPerCharDB = {
 							["count"] = 66,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Hurl Axe"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -9067,18 +9055,6 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 25,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 0,
-						},
 						["Coldflame"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -9089,6 +9065,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 194,
+							["amount"] = 0,
+						},
+						["Curse of Doom"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Consecration"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frostfire Bolt"] = {
@@ -9139,16 +9139,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Curse of Doom"] = {
+						["Curse of Torpor"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 26,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 26,
 							["amount"] = 0,
 						},
 						["Necrotic Strike"] = {
@@ -9199,16 +9199,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Curse of Torpor"] = {
+						["Bone Storm"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 26,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 26,
+							["count"] = 25,
 							["amount"] = 0,
 						},
 						["Coldflame Trap"] = {
@@ -9618,16 +9618,16 @@ RecountPerCharDB = {
 							["count"] = 21,
 							["amount"] = 0,
 						},
-						["Consecration"] = {
+						["Deathchill Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 213,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 213,
 							["amount"] = 0,
 						},
 						["Consuming Shadows"] = {
@@ -9642,16 +9642,16 @@ RecountPerCharDB = {
 							["count"] = 14,
 							["amount"] = 0,
 						},
-						["Deathchill Bolt"] = {
+						["Curse of Agony"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 213,
+									["count"] = 15,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 213,
+							["count"] = 15,
 							["amount"] = 0,
 						},
 						["Cleave"] = {
@@ -9666,16 +9666,16 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Curse of Agony"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 15,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 15,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Frostbolt"] = {
@@ -9714,18 +9714,6 @@ RecountPerCharDB = {
 							["count"] = 66,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Hurl Axe"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -9738,18 +9726,6 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 25,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 0,
-						},
 						["Coldflame"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -9760,6 +9736,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 194,
+							["amount"] = 0,
+						},
+						["Curse of Doom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Consecration"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Frostfire Bolt"] = {
@@ -9810,16 +9810,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Curse of Doom"] = {
+						["Curse of Torpor"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 26,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 26,
 							["amount"] = 0,
 						},
 						["Necrotic Strike"] = {
@@ -9870,16 +9870,16 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Curse of Torpor"] = {
+						["Bone Storm"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 26,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 26,
+							["count"] = 25,
 							["amount"] = 0,
 						},
 						["Coldflame Trap"] = {
@@ -10383,43 +10383,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.53,
 						},
-						["Kor'kron Invoker"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.25,
-								},
-								["Molten Earth"] = {
-									["count"] = 0.91,
-								},
-							},
-							["amount"] = 4.16,
-						},
-						["Precious"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 1.48,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 3.09,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 3.82,
-								},
-								["Earthquake"] = {
-									["count"] = 0.34,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0.21,
-								},
-								["Flame Shock"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 11.56,
-						},
 						["Kor'kron Templar"] = {
 							["Details"] = {
 								["Lava Burst"] = {
@@ -10434,19 +10397,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.48,
 						},
-						["Deathspeaker Zealot"] = {
+						["Kor'kron Invoker"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 11.62,
+								["Lightning Bolt"] = {
+									["count"] = 3.25,
 								},
-								["Earthquake"] = {
-									["count"] = 8.04,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0.07,
+								["Molten Earth"] = {
+									["count"] = 0.91,
 								},
 							},
-							["amount"] = 19.73,
+							["amount"] = 4.16,
+						},
+						["Vengeful Fleshreaper"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 15.43,
+								},
+								["Earthquake"] = {
+									["count"] = 11.46,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 27.28,
 						},
 						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
@@ -10463,6 +10437,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2.81,
+						},
+						["Decaying Colossus"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0.14,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.14,
 						},
 						["Deformed Fanatic"] = {
 							["Details"] = {
@@ -10504,27 +10489,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 97.3399999999999,
 						},
-						["Plagued Zombie <Precious>"] = {
+						["Plague Scientist"] = {
 							["Details"] = {
 								["Earthquake"] = {
 									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0.17,
-								},
-							},
-							["amount"] = 0.17,
-						},
-						["Decaying Colossus"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0.14,
 								},
 								["Thunderstorm"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0.14,
+							["amount"] = 0,
+						},
+						["Deathspeaker Servant"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0.94,
+								},
+								["Earthquake"] = {
+									["count"] = 0.35,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.29,
 						},
 						["Deathspeaker Attendant"] = {
 							["Details"] = {
@@ -10561,19 +10549,42 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.69,
 						},
-						["Deathspeaker Servant"] = {
+						["Precious"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0.94,
+								["Lava Burst"] = {
+									["count"] = 1.48,
 								},
-								["Earthquake"] = {
-									["count"] = 0.35,
+								["Flame Shock (DoT)"] = {
+									["count"] = 3.09,
 								},
 								["Thunderstorm"] = {
 									["count"] = 0,
 								},
+								["Molten Earth"] = {
+									["count"] = 3.82,
+								},
+								["Earthquake"] = {
+									["count"] = 0.34,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.21,
+								},
+								["Flame Shock"] = {
+									["count"] = 2.62,
+								},
 							},
-							["amount"] = 1.29,
+							["amount"] = 11.56,
+						},
+						["Plagued Zombie <Precious>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0.17,
+								},
+							},
+							["amount"] = 0.17,
 						},
 						["Risen Deathspeaker Servant"] = {
 							["Details"] = {
@@ -10594,20 +10605,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 14.72,
-						},
-						["Vengeful Fleshreaper"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 15.43,
-								},
-								["Earthquake"] = {
-									["count"] = 11.46,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 27.28,
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
@@ -10655,16 +10652,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 8.53,
 						},
-						["Plague Scientist"] = {
+						["Deathspeaker Zealot"] = {
 							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 11.62,
+								},
 								["Earthquake"] = {
-									["count"] = 0,
+									["count"] = 8.04,
 								},
 								["Thunderstorm"] = {
-									["count"] = 0,
+									["count"] = 0.07,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 19.73,
 						},
 					},
 					["Attacks"] = {
@@ -11309,43 +11309,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.53,
 						},
-						["Kor'kron Invoker"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.25,
-								},
-								["Molten Earth"] = {
-									["count"] = 0.91,
-								},
-							},
-							["amount"] = 4.16,
-						},
-						["Precious"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 1.48,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 3.09,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 3.82,
-								},
-								["Earthquake"] = {
-									["count"] = 0.34,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0.21,
-								},
-								["Flame Shock"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 11.56,
-						},
 						["Kor'kron Templar"] = {
 							["Details"] = {
 								["Lava Burst"] = {
@@ -11360,19 +11323,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.48,
 						},
-						["Deathspeaker Zealot"] = {
+						["Kor'kron Invoker"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 11.62,
+								["Lightning Bolt"] = {
+									["count"] = 3.25,
 								},
-								["Earthquake"] = {
-									["count"] = 8.04,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0.07,
+								["Molten Earth"] = {
+									["count"] = 0.91,
 								},
 							},
-							["amount"] = 19.73,
+							["amount"] = 4.16,
+						},
+						["Vengeful Fleshreaper"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 15.43,
+								},
+								["Earthquake"] = {
+									["count"] = 11.46,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 27.28,
 						},
 						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
@@ -11389,6 +11363,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2.81,
+						},
+						["Decaying Colossus"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0.14,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.14,
 						},
 						["Deformed Fanatic"] = {
 							["Details"] = {
@@ -11430,27 +11415,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 97.3399999999999,
 						},
-						["Plagued Zombie <Precious>"] = {
+						["Plague Scientist"] = {
 							["Details"] = {
 								["Earthquake"] = {
 									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0.17,
-								},
-							},
-							["amount"] = 0.17,
-						},
-						["Decaying Colossus"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0.14,
 								},
 								["Thunderstorm"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0.14,
+							["amount"] = 0,
+						},
+						["Deathspeaker Servant"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0.94,
+								},
+								["Earthquake"] = {
+									["count"] = 0.35,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.29,
 						},
 						["Deathspeaker Attendant"] = {
 							["Details"] = {
@@ -11487,19 +11475,42 @@ RecountPerCharDB = {
 							},
 							["amount"] = 29.69,
 						},
-						["Deathspeaker Servant"] = {
+						["Precious"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0.94,
+								["Lava Burst"] = {
+									["count"] = 1.48,
 								},
-								["Earthquake"] = {
-									["count"] = 0.35,
+								["Flame Shock (DoT)"] = {
+									["count"] = 3.09,
 								},
 								["Thunderstorm"] = {
 									["count"] = 0,
 								},
+								["Molten Earth"] = {
+									["count"] = 3.82,
+								},
+								["Earthquake"] = {
+									["count"] = 0.34,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.21,
+								},
+								["Flame Shock"] = {
+									["count"] = 2.62,
+								},
 							},
-							["amount"] = 1.29,
+							["amount"] = 11.56,
+						},
+						["Plagued Zombie <Precious>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0.17,
+								},
+							},
+							["amount"] = 0.17,
 						},
 						["Risen Deathspeaker Servant"] = {
 							["Details"] = {
@@ -11520,20 +11531,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 14.72,
-						},
-						["Vengeful Fleshreaper"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 15.43,
-								},
-								["Earthquake"] = {
-									["count"] = 11.46,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 27.28,
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
@@ -11581,16 +11578,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 8.53,
 						},
-						["Plague Scientist"] = {
+						["Deathspeaker Zealot"] = {
 							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 11.62,
+								},
 								["Earthquake"] = {
-									["count"] = 0,
+									["count"] = 8.04,
 								},
 								["Thunderstorm"] = {
-									["count"] = 0,
+									["count"] = 0.07,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 19.73,
 						},
 					},
 					["WhoHealed"] = {
@@ -11666,199 +11666,62 @@ RecountPerCharDB = {
 							["amount"] = 42,
 						},
 					},
-					["TimeDamaging"] = {
-						["The Damned"] = {
+					["ElementHitsTaken"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Earthquake"] = {
+							},
+							["amount"] = 8,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
-								["Thunderstorm"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Plague Scientist"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 204,
 								},
-								["Thunderstorm"] = {
-									["count"] = 0,
+								["Miss"] = {
+									["count"] = 134,
+								},
+								["Dodge"] = {
+									["count"] = 12,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 350,
 						},
-						["Blighted Abomination"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 7.26,
+								["Tick"] = {
+									["count"] = 21,
 								},
-								["Earthquake"] = {
-									["count"] = 0.69,
+								["Hit"] = {
+									["count"] = 5,
 								},
-								["Thunderstorm"] = {
-									["count"] = 2.03,
+								["Miss"] = {
+									["count"] = 12,
 								},
 							},
-							["amount"] = 9.98,
-						},
-						["Vengeful Fleshreaper"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 15.43,
-								},
-								["Earthquake"] = {
-									["count"] = 11.46,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0.39,
-								},
-							},
-							["amount"] = 27.28,
-						},
-						["Ancient Skeletal Soldier"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Chain Lightning"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Zombie <Precious>"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0.17,
-								},
-							},
-							["amount"] = 0.17,
-						},
-						["Decaying Colossus"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0.14,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.14,
-						},
-						["Precious"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 1.48,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 2.57,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 3.82,
-								},
-								["Earthquake"] = {
-									["count"] = 0.34,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0.21,
-								},
-								["Flame Shock"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 11.04,
-						},
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shamorn"] = {
-							["Details"] = {
-								["Impale"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Web Wrap <Shamorn>"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nerub'ar Broodkeeper"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Servant of the Throne"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Pustulating Horror"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 16.15,
-								},
-								["Earthquake"] = {
-									["count"] = 0.01,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 16.16,
+							["amount"] = 38,
 						},
 					},
 					["TimeSpent"] = {
@@ -11901,19 +11764,31 @@ RecountPerCharDB = {
 							},
 							["amount"] = 9.98,
 						},
-						["Vengeful Fleshreaper"] = {
+						["Precious"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 15.43,
+								["Lava Burst"] = {
+									["count"] = 1.48,
 								},
-								["Earthquake"] = {
-									["count"] = 11.46,
+								["Flame Shock (DoT)"] = {
+									["count"] = 2.57,
 								},
 								["Thunderstorm"] = {
-									["count"] = 0.39,
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 3.82,
+								},
+								["Earthquake"] = {
+									["count"] = 0.34,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.21,
+								},
+								["Flame Shock"] = {
+									["count"] = 2.62,
 								},
 							},
-							["amount"] = 27.28,
+							["amount"] = 11.04,
 						},
 						["Ancient Skeletal Soldier"] = {
 							["Details"] = {
@@ -11946,42 +11821,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.17,
 						},
-						["Decaying Colossus"] = {
+						["Servant of the Throne"] = {
 							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0.14,
-								},
-								["Thunderstorm"] = {
+								["Lightning Shield"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0.14,
+							["amount"] = 0,
 						},
-						["Precious"] = {
+						["Vengeful Fleshreaper"] = {
 							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 1.48,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 2.57,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 3.82,
+								["Lightning Shield"] = {
+									["count"] = 15.43,
 								},
 								["Earthquake"] = {
-									["count"] = 0.34,
+									["count"] = 11.46,
 								},
-								["Lightning Bolt"] = {
-									["count"] = 0.21,
-								},
-								["Flame Shock"] = {
-									["count"] = 2.62,
+								["Thunderstorm"] = {
+									["count"] = 0.39,
 								},
 							},
-							["amount"] = 11.04,
+							["amount"] = 27.28,
 						},
 						["Lord Marrowgar"] = {
 							["Details"] = {
@@ -12042,13 +11902,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Servant of the Throne"] = {
+						["Decaying Colossus"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
+								["Earthquake"] = {
+									["count"] = 0.14,
+								},
+								["Thunderstorm"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 0.14,
 						},
 						["Pustulating Horror"] = {
 							["Details"] = {
@@ -12066,62 +11929,20 @@ RecountPerCharDB = {
 						},
 					},
 					["DamageTaken"] = 64137,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
+					["HealedWho"] = {
+						["Shamorn"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
+								["Flames of Life"] = {
+									["count"] = 42274,
 								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
+								["Ancestral Guidance"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 8,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
+								["Healing Surge"] = {
+									["count"] = 1684,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 204,
-								},
-								["Miss"] = {
-									["count"] = 134,
-								},
-								["Dodge"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 350,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 21,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 38,
+							["amount"] = 43958,
 						},
 					},
 					["PartialResist"] = {
@@ -12245,18 +12066,6 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Massive Stomp"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Crypt Scarabs"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -12267,6 +12076,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Massive Stomp"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Glacial Blast"] = {
@@ -12295,13 +12116,178 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 1,
-					["Overhealing"] = 7270,
-					["ActiveTime"] = 64.87,
-					["ElementDone"] = {
-						["Physical"] = 3688089,
-						["Fire"] = 1445382,
-						["Nature"] = 1276968,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 350,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 350,
+							["amount"] = 0,
+						},
+						["Shield Bash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Boiling Blood (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Coldflame Trap"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Bone Slice"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Impaled (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Crypt Scarabs"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Massive Stomp"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Glacial Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bubbling Pus (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 0,
+						},
 					},
+					["ActiveTime"] = 64.87,
+					["FDamage"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 1768,
 						["Frost"] = 0,
@@ -12310,7 +12296,203 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 42,
 					["Damage"] = 6410439,
-					["HealedWho"] = {
+					["TimeDamaging"] = {
+						["The Damned"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plague Scientist"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blighted Abomination"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 7.26,
+								},
+								["Earthquake"] = {
+									["count"] = 0.69,
+								},
+								["Thunderstorm"] = {
+									["count"] = 2.03,
+								},
+							},
+							["amount"] = 9.98,
+						},
+						["Precious"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 1.48,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 2.57,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 3.82,
+								},
+								["Earthquake"] = {
+									["count"] = 0.34,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.21,
+								},
+								["Flame Shock"] = {
+									["count"] = 2.62,
+								},
+							},
+							["amount"] = 11.04,
+						},
+						["Ancient Skeletal Soldier"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+								["Chain Lightning"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Plagued Zombie <Precious>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0.17,
+								},
+							},
+							["amount"] = 0.17,
+						},
+						["Servant of the Throne"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vengeful Fleshreaper"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 15.43,
+								},
+								["Earthquake"] = {
+									["count"] = 11.46,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0.39,
+								},
+							},
+							["amount"] = 27.28,
+						},
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shamorn"] = {
+							["Details"] = {
+								["Impale"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Web Wrap <Shamorn>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nerub'ar Broodkeeper"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Decaying Colossus"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0.14,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.14,
+						},
+						["Pustulating Horror"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 16.15,
+								},
+								["Earthquake"] = {
+									["count"] = 0.01,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 16.16,
+						},
+					},
+					["TimeHeal"] = 0.1,
+					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
 								["Flames of Life"] = {
@@ -12326,8 +12508,6 @@ RecountPerCharDB = {
 							["amount"] = 43958,
 						},
 					},
-					["TimeHeal"] = 0.1,
-					["FDamage"] = 0,
 					["DamagedWho"] = {
 						["The Damned"] = {
 							["Details"] = {
@@ -12407,14 +12587,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Web Wrap <Shamorn>"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Lord Marrowgar"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
@@ -12430,6 +12602,14 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Web Wrap <Shamorn>"] = {
+							["Details"] = {
+								["Earthquake"] = {
 									["count"] = 0,
 								},
 							},
@@ -12515,37 +12695,6 @@ RecountPerCharDB = {
 							["amount"] = 381753,
 						},
 					},
-					["WhoHealed"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Flames of Life"] = {
-									["count"] = 42274,
-								},
-								["Ancestral Guidance"] = {
-									["count"] = 0,
-								},
-								["Healing Surge"] = {
-									["count"] = 1684,
-								},
-							},
-							["amount"] = 43958,
-						},
-					},
-					["Healing"] = 43958,
-					["FAttacks"] = {
-						["Impale"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
 					["Heals"] = {
 						["Flames of Life"] = {
 							["Details"] = {
@@ -12589,6 +12738,26 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 1684,
 						},
+					},
+					["Healing"] = 43958,
+					["FAttacks"] = {
+						["Impale"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 3688089,
+						["Fire"] = 1445382,
+						["Nature"] = 1276968,
 					},
 					["Attacks"] = {
 						["Lava Burst"] = {
@@ -12848,6 +13017,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Precious"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3863,
+								},
+							},
+							["amount"] = 3863,
+						},
+						["Bone Spike <Shamorn>"] = {
+							["Details"] = {
+								["Impaled (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost Freeze Trap"] = {
+							["Details"] = {
+								["Coldflame Trap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Decaying Colossus"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -12867,13 +13060,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Frost Freeze Trap"] = {
+						["Plague Scientist"] = {
 							["Details"] = {
-								["Coldflame Trap"] = {
-									["count"] = 0,
+								["Plague Blast"] = {
+									["count"] = 328,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 328,
 						},
 						["Servant of the Throne"] = {
 							["Details"] = {
@@ -12885,30 +13078,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
-						},
-						["Bone Spike <Shamorn>"] = {
-							["Details"] = {
-								["Impaled (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Plagued Zombie <Precious>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2175,
-								},
-							},
-							["amount"] = 2175,
-						},
-						["Precious"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3863,
-								},
-							},
-							["amount"] = 3863,
 						},
 						["Blighted Abomination"] = {
 							["Details"] = {
@@ -12965,13 +13134,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Plague Scientist"] = {
+						["Plagued Zombie <Precious>"] = {
 							["Details"] = {
-								["Plague Blast"] = {
-									["count"] = 328,
+								["Melee"] = {
+									["count"] = 2175,
 								},
 							},
-							["amount"] = 328,
+							["amount"] = 2175,
 						},
 						["Pustulating Horror"] = {
 							["Details"] = {
@@ -12995,176 +13164,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 350,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 350,
-							["amount"] = 0,
-						},
-						["Shield Bash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Boiling Blood (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Coldflame Trap"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 0,
-						},
-						["Bone Slice"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Impaled (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Massive Stomp"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Crypt Scarabs"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Glacial Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bubbling Pus (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 21,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 0,
-						},
-					},
+					["Overhealing"] = 7270,
 					["OverHeals"] = {
 						["Flames of Life"] = {
 							["Details"] = {
@@ -13229,116 +13229,88 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 0,
 						["Physical"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Boiling Blood (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Rune of Blood"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Nova"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Nature"] = 0,
 						["Fire"] = 0,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["DamagedWho"] = {
+						["Deathbringer Saurfang"] = {
 							["Details"] = {
-								["Multistrike"] = {
+								["Flame Shock"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["Lightning Shield"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Blood Beast <Deathbringer Saurfang>"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
+								["Lightning Shield"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flames of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoDamaged"] = {
 						["Deathbringer Saurfang"] = {
 							["Details"] = {
@@ -13368,7 +13340,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -13384,25 +13356,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["OverHeals"] = {
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -13463,11 +13417,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -13536,7 +13494,56 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Boiling Blood (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rune of Blood"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Nova"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -13550,9 +13557,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Flame Shock"] = {
@@ -13731,39 +13738,33 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Deathbringer Saurfang"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Flame Shock"] = {
+								["Multistrike"] = {
 									["count"] = 0,
 								},
-								["Lightning Shield"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Blood Beast <Deathbringer Saurfang>"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -13811,8 +13812,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -13867,141 +13867,108 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 144,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 59632,
 						["Melee"] = 13552,
 						["Frost"] = 1011,
 					},
-					["DOT_Time"] = 144,
-					["Damage"] = 11129679,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0.04,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 18,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 0,
-						},
-						["Hurl Axe"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bone Slice"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 26,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 26,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Coldflame (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 78,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 78,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Nature"] = 4053772,
 						["Fire"] = 7075907,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["DamagedWho"] = {
+						["Kor'kron Rocketeer"] = {
 							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 26,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 43,
+								["Lightning Shield"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 74,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Lord Marrowgar"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
+								["Earth Shock"] = {
+									["count"] = 200825,
 								},
-								["Multistrike"] = {
-									["count"] = 38,
+								["Lightning Shield"] = {
+									["count"] = 447712,
 								},
-								["Crit"] = {
-									["count"] = 21,
+								["Flame Shock (DoT)"] = {
+									["count"] = 556595,
 								},
-								["Hit"] = {
-									["count"] = 29,
+								["Fulmination"] = {
+									["count"] = 485034,
+								},
+								["Molten Earth"] = {
+									["count"] = 2601044,
+								},
+								["Lava Burst"] = {
+									["count"] = 3787091,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 2920201,
+								},
+								["Flame Shock"] = {
+									["count"] = 131177,
 								},
 							},
-							["amount"] = 115,
+							["amount"] = 11129679,
+						},
+						["Kor'kron Axethrower"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kor'kron Reaver"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flames of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30555,
+									["min"] = 646,
+									["count"] = 34,
+									["amount"] = 263877,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 263877,
+						},
+					},
 					["WhoDamaged"] = {
 						["Coldflame <Lord Marrowgar>"] = {
 							["Details"] = {
@@ -14052,7 +14019,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -14068,25 +14035,7 @@ RecountPerCharDB = {
 							["amount"] = 0.04,
 						},
 					},
-					["OverHeals"] = {
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30555,
-									["min"] = 646,
-									["count"] = 34,
-									["amount"] = 263877,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 263877,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 88.85,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -14171,11 +14120,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 88.85,
 					["Overhealing"] = 263877,
 					["ElementTakenResist"] = {
 					},
@@ -14263,7 +14216,80 @@ RecountPerCharDB = {
 							["amount"] = 74195,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+						["Hurl Axe"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bone Slice"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 26,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Coldflame (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 78,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 78,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -14277,9 +14303,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 74195,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Earth Shock"] = {
@@ -14452,62 +14478,37 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 74195,
-					["DamagedWho"] = {
-						["Kor'kron Rocketeer"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
+								["Multistrike"] = {
+									["count"] = 26,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 43,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 74,
 						},
-						["Lord Marrowgar"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 200825,
+								["Tick"] = {
+									["count"] = 27,
 								},
-								["Lightning Shield"] = {
-									["count"] = 447712,
+								["Multistrike"] = {
+									["count"] = 38,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 556595,
+								["Crit"] = {
+									["count"] = 21,
 								},
-								["Fulmination"] = {
-									["count"] = 485034,
-								},
-								["Molten Earth"] = {
-									["count"] = 2601044,
-								},
-								["Lava Burst"] = {
-									["count"] = 3787091,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 2920201,
-								},
-								["Flame Shock"] = {
-									["count"] = 131177,
+								["Hit"] = {
+									["count"] = 29,
 								},
 							},
-							["amount"] = 11129679,
-						},
-						["Kor'kron Axethrower"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kor'kron Reaver"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 115,
 						},
 					},
 					["TimeDamage"] = 88.81,
@@ -14570,8 +14571,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 11129679,
 					["DispelledWho"] = {
 					},
 				},
@@ -14640,153 +14640,112 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 3,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Melee"] = 3535,
 						["Frost"] = 0,
 					},
-					["DOT_Time"] = 3,
-					["Damage"] = 16962,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0.01,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Bone Slice"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corrosive Bite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Coldflame (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Fire"] = 9366,
 						["Nature"] = 7596,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Precious"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Multistrike"] = {
+								["Flame Shock (DoT)"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
 							},
-							["amount"] = 4,
+							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Goren Protector"] = {
 							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 1,
+								["Lightning Shield"] = {
+									["count"] = 945,
 								},
-								["Crit"] = {
-									["count"] = 1,
+								["Flame Shock (DoT)"] = {
+									["count"] = 305,
 								},
-								["Hit"] = {
-									["count"] = 2,
+								["Lava Burst"] = {
+									["count"] = 6932,
+								},
+								["Molten Earth"] = {
+									["count"] = 1521,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 6651,
+								},
+								["Flame Shock"] = {
+									["count"] = 608,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 16962,
+						},
+						["Lord Marrowgar"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flames of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoDamaged"] = {
 						["Environment"] = {
 							["Details"] = {
@@ -14829,7 +14788,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -14845,25 +14804,7 @@ RecountPerCharDB = {
 							["amount"] = 0.01,
 						},
 					},
-					["OverHeals"] = {
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 9.42,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -14960,11 +14901,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 9.42,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -15056,7 +15001,92 @@ RecountPerCharDB = {
 							["amount"] = 424,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Bone Slice"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corrosive Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Coldflame (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -15070,9 +15100,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 424,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Flame Shock"] = {
@@ -15239,66 +15269,37 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 424,
-					["DamagedWho"] = {
-						["Precious"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Flame Shock (DoT)"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Multistrike"] = {
 									["count"] = 0,
 								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
 							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
-						["Goren Protector"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 945,
+								["Multistrike"] = {
+									["count"] = 1,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 305,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Lava Burst"] = {
-									["count"] = 6932,
-								},
-								["Molten Earth"] = {
-									["count"] = 1521,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 6651,
-								},
-								["Flame Shock"] = {
-									["count"] = 608,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 16962,
-						},
-						["Lord Marrowgar"] = {
-							["Details"] = {
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
 					},
 					["TimeDamage"] = 9.41,
@@ -15365,8 +15366,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 16962,
 					["DispelledWho"] = {
 					},
 				},
@@ -15421,141 +15421,108 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 144,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 59632,
 						["Melee"] = 13552,
 						["Frost"] = 1011,
 					},
-					["DOT_Time"] = 144,
-					["Damage"] = 11129679,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0.04,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 18,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 0,
-						},
-						["Hurl Axe"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Bone Slice"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 26,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 26,
-							["amount"] = 0,
-						},
-						["Bone Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Coldflame (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Coldflame"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 78,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 78,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Nature"] = 4053772,
 						["Fire"] = 7075907,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["DamagedWho"] = {
+						["Kor'kron Rocketeer"] = {
 							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 26,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 43,
+								["Lightning Shield"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 74,
+							["amount"] = 0,
 						},
-						["Fire"] = {
+						["Lord Marrowgar"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
+								["Earth Shock"] = {
+									["count"] = 200825,
 								},
-								["Multistrike"] = {
-									["count"] = 38,
+								["Lightning Shield"] = {
+									["count"] = 447712,
 								},
-								["Crit"] = {
-									["count"] = 21,
+								["Flame Shock (DoT)"] = {
+									["count"] = 556595,
 								},
-								["Hit"] = {
-									["count"] = 29,
+								["Fulmination"] = {
+									["count"] = 485034,
+								},
+								["Molten Earth"] = {
+									["count"] = 2601044,
+								},
+								["Lava Burst"] = {
+									["count"] = 3787091,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 2920201,
+								},
+								["Flame Shock"] = {
+									["count"] = 131177,
 								},
 							},
-							["amount"] = 115,
+							["amount"] = 11129679,
+						},
+						["Kor'kron Axethrower"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kor'kron Reaver"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flames of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30555,
+									["min"] = 646,
+									["count"] = 34,
+									["amount"] = 263877,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 263877,
+						},
+					},
 					["WhoDamaged"] = {
 						["Coldflame <Lord Marrowgar>"] = {
 							["Details"] = {
@@ -15606,7 +15573,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -15622,25 +15589,7 @@ RecountPerCharDB = {
 							["amount"] = 0.04,
 						},
 					},
-					["OverHeals"] = {
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30555,
-									["min"] = 646,
-									["count"] = 34,
-									["amount"] = 263877,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 263877,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 88.85,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -15725,11 +15674,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 88.85,
 					["Overhealing"] = 263877,
 					["ElementTakenResist"] = {
 					},
@@ -15817,7 +15770,80 @@ RecountPerCharDB = {
 							["amount"] = 74195,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+						["Hurl Axe"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bone Slice"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 26,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 0,
+						},
+						["Bone Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Coldflame (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Coldflame"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 78,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 78,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -15831,9 +15857,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 74195,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Earth Shock"] = {
@@ -16006,62 +16032,37 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 74195,
-					["DamagedWho"] = {
-						["Kor'kron Rocketeer"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
+								["Multistrike"] = {
+									["count"] = 26,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 43,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 74,
 						},
-						["Lord Marrowgar"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 200825,
+								["Tick"] = {
+									["count"] = 27,
 								},
-								["Lightning Shield"] = {
-									["count"] = 447712,
+								["Multistrike"] = {
+									["count"] = 38,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 556595,
+								["Crit"] = {
+									["count"] = 21,
 								},
-								["Fulmination"] = {
-									["count"] = 485034,
-								},
-								["Molten Earth"] = {
-									["count"] = 2601044,
-								},
-								["Lava Burst"] = {
-									["count"] = 3787091,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 2920201,
-								},
-								["Flame Shock"] = {
-									["count"] = 131177,
+								["Hit"] = {
+									["count"] = 29,
 								},
 							},
-							["amount"] = 11129679,
-						},
-						["Kor'kron Axethrower"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kor'kron Reaver"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 115,
 						},
 					},
 					["TimeDamage"] = 88.81,
@@ -16124,8 +16125,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 11129679,
 					["DispelledWho"] = {
 					},
 				},
@@ -16243,8 +16243,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 15,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Shadow"] = 0,
@@ -16254,280 +16253,286 @@ RecountPerCharDB = {
 						["Physical"] = 3760,
 						["Holy"] = 0,
 					},
-					["DOT_Time"] = 15,
-					["Damage"] = 8275023,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0.47,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shattered Bones"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Holy Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 377,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 377,
-							["amount"] = 0,
-						},
-						["Shield Bash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 0,
-						},
-						["Frostfire Bolt (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Glacial Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 44,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 0,
-						},
-						["Curse of Doom"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Doom (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Crypt Scarabs"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 45,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 0,
-						},
-						["Consecration"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Avenger's Shield"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Breath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Fire"] = 1740052,
 						["Physical"] = 3426306,
 						["Nature"] = 3108665,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["The Damned"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
+								["Earthquake"] = {
+									["count"] = 653973,
 								},
+								["Lightning Shield"] = {
+									["count"] = 207755,
+								},
+								["Chain Lightning"] = {
+									["count"] = 249340,
+								},
+								["Molten Earth"] = {
+									["count"] = 288986,
+								},
+							},
+							["amount"] = 1400054,
+						},
+						["Kor'kron Reaver"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ancient Skeletal Soldier"] = {
+							["Details"] = {
+								["Chain Lightning"] = {
+									["count"] = 1503880,
+								},
+								["Lightning Shield"] = {
+									["count"] = 129373,
+								},
+								["Earthquake"] = {
+									["count"] = 2717976,
+								},
+								["Molten Earth"] = {
+									["count"] = 87602,
+								},
+							},
+							["amount"] = 4438831,
+						},
+						["Kor'kron Templar"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Servant of the Throne"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 12764,
+								},
+								["Molten Earth"] = {
+									["count"] = 231848,
+								},
+								["Lava Burst"] = {
+									["count"] = 487510,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 13915,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 407524,
+								},
+								["Flame Shock"] = {
+									["count"] = 27783,
+								},
+							},
+							["amount"] = 1181344,
+						},
+						["Kor'kron Vanquisher"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Web Wrap <Shamorn>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 54357,
+								},
+							},
+							["amount"] = 54357,
+						},
+						["Spire Frostwyrm"] = {
+							["Details"] = {
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kor'kron Oracle"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nerub'ar Broodkeeper"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 19775,
+								},
+								["Lava Burst"] = {
+									["count"] = 346982,
+								},
+								["Molten Earth"] = {
+									["count"] = 211833,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 23818,
+								},
+								["Lightning Shield"] = {
+									["count"] = 136348,
+								},
+								["Earth Shock"] = {
+									["count"] = 94493,
+								},
+								["Chain Lightning"] = {
+									["count"] = 124670,
+								},
+								["Fulmination"] = {
+									["count"] = 242518,
+								},
+							},
+							["amount"] = 1200437,
+						},
+						["Kor'kron Invoker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kor'kron Necrolyte"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Surge"] = {
+							["Details"] = {
 								["Multistrike"] = {
-									["count"] = 10,
+									["max"] = 4890,
+									["min"] = 4890,
+									["count"] = 1,
+									["amount"] = 4890,
 								},
-								["Crit"] = {
+								["Hit"] = {
+									["max"] = 9508,
+									["min"] = 275,
 									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 3,
+									["amount"] = 9783,
 								},
 							},
-							["amount"] = 28,
+							["count"] = 3,
+							["amount"] = 14673,
 						},
-						["Physical"] = {
+						["Flames of Life"] = {
 							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 104,
-								},
-								["Crit"] = {
-									["count"] = 22,
-								},
 								["Hit"] = {
-									["count"] = 251,
+									["max"] = 11935,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 25157,
 								},
 							},
-							["amount"] = 377,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 22,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 76,
+							["count"] = 4,
+							["amount"] = 25157,
 						},
 					},
-					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 						["The Damned"] = {
 							["Details"] = {
@@ -16600,17 +16605,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2611,
 						},
-						["Kor'kron Invoker"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostfire Bolt (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Kor'kron Vanquisher"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -16622,10 +16616,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Kor'kron Invoker"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -16644,43 +16649,7 @@ RecountPerCharDB = {
 							["amount"] = 0.47,
 						},
 					},
-					["OverHeals"] = {
-						["Healing Surge"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 4890,
-									["min"] = 4890,
-									["count"] = 1,
-									["amount"] = 4890,
-								},
-								["Hit"] = {
-									["max"] = 9508,
-									["min"] = 275,
-									["count"] = 2,
-									["amount"] = 9783,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14673,
-						},
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11935,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 25157,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 25157,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 106.22,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -16839,19 +16808,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Crypt Scarabs"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 45,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 0,
-						},
-						["Consecration"] = {
+						["Avenger's Shield"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -16863,7 +16820,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Avenger's Shield"] = {
+						["Consecration"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -16887,6 +16844,18 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Crypt Scarabs"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 45,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 0,
+						},
 						["Frost Breath"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -16900,11 +16869,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 106.22,
 					["Overhealing"] = 39830,
 					["ElementTakenResist"] = {
 					},
@@ -16964,62 +16937,50 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Servant of the Throne"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0.13,
-								},
-								["Molten Earth"] = {
-									["count"] = 3.65,
-								},
-								["Lava Burst"] = {
-									["count"] = 0.04,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 2.35,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 5.98,
-								},
-								["Flame Shock"] = {
-									["count"] = 1.95,
-								},
-							},
-							["amount"] = 14.1,
-						},
-						["Ancient Skeletal Soldier"] = {
-							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 0.56,
-								},
-								["Lightning Shield"] = {
-									["count"] = 4.05,
-								},
-								["Chain Lightning"] = {
-									["count"] = 1.8,
-								},
-								["Earthquake"] = {
-									["count"] = 30.12,
-								},
-							},
-							["amount"] = 36.53,
-						},
 						["The Damned"] = {
 							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 3.96,
+								["Earthquake"] = {
+									["count"] = 2.1,
 								},
 								["Lightning Shield"] = {
 									["count"] = 17.19,
 								},
-								["Earthquake"] = {
-									["count"] = 2.1,
-								},
 								["Chain Lightning"] = {
 									["count"] = 0,
 								},
+								["Molten Earth"] = {
+									["count"] = 3.96,
+								},
 							},
 							["amount"] = 23.25,
+						},
+						["Ancient Skeletal Soldier"] = {
+							["Details"] = {
+								["Chain Lightning"] = {
+									["count"] = 1.8,
+								},
+								["Lightning Shield"] = {
+									["count"] = 4.05,
+								},
+								["Earthquake"] = {
+									["count"] = 30.12,
+								},
+								["Molten Earth"] = {
+									["count"] = 0.56,
+								},
+							},
+							["amount"] = 36.53,
+						},
+						["Kor'kron Invoker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Kor'kron Templar"] = {
 							["Details"] = {
@@ -17105,11 +17066,11 @@ RecountPerCharDB = {
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 1.84,
+								},
 								["Lava Burst"] = {
 									["count"] = 0.46,
-								},
-								["Lightning Shield"] = {
-									["count"] = 16.61,
 								},
 								["Molten Earth"] = {
 									["count"] = 3.17,
@@ -17117,8 +17078,8 @@ RecountPerCharDB = {
 								["Flame Shock (DoT)"] = {
 									["count"] = 3.46,
 								},
-								["Flame Shock"] = {
-									["count"] = 1.84,
+								["Lightning Shield"] = {
+									["count"] = 16.61,
 								},
 								["Earth Shock"] = {
 									["count"] = 0.66,
@@ -17132,17 +17093,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 30.07,
 						},
-						["Kor'kron Invoker"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Kor'kron Vanquisher"] = {
 							["Details"] = {
 								["Lightning Bolt"] = {
@@ -17153,6 +17103,29 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Servant of the Throne"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0.13,
+								},
+								["Molten Earth"] = {
+									["count"] = 3.65,
+								},
+								["Lava Burst"] = {
+									["count"] = 0.04,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 2.35,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 5.98,
+								},
+								["Flame Shock"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 14.1,
 						},
 					},
 					["Heals"] = {
@@ -17181,7 +17154,212 @@ RecountPerCharDB = {
 							["amount"] = 16647,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shattered Bones"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Holy Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 377,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 377,
+							["amount"] = 0,
+						},
+						["Shield Bash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["Frostfire Bolt (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Glacial Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 44,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 0,
+						},
+						["Curse of Doom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Doom (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Avenger's Shield"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consecration"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Crypt Scarabs"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 45,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 0,
+						},
+						["Frost Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -17198,9 +17376,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 31010,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Lava Burst"] = {
@@ -17403,245 +17581,68 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 31010,
-					["DamagedWho"] = {
-						["The Damned"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 288986,
+								["Hit"] = {
+									["count"] = 13,
 								},
-								["Lightning Shield"] = {
-									["count"] = 207755,
+								["Multistrike"] = {
+									["count"] = 10,
 								},
-								["Earthquake"] = {
-									["count"] = 653973,
+								["Crit"] = {
+									["count"] = 2,
 								},
-								["Chain Lightning"] = {
-									["count"] = 249340,
+								["Tick"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 1400054,
+							["amount"] = 28,
 						},
-						["Kor'kron Reaver"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
+								["Multistrike"] = {
+									["count"] = 104,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
+								["Crit"] = {
+									["count"] = 22,
 								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 251,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 377,
 						},
-						["Ancient Skeletal Soldier"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 87602,
+								["Multistrike"] = {
+									["count"] = 22,
 								},
-								["Lightning Shield"] = {
-									["count"] = 129373,
+								["Crit"] = {
+									["count"] = 3,
 								},
-								["Chain Lightning"] = {
-									["count"] = 1503880,
-								},
-								["Earthquake"] = {
-									["count"] = 2717976,
+								["Hit"] = {
+									["count"] = 51,
 								},
 							},
-							["amount"] = 4438831,
-						},
-						["Servant of the Throne"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 12764,
-								},
-								["Molten Earth"] = {
-									["count"] = 231848,
-								},
-								["Lava Burst"] = {
-									["count"] = 487510,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 13915,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 407524,
-								},
-								["Flame Shock"] = {
-									["count"] = 27783,
-								},
-							},
-							["amount"] = 1181344,
-						},
-						["Kor'kron Templar"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spire Frostwyrm"] = {
-							["Details"] = {
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Web Wrap <Shamorn>"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 54357,
-								},
-							},
-							["amount"] = 54357,
-						},
-						["Kor'kron Necrolyte"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kor'kron Oracle"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nerub'ar Broodkeeper"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 346982,
-								},
-								["Lightning Shield"] = {
-									["count"] = 136348,
-								},
-								["Molten Earth"] = {
-									["count"] = 211833,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 23818,
-								},
-								["Flame Shock"] = {
-									["count"] = 19775,
-								},
-								["Earth Shock"] = {
-									["count"] = 94493,
-								},
-								["Chain Lightning"] = {
-									["count"] = 124670,
-								},
-								["Fulmination"] = {
-									["count"] = 242518,
-								},
-							},
-							["amount"] = 1200437,
-						},
-						["Kor'kron Vanquisher"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kor'kron Invoker"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 76,
 						},
 					},
 					["TimeDamage"] = 105.75,
 					["TimeDamaging"] = {
 						["The Damned"] = {
 							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 3.96,
+								["Earthquake"] = {
+									["count"] = 2.1,
 								},
 								["Lightning Shield"] = {
 									["count"] = 17.19,
 								},
-								["Earthquake"] = {
-									["count"] = 2.1,
-								},
 								["Chain Lightning"] = {
 									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 3.96,
 								},
 							},
 							["amount"] = 23.25,
@@ -17671,20 +17672,34 @@ RecountPerCharDB = {
 						},
 						["Ancient Skeletal Soldier"] = {
 							["Details"] = {
-								["Molten Earth"] = {
-									["count"] = 0.56,
+								["Chain Lightning"] = {
+									["count"] = 1.8,
 								},
 								["Lightning Shield"] = {
 									["count"] = 4.05,
 								},
-								["Chain Lightning"] = {
-									["count"] = 1.8,
-								},
 								["Earthquake"] = {
 									["count"] = 30.12,
 								},
+								["Molten Earth"] = {
+									["count"] = 0.56,
+								},
 							},
 							["amount"] = 36.53,
+						},
+						["Kor'kron Templar"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Servant of the Throne"] = {
 							["Details"] = {
@@ -17709,19 +17724,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 14.1,
 						},
-						["Kor'kron Templar"] = {
+						["Kor'kron Vanquisher"] = {
 							["Details"] = {
-								["Lava Burst"] = {
+								["Lightning Bolt"] = {
 									["count"] = 0,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
+								["Lightning Shield"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
+						},
+						["Web Wrap <Shamorn>"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 1.8,
+								},
+							},
+							["amount"] = 1.8,
 						},
 						["Spire Frostwyrm"] = {
 							["Details"] = {
@@ -17752,34 +17772,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Web Wrap <Shamorn>"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 1.8,
-								},
-							},
-							["amount"] = 1.8,
-						},
-						["Kor'kron Necrolyte"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Kor'kron Oracle"] = {
 							["Details"] = {
 								["Lava Burst"] = {
@@ -17802,11 +17794,11 @@ RecountPerCharDB = {
 						},
 						["Nerub'ar Broodkeeper"] = {
 							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 1.84,
+								},
 								["Lava Burst"] = {
 									["count"] = 0.46,
-								},
-								["Lightning Shield"] = {
-									["count"] = 16.61,
 								},
 								["Molten Earth"] = {
 									["count"] = 3.17,
@@ -17814,8 +17806,8 @@ RecountPerCharDB = {
 								["Flame Shock (DoT)"] = {
 									["count"] = 3.46,
 								},
-								["Flame Shock"] = {
-									["count"] = 1.84,
+								["Lightning Shield"] = {
+									["count"] = 16.61,
 								},
 								["Earth Shock"] = {
 									["count"] = 0.66,
@@ -17829,17 +17821,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 30.07,
 						},
-						["Kor'kron Vanquisher"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Kor'kron Invoker"] = {
 							["Details"] = {
 								["Lightning Bolt"] = {
@@ -17851,10 +17832,29 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Kor'kron Necrolyte"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 8275023,
 					["DispelledWho"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -17870,17 +17870,17 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Flame Shock (DoT)"] = {
 							["Details"] = {
-								["Goren Protector"] = {
-									["count"] = 3,
-								},
 								["Deathspeaker Attendant"] = {
+									["count"] = 0,
+								},
+								["Deathspeaker Disciple"] = {
 									["count"] = 0,
 								},
 								["Lady Deathwhisper"] = {
 									["count"] = 0,
 								},
-								["Deathspeaker Disciple"] = {
-									["count"] = 0,
+								["Goren Protector"] = {
+									["count"] = 3,
 								},
 							},
 							["amount"] = 3,
@@ -17959,8 +17959,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 3,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Shadow"] = 0,
@@ -17970,8 +17969,10 @@ RecountPerCharDB = {
 						["Physical"] = 0,
 						["Nature"] = 667,
 					},
-					["DOT_Time"] = 3,
-					["Damage"] = 18203,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 						["Physical"] = 0,
 					},
@@ -17979,201 +17980,18 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Corrosive Bite"] = {
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+						["Shamorn"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Consuming Shadows"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Lightning Shield"] = {
 									["count"] = 0,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Frostbolt Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Dark Martyrdom"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Cleave"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Death and Decay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Torpor"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Necrotic Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deathchill Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Chaos Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Deathchill Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
 					["FAttacks"] = {
 						["Lightning Shield"] = {
 							["Details"] = {
@@ -18188,69 +18006,262 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialBlock"] = {
-					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Fire"] = 10767,
 						["Physical"] = 0,
 						["Nature"] = 7436,
 					},
-					["CCBroken"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["DamagedWho"] = {
+						["Deformed Fanatic"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Multistrike"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Multistrike"] = {
+								["Earthquake"] = {
 									["count"] = 0,
 								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
+								["Thunderstorm"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Nature"] = {
+						["Lady Deathwhisper"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Multistrike"] = {
+								["Lava Burst"] = {
 									["count"] = 0,
 								},
-								["Reflect"] = {
+								["Lightning Bolt"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 2,
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 0,
+						},
+						["Risen Deathspeaker Servant"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Reanimated Fanatic"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deathspeaker Attendant"] = {
+							["Details"] = {
+								["Lava Burst"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Fulmination"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Chain Lightning"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goren Protector"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 785,
+								},
+								["Molten Earth"] = {
+									["count"] = 2920,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 305,
+								},
+								["Lava Burst"] = {
+									["count"] = 6933,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 6651,
+								},
+								["Flame Shock"] = {
+									["count"] = 609,
+								},
+							},
+							["amount"] = 18203,
+						},
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deathspeaker Zealot"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deathspeaker Disciple"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Chain Lightning"] = {
+									["count"] = 0,
+								},
+								["Molten Earth"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cult Adherent"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deathspeaker Servant"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Flames of Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Healing Surge"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoDamaged"] = {
 						["Empowered Adherent"] = {
 							["Details"] = {
@@ -18263,16 +18274,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Goren Protector"] = {
+						["Deathspeaker Attendant"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 4349,
-								},
-								["Corrosive Bite"] = {
-									["count"] = 667,
+								["Shadow Bolt"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5016,
+							["amount"] = 0,
 						},
 						["Deformed Fanatic"] = {
 							["Details"] = {
@@ -18313,27 +18321,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Reanimated Fanatic"] = {
+						["Deathspeaker Servant"] = {
 							["Details"] = {
-								["Shadow Cleave"] = {
-									["count"] = 0,
-								},
-								["Necrotic Strike"] = {
+								["Chaos Bolt"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Attendant"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
+								["Curse of Agony (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
+						},
+						["Goren Protector"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4349,
+								},
+								["Corrosive Bite"] = {
+									["count"] = 667,
+								},
+							},
+							["amount"] = 5016,
 						},
 						["Reanimated Adherent"] = {
 							["Details"] = {
@@ -18393,15 +18404,15 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Deathspeaker Servant"] = {
+						["Reanimated Fanatic"] = {
 							["Details"] = {
-								["Chaos Bolt"] = {
+								["Shadow Cleave"] = {
+									["count"] = 0,
+								},
+								["Necrotic Strike"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -18410,15 +18421,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["RageGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -18437,43 +18440,7 @@ RecountPerCharDB = {
 							["amount"] = 0.01,
 						},
 					},
-					["OverHeals"] = {
-						["Flames of Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Healing Surge"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 11.33,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -18488,16 +18455,16 @@ RecountPerCharDB = {
 						},
 					},
 					["PartialResist"] = {
-						["Corrosive Bite"] = {
+						["Curse of Agony"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Consuming Shadows"] = {
@@ -18536,7 +18503,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Curse of Agony"] = {
+						["Dark Martyrdom"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -18560,16 +18527,16 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Dark Martyrdom"] = {
+						["Corrosive Bite"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Shadow Bolt"] = {
@@ -18596,7 +18563,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Death and Decay (DoT)"] = {
+						["Chaos Bolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -18656,7 +18623,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Chaos Bolt"] = {
+						["Death and Decay (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -18681,11 +18648,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 11.33,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -18705,6 +18676,20 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeSpent"] = {
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Goren Protector"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
@@ -18727,6 +18712,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 11.32,
+						},
+						["Deformed Fanatic"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Lady Deathwhisper"] = {
 							["Details"] = {
@@ -18760,31 +18756,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Deformed Fanatic"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cult Fanatic"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Risen Deathspeaker Servant"] = {
 							["Details"] = {
 								["Lava Burst"] = {
@@ -18805,7 +18776,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Deathspeaker Servant"] = {
+						["Reanimated Fanatic"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
 									["count"] = 0,
@@ -18927,7 +18898,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Reanimated Fanatic"] = {
+						["Deathspeaker Servant"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
 									["count"] = 0,
@@ -18968,7 +18939,200 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+						["Curse of Agony"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Consuming Shadows"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Frostbolt Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Dark Martyrdom"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corrosive Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Cleave"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Chaos Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Torpor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Necrotic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deathchill Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Death and Decay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Deathchill Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
@@ -18985,9 +19149,9 @@ RecountPerCharDB = {
 						},
 					},
 					["Healing"] = 425,
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 						["Lava Burst"] = {
@@ -19240,18 +19404,61 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 425,
-					["DamagedWho"] = {
-						["Deformed Fanatic"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Earthquake"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Multistrike"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Multistrike"] = {
 									["count"] = 0,
 								},
-								["Thunderstorm"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Reflect"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 11.32,
+					["TimeDamaging"] = {
 						["Lady Deathwhisper"] = {
 							["Details"] = {
 								["Lava Burst"] = {
@@ -19279,6 +19486,54 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goren Protector"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 4.1,
+								},
+								["Molten Earth"] = {
+									["count"] = 1.45,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0.64,
+								},
+								["Lava Burst"] = {
+									["count"] = 0.65,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 1.95,
+								},
+								["Flame Shock"] = {
+									["count"] = 2.53,
+								},
+							},
+							["amount"] = 11.32,
+						},
+						["Deformed Fanatic"] = {
+							["Details"] = {
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cult Fanatic"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Earthquake"] = {
+									["count"] = 0,
+								},
+								["Thunderstorm"] = {
 									["count"] = 0,
 								},
 							},
@@ -19305,260 +19560,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 						["Reanimated Fanatic"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Attendant"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Chain Lightning"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Goren Protector"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 785,
-								},
-								["Molten Earth"] = {
-									["count"] = 2920,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 305,
-								},
-								["Lava Burst"] = {
-									["count"] = 6933,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 6651,
-								},
-								["Flame Shock"] = {
-									["count"] = 609,
-								},
-							},
-							["amount"] = 18203,
-						},
-						["Cult Fanatic"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Zealot"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Disciple"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chain Lightning"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cult Adherent"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Servant"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 11.32,
-					["TimeDamaging"] = {
-						["Goren Protector"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 4.1,
-								},
-								["Molten Earth"] = {
-									["count"] = 1.45,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0.64,
-								},
-								["Lava Burst"] = {
-									["count"] = 0.65,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 1.95,
-								},
-								["Flame Shock"] = {
-									["count"] = 2.53,
-								},
-							},
-							["amount"] = 11.32,
-						},
-						["Cult Fanatic"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deformed Fanatic"] = {
-							["Details"] = {
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Thunderstorm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lady Deathwhisper"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Flame Shock"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Fulmination"] = {
-									["count"] = 0,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Risen Deathspeaker Servant"] = {
-							["Details"] = {
-								["Lava Burst"] = {
-									["count"] = 0,
-								},
-								["Earthquake"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Molten Earth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Deathspeaker Servant"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
 									["count"] = 0,
@@ -19674,7 +19675,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Reanimated Fanatic"] = {
+						["Deathspeaker Servant"] = {
 							["Details"] = {
 								["Lightning Shield"] = {
 									["count"] = 0,
@@ -19690,8 +19691,7 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 18203,
 					["DispelledWho"] = {
 						["Shamorn"] = {
 							["Details"] = {
@@ -19735,34 +19735,6 @@ RecountPerCharDB = {
 						[0] = "Creature-0-3768-631-6719-15438-000074F2F5",
 					},
 				},
-				["Searing Totem"] = {
-					["LatestGuardian"] = 2,
-					["GUIDs"] = {
-						"Creature-0-3768-631-6719-2523-000074F37C", -- [1]
-						"Creature-0-3103-631-5716-2523-000075E9C8", -- [2]
-						[0] = "Creature-0-3768-631-6719-2523-000074F1FE",
-					},
-				},
-				["Greater Earth Elemental"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Creature-0-3768-631-6719-15352-000074F1FC",
-					},
-				},
-				["Fire Elemental Totem"] = {
-					["LatestGuardian"] = 2,
-					["GUIDs"] = {
-						"Creature-0-3768-631-6719-15439-000074F54D", -- [1]
-						"Creature-0-3103-631-5716-15439-000075E988", -- [2]
-						[0] = "Creature-0-3768-631-6719-15439-000074F2F5",
-					},
-				},
-				["Unknown"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Vehicle-0-3768-631-6719-36619-000074F202",
-					},
-				},
 				["Web Wrap"] = {
 					["LatestGuardian"] = 8,
 					["GUIDs"] = {
@@ -19782,10 +19754,38 @@ RecountPerCharDB = {
 						[0] = "Creature-0-3768-631-6719-38028-000074F1DF",
 					},
 				},
+				["Greater Earth Elemental"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3768-631-6719-15352-000074F1FC",
+					},
+				},
 				["Earth Elemental Totem"] = {
 					["LatestGuardian"] = 0,
 					["GUIDs"] = {
 						[0] = "Creature-0-3768-631-6719-15430-000074F1FC",
+					},
+				},
+				["Unknown"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Vehicle-0-3768-631-6719-36619-000074F202",
+					},
+				},
+				["Searing Totem"] = {
+					["LatestGuardian"] = 2,
+					["GUIDs"] = {
+						"Creature-0-3768-631-6719-2523-000074F37C", -- [1]
+						"Creature-0-3103-631-5716-2523-000075E9C8", -- [2]
+						[0] = "Creature-0-3768-631-6719-2523-000074F1FE",
+					},
+				},
+				["Fire Elemental Totem"] = {
+					["LatestGuardian"] = 2,
+					["GUIDs"] = {
+						"Creature-0-3768-631-6719-15439-000074F54D", -- [1]
+						"Creature-0-3103-631-5716-15439-000075E988", -- [2]
+						[0] = "Creature-0-3768-631-6719-15439-000074F2F5",
 					},
 				},
 			},
@@ -20065,11 +20065,10 @@ RecountPerCharDB = {
 				9657.951, -- [49]
 				9658.223, -- [50]
 			},
-			["LastAbility"] = 9666.821,
+			["LastAbility"] = 5487.47,
 		},
 		["Lord Marrowgar"] = {
 			["GUID"] = "Creature-0-3768-631-6719-36612-000074F19B",
-			["LastActive"] = 1417013744,
 			["LastEventHealth"] = {
 				"816767 (6%)", -- [1]
 				"802901 (6%)", -- [2]
@@ -20193,6 +20192,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 49427,
+			["LastActive"] = 1417013744,
 			["UnitLockout"] = 1416950404,
 			["Fights"] = {
 				["Fight1"] = {
@@ -20256,6 +20256,58 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 7267969,
+						["Melee"] = 745583,
+						["Nature"] = 4053772,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 73207,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Greater Fire Elemental <Shamorn>"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Shamorn"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 827,
+								},
+								["Melee"] = {
+									["count"] = 13552,
+								},
+								["Bone Slice"] = {
+									["count"] = 58805,
+								},
+							},
+							["amount"] = 73184,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 13552,
+						["Physical"] = 59655,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -20274,32 +20326,79 @@ RecountPerCharDB = {
 							["amount"] = 42,
 						},
 					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Searing Totem <Shamorn>"] = {
+							["Details"] = {
+								["Searing Bolt"] = {
+									["count"] = 129317,
+								},
+							},
+							["amount"] = 129317,
+						},
+						["Greater Fire Elemental <Shamorn>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 745583,
+								},
+								["Fire Blast"] = {
+									["count"] = 62745,
+								},
+							},
+							["amount"] = 808328,
+						},
+						["Shamorn"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 200825,
+								},
+								["Lightning Shield"] = {
+									["count"] = 447712,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 556595,
+								},
+								["Fulmination"] = {
+									["count"] = 485034,
+								},
+								["Molten Earth"] = {
+									["count"] = 2601044,
+								},
+								["Lava Burst"] = {
+									["count"] = 3787091,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 2920201,
+								},
+								["Flame Shock"] = {
+									["count"] = 131177,
+								},
+							},
+							["amount"] = 11129679,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["ElementTaken"] = {
-						["Fire"] = 7267969,
-						["Melee"] = 745583,
-						["Nature"] = 4053772,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 73207,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 13552,
-						["Physical"] = 59655,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Lava Burst"] = {
@@ -20435,83 +20534,42 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 79.64,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 						["Greater Fire Elemental <Shamorn>"] = {
 							["Details"] = {
 								["Bone Storm"] = {
-									["count"] = 23,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 23,
+							["amount"] = 0,
 						},
 						["Shamorn"] = {
 							["Details"] = {
 								["Bone Storm"] = {
-									["count"] = 827,
+									["count"] = 19.27,
 								},
 								["Melee"] = {
-									["count"] = 13552,
+									["count"] = 22.29,
 								},
 								["Bone Slice"] = {
-									["count"] = 58805,
+									["count"] = 38.08,
 								},
 							},
-							["amount"] = 73184,
+							["amount"] = 79.64,
 						},
 					},
-					["PartialBlock"] = {
+					["WhoDispelled"] = {
 					},
-					["WhoDamaged"] = {
-						["Searing Totem <Shamorn>"] = {
-							["Details"] = {
-								["Searing Bolt"] = {
-									["count"] = 129317,
-								},
-							},
-							["amount"] = 129317,
-						},
-						["Greater Fire Elemental <Shamorn>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 745583,
-								},
-								["Fire Blast"] = {
-									["count"] = 62745,
-								},
-							},
-							["amount"] = 808328,
-						},
-						["Shamorn"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 200825,
-								},
-								["Lightning Shield"] = {
-									["count"] = 447712,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 556595,
-								},
-								["Fulmination"] = {
-									["count"] = 485034,
-								},
-								["Molten Earth"] = {
-									["count"] = 2601044,
-								},
-								["Lava Burst"] = {
-									["count"] = 3787091,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 2920201,
-								},
-								["Flame Shock"] = {
-									["count"] = 131177,
-								},
-							},
-							["amount"] = 11129679,
-						},
+					["InterruptData"] = {
 					},
-					["EnergyGainedFrom"] = {
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Lava Burst"] = {
@@ -20647,69 +20705,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Greater Fire Elemental <Shamorn>"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shamorn"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 19.27,
-								},
-								["Melee"] = {
-									["count"] = 22.29,
-								},
-								["Bone Slice"] = {
-									["count"] = 38.08,
-								},
-							},
-							["amount"] = 79.64,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 79.64,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Bone Storm"] = {
 							["Details"] = {
@@ -20748,8 +20748,9 @@ RecountPerCharDB = {
 							["amount"] = 58805,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 79.64,
 					["TimeDamaging"] = {
 						["Greater Fire Elemental <Shamorn>"] = {
@@ -20776,8 +20777,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -20842,184 +20842,24 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 7267969,
 						["Melee"] = 745583,
 						["Nature"] = 4053772,
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 73207,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 13552,
-						["Physical"] = 59655,
-					},
-					["PartialAbsorb"] = {
-						["Lava Burst"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 17,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 72,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 72,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 32,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 32,
-							["amount"] = 0,
-						},
-						["Flame Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Lightning Shield"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 35,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 35,
-							["amount"] = 0,
-						},
-						["Flame Shock (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 48,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 48,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Molten Earth"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 44,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 0,
-						},
-						["Fulmination"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Searing Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Earth Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 						["Greater Fire Elemental <Shamorn>"] = {
@@ -21045,7 +20885,34 @@ RecountPerCharDB = {
 							["amount"] = 73184,
 						},
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 13552,
+						["Physical"] = 59655,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Searing Totem <Shamorn>"] = {
@@ -21099,6 +20966,197 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["Lava Burst"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 72,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 72,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 32,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 35,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 48,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Molten Earth"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 44,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 0,
+						},
+						["Fulmination"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Searing Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 79.64,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Greater Fire Elemental <Shamorn>"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shamorn"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 19.27,
+								},
+								["Melee"] = {
+									["count"] = 22.29,
+								},
+								["Bone Slice"] = {
+									["count"] = 38.08,
+								},
+							},
+							["amount"] = 79.64,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
 					["PartialResist"] = {
 						["Lava Burst"] = {
 							["Details"] = {
@@ -21233,69 +21291,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Greater Fire Elemental <Shamorn>"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shamorn"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 19.27,
-								},
-								["Melee"] = {
-									["count"] = 22.29,
-								},
-								["Bone Slice"] = {
-									["count"] = 38.08,
-								},
-							},
-							["amount"] = 79.64,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 79.64,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Bone Storm"] = {
 							["Details"] = {
@@ -21334,8 +21334,9 @@ RecountPerCharDB = {
 							["amount"] = 58805,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 79.64,
 					["TimeDamaging"] = {
 						["Greater Fire Elemental <Shamorn>"] = {
@@ -21362,8 +21363,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -21380,41 +21380,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -21422,22 +21421,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -21445,101 +21443,328 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["DamagedWho"] = {
-						["Greater Fire Elemental <Shamorn>"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Shamorn"] = {
-							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 2218,
-								},
-								["Melee"] = {
-									["count"] = 34607,
-								},
-								["Bone Slice"] = {
-									["count"] = 149639,
-								},
-							},
-							["amount"] = 186464,
-						},
-						["Greater Earth Elemental <Shamorn>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19096,
-								},
-								["Bone Storm"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 19133,
-						},
+					["ElementDone"] = {
+						["Melee"] = 53703,
+						["Physical"] = 151917,
 					},
-					["TimeDamage"] = 247.04,
-					["TimeSpent"] = {
-						["Greater Fire Elemental <Shamorn>"] = {
+					["PartialAbsorb"] = {
+						["Lava Burst"] = {
 							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 0,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 49,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 49,
 							["amount"] = 0,
 						},
-						["Shamorn"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Bone Storm"] = {
-									["count"] = 53.95,
-								},
-								["Melee"] = {
-									["count"] = 58.4,
-								},
-								["Bone Slice"] = {
-									["count"] = 95.49,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 78,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 207.84,
+							["count"] = 78,
+							["amount"] = 0,
 						},
-						["Greater Earth Elemental <Shamorn>"] = {
+						["Lightning Bolt"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 39.2,
-								},
-								["Bone Storm"] = {
-									["count"] = 0,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 57,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 39.2,
+							["count"] = 57,
+							["amount"] = 0,
+						},
+						["Fulmination"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Earthquake"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 73,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 73,
+							["amount"] = 0,
+						},
+						["Molten Earth"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 91,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 91,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 84,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 84,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Searing Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Lava Burst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 49,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 49,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 78,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 78,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 57,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 57,
+							["amount"] = 0,
+						},
+						["Fulmination"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Earthquake"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 73,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 73,
+							["amount"] = 0,
+						},
+						["Molten Earth"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 91,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 91,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 84,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 84,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Searing Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
 						},
 					},
 					["WhoDamaged"] = {
@@ -21603,152 +21828,7 @@ RecountPerCharDB = {
 							["amount"] = 4674,
 						},
 					},
-					["PartialResist"] = {
-						["Lava Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 49,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 49,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 78,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 78,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 57,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 57,
-							["amount"] = 0,
-						},
-						["Fulmination"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Earthquake"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Lightning Shield"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 73,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 73,
-							["amount"] = 0,
-						},
-						["Molten Earth"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 91,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 91,
-							["amount"] = 0,
-						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Flame Shock (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 84,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 84,
-							["amount"] = 0,
-						},
-						["Flame Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-						},
-						["Searing Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Earth Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
+					["TimeDamage"] = 247.04,
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
@@ -21811,155 +21891,84 @@ RecountPerCharDB = {
 						},
 					},
 					["DamageTaken"] = 24960984,
-					["PartialAbsorb"] = {
-						["Lava Burst"] = {
+					["DamagedWho"] = {
+						["Greater Fire Elemental <Shamorn>"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 49,
-									["amount"] = 0,
+								["Bone Storm"] = {
+									["count"] = 23,
 								},
 							},
-							["count"] = 49,
-							["amount"] = 0,
+							["amount"] = 23,
+						},
+						["Shamorn"] = {
+							["Details"] = {
+								["Bone Storm"] = {
+									["count"] = 2218,
+								},
+								["Melee"] = {
+									["count"] = 34607,
+								},
+								["Bone Slice"] = {
+									["count"] = 149639,
+								},
+							},
+							["amount"] = 186464,
+						},
+						["Greater Earth Elemental <Shamorn>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19096,
+								},
+								["Bone Storm"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 19133,
+						},
+					},
+					["Attacks"] = {
+						["Bone Storm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 96,
+									["min"] = 3,
+									["count"] = 40,
+									["amount"] = 2278,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 2278,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 78,
-									["amount"] = 0,
+								["Crit"] = {
+									["max"] = 1428,
+									["min"] = 1291,
+									["count"] = 2,
+									["amount"] = 2719,
 								},
-							},
-							["count"] = 78,
-							["amount"] = 0,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 57,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 57,
-							["amount"] = 0,
-						},
-						["Fulmination"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Earthquake"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Lightning Shield"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 73,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 856,
+									["min"] = 631,
+									["count"] = 71,
+									["amount"] = 50984,
 								},
 							},
 							["count"] = 73,
-							["amount"] = 0,
+							["amount"] = 53703,
 						},
-						["Molten Earth"] = {
+						["Bone Slice"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 91,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 2362,
+									["min"] = 2140,
+									["count"] = 66,
+									["amount"] = 149639,
 								},
 							},
-							["count"] = 91,
-							["amount"] = 0,
+							["count"] = 66,
+							["amount"] = 149639,
 						},
-						["Fire Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 0,
-						},
-						["Flame Shock (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 84,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 84,
-							["amount"] = 0,
-						},
-						["Flame Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-						},
-						["Searing Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Earth Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 53703,
-						["Physical"] = 151917,
 					},
 					["DeathCount"] = 2,
 					["ElementHitsDone"] = {
@@ -22025,48 +22034,39 @@ RecountPerCharDB = {
 						["Melee"] = 750257,
 						["Nature"] = 8122794,
 					},
-					["Attacks"] = {
-						["Bone Storm"] = {
+					["TimeSpent"] = {
+						["Greater Fire Elemental <Shamorn>"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 3,
-									["count"] = 40,
-									["amount"] = 2278,
+								["Bone Storm"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 40,
-							["amount"] = 2278,
+							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Shamorn"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 1428,
-									["min"] = 1291,
-									["count"] = 2,
-									["amount"] = 2719,
+								["Bone Storm"] = {
+									["count"] = 53.95,
 								},
-								["Hit"] = {
-									["max"] = 856,
-									["min"] = 631,
-									["count"] = 71,
-									["amount"] = 50984,
+								["Melee"] = {
+									["count"] = 58.4,
+								},
+								["Bone Slice"] = {
+									["count"] = 95.49,
 								},
 							},
-							["count"] = 73,
-							["amount"] = 53703,
+							["amount"] = 207.84,
 						},
-						["Bone Slice"] = {
+						["Greater Earth Elemental <Shamorn>"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 2362,
-									["min"] = 2140,
-									["count"] = 66,
-									["amount"] = 149639,
+								["Melee"] = {
+									["count"] = 39.2,
+								},
+								["Bone Storm"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 66,
-							["amount"] = 149639,
+							["amount"] = 39.2,
 						},
 					},
 					["Damage"] = 205620,
@@ -22107,20 +22107,20 @@ RecountPerCharDB = {
 				nil, -- [29]
 				0.0937893759533126, -- [30]
 				0.114936335300749, -- [31]
+				[46] = 0.165942701770674,
 				[33] = 0.105809403806618,
-				[34] = 0.0428493268784402,
 				[35] = 0.409725445984482,
-				[36] = 0.699938656409576,
 				[37] = 0.0937893759533126,
-				[38] = 0.165942701770674,
-				[40] = 0.114936335300749,
 				[41] = 0.0465548113270111,
 				[43] = 0.093781086278931,
-				[44] = 0.409725445984482,
 				[45] = 0.0379832880164467,
-				[46] = 0.165942701770674,
 				[48] = 0.105809403806618,
+				[34] = 0.0428493268784402,
+				[36] = 0.699938656409576,
+				[38] = 0.165942701770674,
+				[40] = 0.114936335300749,
 				[49] = 0.699930366735195,
+				[44] = 0.409725445984482,
 				[50] = 0.0428493268784402,
 			},
 			["type"] = "Boss",
@@ -23058,7 +23058,7 @@ RecountPerCharDB = {
 				9660.559, -- [49]
 				9660.859, -- [50]
 			},
-			["LastAbility"] = 9662.521,
+			["LastAbility"] = 5487.47,
 		},
 		["Alliance Gunship Cannon <Shamorn>"] = {
 			["GUID"] = "Vehicle-0-3768-631-6719-36838-000074F19C",
@@ -23112,117 +23112,18 @@ RecountPerCharDB = {
 			},
 			["Name"] = "Alliance Gunship Cannon",
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["LastFightData"] = {
-					["DamagedWho"] = {
-						["Kor'kron Axethrower"] = {
+					["Attacks"] = {
+						["Incinerating Blast"] = {
 							["Details"] = {
-								["Incinerating Blast"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
@@ -23273,6 +23174,20 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["ActiveTime"] = 0,
 					["FDamagedWho"] = {
 						["Orgrim's Hammer"] = {
 							["Details"] = {
@@ -23286,32 +23201,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Attacks"] = {
-						["Incinerating Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
 					["TimeDamage"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
 					["TimeDamaging"] = {
 						["Kor'kron Axethrower"] = {
 							["Details"] = {
@@ -23333,20 +23223,134 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FDamage"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-					},
-					["Damage"] = 0,
-				},
-				["OverallData"] = {
 					["DamagedWho"] = {
 						["Kor'kron Axethrower"] = {
 							["Details"] = {
 								["Incinerating Blast"] = {
-									["count"] = 2461426,
+									["count"] = 0,
 								},
 							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Damage"] = 0,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["Attacks"] = {
+						["Incinerating Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1230713,
+									["min"] = 1230713,
+									["count"] = 2,
+									["amount"] = 2461426,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 2461426,
 						},
 					},
@@ -23397,6 +23401,20 @@ RecountPerCharDB = {
 							["amount"] = 37500,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 2461426,
+					},
+					["ActiveTime"] = 7,
 					["FDamagedWho"] = {
 						["Orgrim's Hammer"] = {
 							["Details"] = {
@@ -23410,32 +23428,7 @@ RecountPerCharDB = {
 							["amount"] = 1268214,
 						},
 					},
-					["Attacks"] = {
-						["Incinerating Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1230713,
-									["min"] = 1230713,
-									["count"] = 2,
-									["amount"] = 2461426,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2461426,
-						},
-					},
 					["TimeDamage"] = 7,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ActiveTime"] = 7,
 					["TimeDamaging"] = {
 						["Kor'kron Axethrower"] = {
 							["Details"] = {
@@ -23457,10 +23450,17 @@ RecountPerCharDB = {
 							["amount"] = 3.5,
 						},
 					},
-					["FDamage"] = 1268214,
-					["ElementDone"] = {
-						["Fire"] = 2461426,
+					["DamagedWho"] = {
+						["Kor'kron Axethrower"] = {
+							["Details"] = {
+								["Incinerating Blast"] = {
+									["count"] = 2461426,
+								},
+							},
+							["amount"] = 2461426,
+						},
 					},
+					["FDamage"] = 1268214,
 					["Damage"] = 2461426,
 				},
 			},
@@ -23483,7 +23483,7 @@ RecountPerCharDB = {
 				37421.668, -- [3]
 				37421.668, -- [4]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Lady Deathwhisper"] = {
 			["GUID"] = "Creature-0-3768-631-6719-36855-000074F19C",
@@ -23677,41 +23677,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -23719,22 +23718,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -23742,28 +23740,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -23780,41 +23780,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -23822,22 +23821,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -23845,28 +23843,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24292,58 +24292,6 @@ RecountPerCharDB = {
 							["amount"] = 6145,
 						},
 					},
-					["TimeDamaging"] = {
-						["Shamorn"] = {
-							["Details"] = {
-								["Death and Decay (DoT)"] = {
-									["count"] = 38.97,
-								},
-								["Melee"] = {
-									["count"] = 1.67,
-								},
-								["Frostbolt Volley"] = {
-									["count"] = 2.58,
-								},
-								["Frostbolt"] = {
-									["count"] = 42.09,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 77.04,
-								},
-							},
-							["amount"] = 162.35,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 36,
-								},
-								["Tick"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 84,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["TimeDamage"] = 162.35,
 					["WhoDamaged"] = {
 						["Searing Totem <Shamorn>"] = {
 							["Details"] = {
@@ -24398,6 +24346,51 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 698122,
+						},
+					},
+					["DamagedWho"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Death and Decay (DoT)"] = {
+									["count"] = 3502,
+								},
+								["Melee"] = {
+									["count"] = 1161,
+								},
+								["Frostbolt Volley"] = {
+									["count"] = 984,
+								},
+								["Frostbolt"] = {
+									["count"] = 18675,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 6145,
+								},
+							},
+							["amount"] = 30467,
+						},
+					},
+					["TimeDamage"] = 162.35,
+					["TimeDamaging"] = {
+						["Shamorn"] = {
+							["Details"] = {
+								["Death and Decay (DoT)"] = {
+									["count"] = 38.97,
+								},
+								["Melee"] = {
+									["count"] = 1.67,
+								},
+								["Frostbolt Volley"] = {
+									["count"] = 2.58,
+								},
+								["Frostbolt"] = {
+									["count"] = 42.09,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 77.04,
+								},
+							},
+							["amount"] = 162.35,
 						},
 					},
 					["ElementHitsTaken"] = {
@@ -24463,26 +24456,33 @@ RecountPerCharDB = {
 						["Melee"] = 1161,
 						["Frost"] = 19659,
 					},
-					["DamagedWho"] = {
-						["Shamorn"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Death and Decay (DoT)"] = {
-									["count"] = 3502,
+								["Hit"] = {
+									["count"] = 36,
 								},
-								["Melee"] = {
-									["count"] = 1161,
-								},
-								["Frostbolt Volley"] = {
-									["count"] = 984,
-								},
-								["Frostbolt"] = {
-									["count"] = 18675,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 6145,
+								["Tick"] = {
+									["count"] = 48,
 								},
 							},
-							["amount"] = 30467,
+							["amount"] = 84,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
 						},
 					},
 				},
@@ -24945,7 +24945,7 @@ RecountPerCharDB = {
 				37069.62, -- [49]
 				37070.615, -- [50]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 		["Earth Elemental Totem <Shamorn>"] = {
 			["GUID"] = "Creature-0-3768-631-6719-15430-000074F1FC",
@@ -25006,41 +25006,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -25048,22 +25047,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -25071,28 +25069,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -25109,41 +25109,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -25151,22 +25150,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -25174,28 +25172,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -25222,7 +25222,7 @@ RecountPerCharDB = {
 			["LastEventTimes"] = {
 				36738.998, -- [1]
 			},
-			["LastAbility"] = 8959.08,
+			["LastAbility"] = 5487.47,
 		},
 	},
 	["FightNum"] = 11,

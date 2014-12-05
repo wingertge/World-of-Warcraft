@@ -14,14 +14,6 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["Alliance"] = {
 		},
 	},
-	["Blade's Edge"] = {
-		["Alliance"] = {
-		},
-	},
-	["Aman'Thul"] = {
-		["Alliance"] = {
-		},
-	},
 	["Lightbringer"] = {
 		["Horde"] = {
 		},
@@ -32,6 +24,14 @@ AucAdvancedFilterBasic_IgnoreList = {
 	},
 	["Shattered Hand"] = {
 		["Horde"] = {
+		},
+	},
+	["Aman'Thul"] = {
+		["Alliance"] = {
+		},
+	},
+	["Blade's Edge"] = {
+		["Alliance"] = {
 		},
 	},
 }

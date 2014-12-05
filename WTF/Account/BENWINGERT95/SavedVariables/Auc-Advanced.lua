@@ -1,5 +1,7 @@
 
 AucAdvancedConfig = {
+	["users.Lightbringer.Mograr"] = "Default",
+	["version"] = 1,
 	["profile.Default"] = {
 		["configator.left"] = 560.000061035156,
 		["core"] = {
@@ -7,12 +9,6 @@ AucAdvancedConfig = {
 				["matcherlist"] = {
 					"Undercut", -- [1]
 					"BeanCount", -- [2]
-				},
-			},
-		},
-		["stat"] = {
-			["sales"] = {
-				["ignoredsigs"] = {
 				},
 			},
 		},
@@ -35,34 +31,38 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+			},
+		},
 		["configator.top"] = 764.999938964844,
 	},
-	["users.Lightbringer.Mograr"] = "Default",
-	["version"] = 1,
 }
 AucAdvancedData = {
 	["AserArbitrageRealms"] = {
 		["Teldrassil"] = "Käsestange",
 		["Mannoroth"] = "Frantik",
 		["Aszune"] = "Octalux",
-		["Blade's Edge"] = "Benigno",
-		["Aman'Thul"] = "Tragazar",
 		["Lightbringer"] = "Mograr",
 		["Anetheron"] = "Blûbbrbrnd",
 		["Shattered Hand"] = "Incantora",
+		["Aman'Thul"] = "Tragazar",
+		["Blade's Edge"] = "Benigno",
 	},
 	["Stats"] = {
 	},
 	["UtilSearchUiData"] = {
-		["Global"] = {
-			["configator.left"] = 510.000030517578,
-			["configator.top"] = 790,
-		},
+		["Version"] = 1,
 		["Current"] = {
 			["snatch.itemsList"] = {
 			},
 		},
-		["Version"] = 1,
+		["Global"] = {
+			["configator.left"] = 510.000030517578,
+			["configator.top"] = 790,
+		},
 		["SavedSearches"] = {
 		},
 	},

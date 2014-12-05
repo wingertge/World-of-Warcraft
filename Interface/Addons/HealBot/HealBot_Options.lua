@@ -789,12 +789,16 @@ local HealBot_Debuff_Types = {
 
 function HealBot_Options_setDebuffTypes()
     if HealBot_Data["PCLASSTRIM"]=="SHAM" then
-        if (strsub(GetLocale(),1,2)~="en") and HealBot_Config.CurrentSpec==3 then
+        if HealBot_Config.CurrentSpec==3 then
             HealBot_Debuff_Types[HEALBOT_CLEANSE_SPIRIT]={HEALBOT_MAGIC_en, HEALBOT_CURSE_en}
+        else
+            HealBot_Debuff_Types[HEALBOT_CLEANSE_SPIRIT]={HEALBOT_CURSE_en}
         end
     elseif HealBot_Data["PCLASSTRIM"]=="MONK" then
         if HealBot_Config.CurrentSpec==2 then
-            HealBot_Debuff_Types[HEALBOT_DETOX] = {HEALBOT_MAGIC_en, HEALBOT_DISEASE_en, HEALBOT_POISON_en}
+            HealBot_Debuff_Types[HEALBOT_DETOX]={HEALBOT_MAGIC_en, HEALBOT_DISEASE_en, HEALBOT_POISON_en}
+        else
+            HealBot_Debuff_Types[HEALBOT_DETOX]={HEALBOT_DISEASE_en, HEALBOT_POISON_en}
         end
     end
 end
@@ -4636,6 +4640,7 @@ function HealBot_Options_SelectHealSpellsCombo_DDlist()
             HEALBOT_BLACKOUT_KICK,
             HEALBOT_TOUCH_OF_DEATH,
             HEALBOT_CRACKLING_JADE_LIGHTNING,
+            HEALBOT_HOLY_WORD_CHASTISE,
             HEALBOT_DENOUNCE,
             HEALBOT_HAMMER_OF_WRATH,
             HEALBOT_HOLY_SHOCK,
@@ -4691,6 +4696,7 @@ function HealBot_Options_SelectHealSpellsCombo_DDlist()
             HEALBOT_MENDPET,
             HEALBOT_HEALTH_FUNNEL,
             HEALBOT_HOLY_WORD_SERENITY,
+            HEALBOT_HOLY_WORD_SANCTUARY,
             HEALBOT_SOOTHING_MIST,
             HEALBOT_ZEN_MEDITATION,
             HEALBOT_LIFE_COCOON,
@@ -4814,6 +4820,7 @@ local function HealBot_Options_SelectOtherSpellsCombo_DDlist()
             HEALBOT_NATURES_CURE,
             HEALBOT_PURIFY,
             HEALBOT_CLEANSE_SPIRIT,
+            HEALBOT_PURIFY_SPIRIT,
             HEALBOT_LIFE_TAP,
             HEALBOT_DIVINE_SHIELD,
             HEALBOT_DIVINE_PROTECTION,
@@ -4845,9 +4852,6 @@ local function HealBot_Options_SelectOtherSpellsCombo_DDlist()
             if HealBot_GetSpellId(spellName) then
                 table.insert(tmpOtherDDlist,spellName)
             end
-        end
-        if HealBot_Data["PCLASSTRIM"]=="SHAM" and HealBot_GetSpellId(HEALBOT_PURIFY_SPIRIT) then
-            table.insert(tmpOtherDDlist,HEALBOT_PURIFY_SPIRIT)
         end
         for j=1, getn(HealBot_Buff_Spells_List), 1 do
             table.insert(tmpOtherDDlist,HealBot_Buff_Spells_List[j])
@@ -7388,7 +7392,7 @@ function HealBot_Options_Debuff_Reset()
             end
             if HealBot_Debuff_Types[sName] then
                 table.foreach(HealBot_Debuff_Types[sName], function (i,dName)
-                    
+
                     if not HealBot_DebuffSpell[dName] then
                         HealBot_DebuffSpell[dName]=sName;
                     end
@@ -9398,6 +9402,13 @@ function HealBot_Options_Init(tabNo)
         HealBot_HighlightActiveBarColour:SetStatusBarTexture(LSM:Fetch('statusbar',HealBot_Default_Textures[16].name));
         HealBot_HighlightTargetBarColour:SetStatusBarTexture(LSM:Fetch('statusbar',HealBot_Default_Textures[16].name));
         HealBot_Aggro3Colorpick:SetStatusBarTexture(LSM:Fetch('statusbar',HealBot_Default_Textures[16].name));
+    end
+end
+
+function HealBot_Options_ResetSpellsHealperDropdown(ddType)
+    if ddType=="SPELLS" then
+        DoneInitTab[801]=nil
+        HealBot_Options_InitSub(801)
     end
 end
 

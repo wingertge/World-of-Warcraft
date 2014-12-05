@@ -181,7 +181,7 @@ if L then
 L["bombardment"] = "Bombardement"
 L["bombardment_desc"] = "Bombarde Hurlevent et laisse des gerbes de feu sur le sol. Les étoiles de fer Kor'kron n'apparaissent que durant les bombardements."
 L["chain_heal_bar"] = "Focalisation : Salve de guérison"
-L["chain_heal_desc"] = "Rend 40% de ses points de vie maximum à une cible alliée et se propage aux cibles alliées à proximité."
+L["chain_heal_desc"] = "{focus}Rend 40% de ses points de vie maximum à une cible alliée et se propage aux cibles alliées à proximité."
 L["chain_heal_message"] = "Votre focalisation est en train d'incanter Salve de guérison !"
 L["clump_check_desc"] = "Vérifie toutes les 3 secondes durant les bombardements les joueurs regroupés. Si un regroupement est trouvé, une étoile de fer Kor'kron apparaîtra."
 L["clump_check_warning"] = "Regroupement détecté, arrivée d'une étoile"

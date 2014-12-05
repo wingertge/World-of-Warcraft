@@ -10,39 +10,30 @@ mod.otherMenu = 962
 mod.worldBoss = 81252
 
 --------------------------------------------------------------------------------
--- Localization
---
-
-local L = mod:NewLocale("enUS", true)
-if L then
-
-end
-L = mod:GetLocale()
-
---------------------------------------------------------------------------------
 -- Initialization
 --
 
 function mod:GetOptions()
 	return {
-		175791, 175953, 175827, {175915, "FLASH"}, "bosskill"
+		175791, -- Colossal Slam
+		175827, -- Call of Earth
+		{175915, "FLASH"}, -- Acid Breath
+		"bosskill"
 	}
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("PLAYER_REGEN_DISABLED", "CheckForEngage")
-	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
-
 	self:Log("SPELL_CAST_START", "ColossalSlam", 175791)
-	self:Log("SPELL_CAST_START", "GigaSmash", 175953)
-	self:Log("SPELL_CAST_START", "CallOfEarth", 175827)
+	self:Log("SPELL_CAST_SUCCESS", "CallOfEarth", 175827)
 	self:Log("SPELL_AURA_APPLIED", "AcidBreath", 175915)
 
+	self:RegisterEvent("PLAYER_REGEN_DISABLED", "CheckForEngage")
+	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
 	self:Death("Win", 81252)
 end
 
 function mod:OnEngage()
-
+	--
 end
 
 --------------------------------------------------------------------------------
@@ -50,16 +41,15 @@ end
 --
 
 function mod:ColossalSlam(args)
-	self:Message(args.spellId, "Urgent", "Alarm")
-end
-
-function mod:GigaSmash(args)
-	self:Message(args.spellId, "Urgent")
+	self:Message(args.spellId, "Important", "Alarm")
 end
 
 function mod:CallOfEarth(args)
 	self:Message(args.spellId, "Attention")
-	self:Bar(args.spellId, 20, CL.cast:format(args.spellName))
+	self:CDBar(args.spellId, 90.5)
+	 -- Actual channel is 20s but the CLEU event lags way behind the UNIT event.
+	 -- Unsure if that's how it's designed or if 100 players was affecting it.
+	self:Bar(args.spellId, 17.3, CL.cast:format(args.spellName))
 end
 
 function mod:AcidBreath(args)

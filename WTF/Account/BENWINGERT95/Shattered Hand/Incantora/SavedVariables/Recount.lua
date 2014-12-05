@@ -2,853 +2,6 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["Aeonus"] = {
-			["GUID"] = "Creature-0-1469-269-6974-17881-0000631A6E",
-			["type"] = "Trivial",
-			["FightsSaved"] = 1,
-			["LastAttackedBy"] = "Incantora",
-			["Owner"] = false,
-			["enClass"] = "MOB",
-			["LastDamageTaken"] = 31075,
-			["LastFightIn"] = 10,
-			["UnitLockout"] = 1415781000,
-			["Name"] = "Aeonus",
-			["LastActive"] = 1415781011,
-			["Fights"] = {
-				["OverallData"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-					["DamagedWho"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-					["DamagedWho"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-					["DamagedWho"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 9.52,
-						},
-					},
-				},
-			},
-			["level"] = 72,
-			["LastDamageAbility"] = "Frostbolt",
-			["LastAbility"] = 72465.796,
-		},
-		["Temporus"] = {
-			["GUID"] = "Creature-0-1469-269-6974-17880-000063194A",
-			["type"] = "Trivial",
-			["FightsSaved"] = 5,
-			["LastAttackedBy"] = "Incantora",
-			["Owner"] = false,
-			["enClass"] = "MOB",
-			["LastDamageTaken"] = 57711,
-			["LastFightIn"] = 6,
-			["UnitLockout"] = 1415780713,
-			["Name"] = "Temporus",
-			["LastActive"] = 1415780716,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 53617,
-								},
-								["Frostbolt"] = {
-									["count"] = 91006,
-								},
-								["Icicle"] = {
-									["count"] = 1919,
-								},
-							},
-							["amount"] = 146542,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["DamagedWho"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 53617,
-								},
-								["Frostbolt"] = {
-									["count"] = 91006,
-								},
-								["Icicle"] = {
-									["count"] = 1919,
-								},
-							},
-							["amount"] = 146542,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["DamagedWho"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-				},
-			},
-			["level"] = 72,
-			["LastDamageAbility"] = "Frostbolt",
-			["LastAbility"] = 72465.796,
-		},
-		["Chrono Lord Deja"] = {
-			["GUID"] = "Creature-0-1469-269-6974-17879-0000631831",
-			["type"] = "Trivial",
-			["FightsSaved"] = 5,
-			["LastAttackedBy"] = "Incantora",
-			["Owner"] = false,
-			["enClass"] = "MOB",
-			["LastDamageTaken"] = 101333,
-			["LastFightIn"] = 2,
-			["UnitLockout"] = 1415780430,
-			["Name"] = "Chrono Lord Deja",
-			["LastActive"] = 1415780434,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["WhoDamaged"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 101333,
-								},
-								["Frostbolt"] = {
-									["count"] = 92115,
-								},
-								["Unstable Magic"] = {
-									["count"] = 16093,
-								},
-							},
-							["amount"] = 209541,
-						},
-					},
-					["TimeSpent"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["TimeDamaging"] = {
-						["Incantora"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-				},
-			},
-			["level"] = 72,
-			["LastDamageAbility"] = "Ice Lance",
-			["LastAbility"] = 72465.796,
-		},
 		["Incantora"] = {
 			["GUID"] = "Player-633-0745C683",
 			["LastEventHealth"] = {
@@ -957,7 +110,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["ActiveTime"] = {
+				["TimeDamage"] = {
 					124.62, -- [1]
 				},
 				["Damage"] = {
@@ -966,7 +119,7 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					292, -- [1]
 				},
-				["TimeDamage"] = {
+				["ActiveTime"] = {
 					124.62, -- [1]
 				},
 			},
@@ -981,2792 +134,61 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1415781011,
-			["UnitLockout"] = 1415780299,
-			["Owner"] = false,
-			["Fights"] = {
-				["OverallData"] = {
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.11,
-								},
-								["Frostbolt"] = {
-									["count"] = 24.49,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 27.6,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.2,
-								},
-							},
-							["amount"] = 4.2,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostfire Bolt"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.82,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.37,
-								},
-								["Icicle"] = {
-									["count"] = 1.92,
-								},
-							},
-							["amount"] = 7.11,
-						},
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 1.23,
-								},
-								["Frostbolt"] = {
-									["count"] = 45.89,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 47.12,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.59,
-								},
-								["Frostbolt"] = {
-									["count"] = 6.65,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.24,
-						},
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.3,
-								},
-							},
-							["amount"] = 3.3,
-						},
-					},
-					["TimeSpent"] = {
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.11,
-								},
-								["Frostbolt"] = {
-									["count"] = 24.49,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 27.6,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.2,
-								},
-							},
-							["amount"] = 4.2,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostfire Bolt"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.82,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.37,
-								},
-								["Icicle"] = {
-									["count"] = 1.92,
-								},
-							},
-							["amount"] = 7.11,
-						},
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 1.23,
-								},
-								["Frostbolt"] = {
-									["count"] = 45.89,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 47.12,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.59,
-								},
-								["Frostbolt"] = {
-									["count"] = 6.65,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.24,
-						},
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.3,
-								},
-							},
-							["amount"] = 3.3,
-						},
-					},
-					["DamageTaken"] = 292,
-					["ActiveTime"] = 124.62,
-					["ElementDone"] = {
-						["Frost"] = 1683775,
-						["Frostfire"] = 312702,
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 65,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamagedWho"] = {
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 69584,
-								},
-							},
-							["amount"] = 69584,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 24728,
-								},
-								["Frostbolt"] = {
-									["count"] = 270796,
-								},
-								["Unstable Magic"] = {
-									["count"] = 16647,
-								},
-							},
-							["amount"] = 312171,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 4162,
-								},
-								["Frostbolt"] = {
-									["count"] = 65479,
-								},
-							},
-							["amount"] = 69641,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 32185,
-								},
-								["Frostfire Bolt"] = {
-									["count"] = 173535,
-								},
-							},
-							["amount"] = 205720,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 53617,
-								},
-								["Frostbolt"] = {
-									["count"] = 91006,
-								},
-								["Icicle"] = {
-									["count"] = 1919,
-								},
-							},
-							["amount"] = 146542,
-						},
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 30751,
-								},
-							},
-							["amount"] = 30751,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 139167,
-								},
-								["Frostbolt"] = {
-									["count"] = 564899,
-								},
-								["Unstable Magic"] = {
-									["count"] = 4162,
-								},
-							},
-							["amount"] = 708228,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 101333,
-								},
-								["Frostbolt"] = {
-									["count"] = 92115,
-								},
-								["Unstable Magic"] = {
-									["count"] = 16093,
-								},
-							},
-							["amount"] = 209541,
-						},
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 32185,
-								},
-							},
-							["amount"] = 32185,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 10998,
-								},
-							},
-							["amount"] = 10998,
-						},
-					},
-					["TimeDamage"] = 124.62,
-					["WhoDamaged"] = {
-						["Temporus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 292,
-					},
-					["Attacks"] = {
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 69584,
-									["min"] = 4162,
-									["count"] = 6,
-									["amount"] = 142833,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 142833,
-						},
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15376,
-									["min"] = 15376,
-									["count"] = 1,
-									["amount"] = 15376,
-								},
-								["Hit"] = {
-									["max"] = 7688,
-									["min"] = 7687,
-									["count"] = 2,
-									["amount"] = 15375,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 30751,
-						},
-						["Ice Lance"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 101333,
-									["min"] = 24728,
-									["count"] = 2,
-									["amount"] = 126061,
-								},
-								["Hit"] = {
-									["max"] = 53617,
-									["min"] = 10998,
-									["count"] = 3,
-									["amount"] = 79831,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 205892,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 8324,
-									["min"] = 8324,
-									["count"] = 2,
-									["amount"] = 16648,
-								},
-								["Crit"] = {
-									["max"] = 64370,
-									["min"] = 55491,
-									["count"] = 4,
-									["amount"] = 237503,
-								},
-								["Hit"] = {
-									["max"] = 33295,
-									["min"] = 27745,
-									["count"] = 34,
-									["amount"] = 1045451,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 1299602,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 139167,
-									["min"] = 114104,
-									["count"] = 2,
-									["amount"] = 253271,
-								},
-								["Hit"] = {
-									["max"] = 59431,
-									["min"] = 59431,
-									["count"] = 1,
-									["amount"] = 59431,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 312702,
-						},
-						["Icicle"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 759,
-									["min"] = 106,
-									["count"] = 11,
-									["amount"] = 4697,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 4697,
-						},
-					},
-					["Damage"] = 1996477,
-				},
-				["Fight5"] = {
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.82,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.37,
-								},
-								["Icicle"] = {
-									["count"] = 1.92,
-								},
-							},
-							["amount"] = 7.11,
-						},
-					},
-					["TimeSpent"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0.82,
-								},
-								["Frostbolt"] = {
-									["count"] = 4.37,
-								},
-								["Icicle"] = {
-									["count"] = 1.92,
-								},
-							},
-							["amount"] = 7.11,
-						},
-					},
-					["DamageTaken"] = 98,
-					["ActiveTime"] = 7.11,
-					["ElementDone"] = {
-						["Frost"] = 146542,
-						["Frostfire"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Infinite Assassin"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temporus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 53617,
-								},
-								["Frostbolt"] = {
-									["count"] = 91006,
-								},
-								["Icicle"] = {
-									["count"] = 1919,
-								},
-							},
-							["amount"] = 146542,
-						},
-					},
-					["TimeDamage"] = 7.11,
-					["WhoDamaged"] = {
-						["Temporus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 98,
-					},
-					["Attacks"] = {
-						["Ice Lance"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 53617,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 53617,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 53617,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 57711,
-									["min"] = 57711,
-									["count"] = 1,
-									["amount"] = 57711,
-								},
-								["Hit"] = {
-									["max"] = 33295,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 33295,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 91006,
-						},
-						["Icicle"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 752,
-									["min"] = 365,
-									["count"] = 4,
-									["amount"] = 1919,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 1919,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 146542,
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Frostbolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Ice Lance"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 100,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 100,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 201116,
-						["Frostfire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Aeonus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 14.05,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Icicle"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 759,
-									["min"] = 106,
-									["count"] = 7,
-									["amount"] = 2778,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 2778,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 59931,
-									["min"] = 59931,
-									["count"] = 1,
-									["amount"] = 59931,
-								},
-								["Hit"] = {
-									["max"] = 32185,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 123191,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 183122,
-						},
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ice Lance"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15216,
-									["min"] = 15216,
-									["count"] = 1,
-									["amount"] = 15216,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 15216,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 14.05,
-					["TimeDamaging"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 201116,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 58820,
-						["Frostfire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 58820,
-								},
-							},
-							["amount"] = 58820,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 5.6,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.6,
-								},
-							},
-							["amount"] = 5.6,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Blizzard"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 31075,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 58820,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 58820,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 5.6,
-					["TimeDamaging"] = {
-						["Infinite Whelp"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.6,
-								},
-							},
-							["amount"] = 5.6,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 58820,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 100,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 100,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 201116,
-						["Frostfire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 15216,
-								},
-								["Frostbolt"] = {
-									["count"] = 183122,
-								},
-								["Icicle"] = {
-									["count"] = 2778,
-								},
-							},
-							["amount"] = 201116,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Aeonus"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 14.05,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Icicle"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 759,
-									["min"] = 106,
-									["count"] = 7,
-									["amount"] = 2778,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 2778,
-						},
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 59931,
-									["min"] = 59931,
-									["count"] = 1,
-									["amount"] = 59931,
-								},
-								["Hit"] = {
-									["max"] = 32185,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 123191,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 183122,
-						},
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ice Lance"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15216,
-									["min"] = 15216,
-									["count"] = 1,
-									["amount"] = 15216,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 15216,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Frostfire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 14.05,
-					["TimeDamaging"] = {
-						["Darkwater Crocolisk"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Snake"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Aeonus"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 1,
-								},
-								["Frostbolt"] = {
-									["count"] = 8.5,
-								},
-								["Icicle"] = {
-									["count"] = 4.55,
-								},
-							},
-							["amount"] = 14.05,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 201116,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 62150,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 62150,
-								},
-							},
-							["amount"] = 62150,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 5.42,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 32185,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 62150,
-								},
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 62150,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeDamage"] = 5.42,
-					["TimeDamaging"] = {
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 62150,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 95444,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 62150,
-								},
-							},
-							["amount"] = 62150,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 33294,
-								},
-							},
-							["amount"] = 33294,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 6.35,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.17,
-								},
-							},
-							["amount"] = 5.17,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Ice Lance"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 33294,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 95444,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 95444,
-						},
-						["Unstable Magic"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeDamage"] = 6.35,
-					["TimeDamaging"] = {
-						["Rift Keeper"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rift Lord"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 5.17,
-								},
-							},
-							["amount"] = 5.17,
-						},
-						["Infinite Executioner"] = {
-							["Details"] = {
-								["Frostbolt"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-						["Blackfang Tarantula"] = {
-							["Details"] = {
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Chrono Lord Deja"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0,
-								},
-								["Unstable Magic"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 95444,
-					["DispelledWho"] = {
-					},
-				},
+			["LastAbility"] = 5234.936,
+			["LastEventTimes"] = {
+				52525.469, -- [1]
+				52527.566, -- [2]
+				52564.478, -- [3]
+				52566.149, -- [4]
+				52567.332, -- [5]
+				52587.58, -- [6]
+				52589.497, -- [7]
+				52617.002, -- [8]
+				52617.341, -- [9]
+				52618.647, -- [10]
+				52639.601, -- [11]
+				52641.615, -- [12]
+				52642.321, -- [13]
+				52643.082, -- [14]
+				52643.668, -- [15]
+				52644.323, -- [16]
+				52645.099, -- [17]
+				52645.684, -- [18]
+				52646.331, -- [19]
+				52646.687, -- [20]
+				52647.212, -- [21]
+				52647.922, -- [22]
+				52648.339, -- [23]
+				52648.621, -- [24]
+				52649.399, -- [25]
+				52650.057, -- [26]
+				52650.143, -- [27]
+				52245.706, -- [28]
+				52246.94, -- [29]
+				52246.94, -- [30]
+				52273.823, -- [31]
+				52275.621, -- [32]
+				52301.937, -- [33]
+				52301.937, -- [34]
+				52303.39, -- [35]
+				52305.044, -- [36]
+				52324.839, -- [37]
+				52326.408, -- [38]
+				52337.449, -- [39]
+				52351.462, -- [40]
+				52352.282, -- [41]
+				52353.251, -- [42]
+				52353.579, -- [43]
+				52353.909, -- [44]
+				52354.195, -- [45]
+				52354.296, -- [46]
+				52355.065, -- [47]
+				52363.805, -- [48]
+				52495.676, -- [49]
+				52497.49, -- [50]
 			},
+			["Owner"] = false,
+			["LastDamageTaken"] = 100,
 			["NextEventNum"] = 28,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -3873,13 +295,6 @@ RecountPerCharDB = {
 				"Incantora Frostbolt Rift Lord Hit -31075 (Frost)", -- [50]
 			},
 			["Name"] = "Incantora",
-			["TimeLast"] = {
-				["ActiveTime"] = 1415781011,
-				["TimeDamage"] = 1415781011,
-				["OVERALL"] = 1415781011,
-				["DamageTaken"] = 1415781005,
-				["Damage"] = 1415781011,
-			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -3932,60 +347,3645 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
-			["LastDamageTaken"] = 100,
-			["LastEventTimes"] = {
-				52525.469, -- [1]
-				52527.566, -- [2]
-				52564.478, -- [3]
-				52566.149, -- [4]
-				52567.332, -- [5]
-				52587.58, -- [6]
-				52589.497, -- [7]
-				52617.002, -- [8]
-				52617.341, -- [9]
-				52618.647, -- [10]
-				52639.601, -- [11]
-				52641.615, -- [12]
-				52642.321, -- [13]
-				52643.082, -- [14]
-				52643.668, -- [15]
-				52644.323, -- [16]
-				52645.099, -- [17]
-				52645.684, -- [18]
-				52646.331, -- [19]
-				52646.687, -- [20]
-				52647.212, -- [21]
-				52647.922, -- [22]
-				52648.339, -- [23]
-				52648.621, -- [24]
-				52649.399, -- [25]
-				52650.057, -- [26]
-				52650.143, -- [27]
-				52245.706, -- [28]
-				52246.94, -- [29]
-				52246.94, -- [30]
-				52273.823, -- [31]
-				52275.621, -- [32]
-				52301.937, -- [33]
-				52301.937, -- [34]
-				52303.39, -- [35]
-				52305.044, -- [36]
-				52324.839, -- [37]
-				52326.408, -- [38]
-				52337.449, -- [39]
-				52351.462, -- [40]
-				52352.282, -- [41]
-				52353.251, -- [42]
-				52353.579, -- [43]
-				52353.909, -- [44]
-				52354.195, -- [45]
-				52354.296, -- [46]
-				52355.065, -- [47]
-				52363.805, -- [48]
-				52495.676, -- [49]
-				52497.49, -- [50]
+			["TimeLast"] = {
+				["ActiveTime"] = 1415781011,
+				["TimeDamage"] = 1415781011,
+				["OVERALL"] = 1415781011,
+				["DamageTaken"] = 1415781005,
+				["Damage"] = 1415781011,
 			},
-			["LastAbility"] = 72465.796,
+			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 95444,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 95444,
+					},
+					["DamagedWho"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 62150,
+								},
+							},
+							["amount"] = 62150,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 33294,
+								},
+							},
+							["amount"] = 33294,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.17,
+								},
+							},
+							["amount"] = 5.17,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 6.35,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Ice Lance"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 33294,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 95444,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 95444,
+						},
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 6.35,
+					["TimeDamaging"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.17,
+								},
+							},
+							["amount"] = 5.17,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 1.18,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["TimeSpent"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.82,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.37,
+								},
+								["Icicle"] = {
+									["count"] = 1.92,
+								},
+							},
+							["amount"] = 7.11,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Ice Lance"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 53617,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 53617,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 53617,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 57711,
+									["min"] = 57711,
+									["count"] = 1,
+									["amount"] = 57711,
+								},
+								["Hit"] = {
+									["max"] = 33295,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 33295,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 91006,
+						},
+						["Icicle"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 752,
+									["min"] = 365,
+									["count"] = 4,
+									["amount"] = 1919,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1919,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDamaged"] = {
+						["Temporus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 98,
+					["TimeDamage"] = 7.11,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 53617,
+								},
+								["Frostbolt"] = {
+									["count"] = 91006,
+								},
+								["Icicle"] = {
+									["count"] = 1919,
+								},
+							},
+							["amount"] = 146542,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 7.11,
+					["TimeDamaging"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.82,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.37,
+								},
+								["Icicle"] = {
+									["count"] = 1.92,
+								},
+							},
+							["amount"] = 7.11,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 98,
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 0,
+						["Frost"] = 146542,
+					},
+					["Damage"] = 146542,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 0,
+					},
+					["DamagedWho"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Ice Lance"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 62150,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 62150,
+					},
+					["DamagedWho"] = {
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 62150,
+								},
+							},
+							["amount"] = 62150,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.42,
+								},
+							},
+							["amount"] = 5.42,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 5.42,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 32185,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 62150,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 62150,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 5.42,
+					["TimeDamaging"] = {
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.42,
+								},
+							},
+							["amount"] = 5.42,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 58820,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frostfire"] = 0,
+						["Frost"] = 58820,
+					},
+					["DamagedWho"] = {
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 58820,
+								},
+							},
+							["amount"] = 58820,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.6,
+								},
+							},
+							["amount"] = 5.6,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 5.6,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31075,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 58820,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 58820,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 5.6,
+					["TimeDamaging"] = {
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 5.6,
+								},
+							},
+							["amount"] = 5.6,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 100,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 201116,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 100,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frostfire"] = 0,
+						["Frost"] = 201116,
+					},
+					["DamagedWho"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Aeonus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 14.05,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Icicle"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 759,
+									["min"] = 106,
+									["count"] = 7,
+									["amount"] = 2778,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 2778,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 59931,
+									["min"] = 59931,
+									["count"] = 1,
+									["amount"] = 59931,
+								},
+								["Hit"] = {
+									["max"] = 32185,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 123191,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 183122,
+						},
+						["Ice Lance"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15216,
+									["min"] = 15216,
+									["count"] = 1,
+									["amount"] = 15216,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 15216,
+						},
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 14.05,
+					["TimeDamaging"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 100,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 201116,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 100,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frostfire"] = 0,
+						["Frost"] = 201116,
+					},
+					["DamagedWho"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Aeonus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 14.05,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Icicle"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 759,
+									["min"] = 106,
+									["count"] = 7,
+									["amount"] = 2778,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 2778,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 59931,
+									["min"] = 59931,
+									["count"] = 1,
+									["amount"] = 59931,
+								},
+								["Hit"] = {
+									["max"] = 32185,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 123191,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 183122,
+						},
+						["Ice Lance"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15216,
+									["min"] = 15216,
+									["count"] = 1,
+									["amount"] = 15216,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 15216,
+						},
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 14.05,
+					["TimeDamaging"] = {
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 3.11,
+								},
+								["Frostbolt"] = {
+									["count"] = 24.49,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 27.6,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 4.2,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 3.3,
+								},
+							},
+							["amount"] = 3.3,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.82,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.37,
+								},
+								["Icicle"] = {
+									["count"] = 1.92,
+								},
+							},
+							["amount"] = 7.11,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.59,
+								},
+								["Frostbolt"] = {
+									["count"] = 6.65,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.24,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 1.23,
+								},
+								["Frostbolt"] = {
+									["count"] = 45.89,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 47.12,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Unstable Magic"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 69584,
+									["min"] = 4162,
+									["count"] = 6,
+									["amount"] = 142833,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 142833,
+						},
+						["Icicle"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 759,
+									["min"] = 106,
+									["count"] = 11,
+									["amount"] = 4697,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 4697,
+						},
+						["Blizzard"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 15376,
+									["min"] = 15376,
+									["count"] = 1,
+									["amount"] = 15376,
+								},
+								["Hit"] = {
+									["max"] = 7688,
+									["min"] = 7687,
+									["count"] = 2,
+									["amount"] = 15375,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 30751,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 8324,
+									["min"] = 8324,
+									["count"] = 2,
+									["amount"] = 16648,
+								},
+								["Crit"] = {
+									["max"] = 64370,
+									["min"] = 55491,
+									["count"] = 4,
+									["amount"] = 237503,
+								},
+								["Hit"] = {
+									["max"] = 33295,
+									["min"] = 27745,
+									["count"] = 34,
+									["amount"] = 1045451,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 1299602,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 139167,
+									["min"] = 114104,
+									["count"] = 2,
+									["amount"] = 253271,
+								},
+								["Hit"] = {
+									["max"] = 59431,
+									["min"] = 59431,
+									["count"] = 1,
+									["amount"] = 59431,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 312702,
+						},
+						["Ice Lance"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 101333,
+									["min"] = 24728,
+									["count"] = 2,
+									["amount"] = 126061,
+								},
+								["Hit"] = {
+									["max"] = 53617,
+									["min"] = 10998,
+									["count"] = 3,
+									["amount"] = 79831,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 205892,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["WhoDamaged"] = {
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 94,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 292,
+					["TimeDamage"] = 124.62,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 69584,
+								},
+							},
+							["amount"] = 69584,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 24728,
+								},
+								["Frostbolt"] = {
+									["count"] = 270796,
+								},
+								["Unstable Magic"] = {
+									["count"] = 16647,
+								},
+							},
+							["amount"] = 312171,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 4162,
+								},
+								["Frostbolt"] = {
+									["count"] = 65479,
+								},
+							},
+							["amount"] = 69641,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 32185,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 173535,
+								},
+							},
+							["amount"] = 205720,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 10998,
+								},
+							},
+							["amount"] = 10998,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 53617,
+								},
+								["Frostbolt"] = {
+									["count"] = 91006,
+								},
+								["Icicle"] = {
+									["count"] = 1919,
+								},
+							},
+							["amount"] = 146542,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 32185,
+								},
+							},
+							["amount"] = 32185,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 101333,
+								},
+								["Frostbolt"] = {
+									["count"] = 92115,
+								},
+								["Unstable Magic"] = {
+									["count"] = 16093,
+								},
+							},
+							["amount"] = 209541,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 139167,
+								},
+								["Frostbolt"] = {
+									["count"] = 564899,
+								},
+								["Unstable Magic"] = {
+									["count"] = 4162,
+								},
+							},
+							["amount"] = 708228,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 30751,
+								},
+							},
+							["amount"] = 30751,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 124.62,
+					["TimeDamaging"] = {
+						["Snake"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rift Keeper"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 3.11,
+								},
+								["Frostbolt"] = {
+									["count"] = 24.49,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 27.6,
+						},
+						["Infinite Executioner"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 4.2,
+						},
+						["Blackfang Tarantula"] = {
+							["Details"] = {
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Infinite Assassin"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 3.3,
+								},
+							},
+							["amount"] = 3.3,
+						},
+						["Temporus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.82,
+								},
+								["Frostbolt"] = {
+									["count"] = 4.37,
+								},
+								["Icicle"] = {
+									["count"] = 1.92,
+								},
+							},
+							["amount"] = 7.11,
+						},
+						["Aeonus"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 1,
+								},
+								["Frostbolt"] = {
+									["count"] = 8.5,
+								},
+								["Icicle"] = {
+									["count"] = 4.55,
+								},
+							},
+							["amount"] = 14.05,
+						},
+						["Darkwater Crocolisk"] = {
+							["Details"] = {
+								["Frostbolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Chrono Lord Deja"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 0.59,
+								},
+								["Frostbolt"] = {
+									["count"] = 6.65,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.24,
+						},
+						["Rift Lord"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 1.23,
+								},
+								["Frostbolt"] = {
+									["count"] = 45.89,
+								},
+								["Unstable Magic"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 47.12,
+						},
+						["Infinite Whelp"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 292,
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 312702,
+						["Frost"] = 1683775,
+					},
+					["Damage"] = 1996477,
+				},
+			},
+			["UnitLockout"] = 1415780299,
+			["LastActive"] = 1415781011,
+		},
+		["Chrono Lord Deja"] = {
+			["GUID"] = "Creature-0-1469-269-6974-17879-0000631831",
+			["type"] = "Trivial",
+			["FightsSaved"] = 5,
+			["LastAttackedBy"] = "Incantora",
+			["Owner"] = false,
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 101333,
+			["LastAbility"] = 5234.936,
+			["LastDamageAbility"] = "Ice Lance",
+			["Name"] = "Chrono Lord Deja",
+			["LastActive"] = 1415780434,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 101333,
+								},
+								["Frostbolt"] = {
+									["count"] = 92115,
+								},
+								["Unstable Magic"] = {
+									["count"] = 16093,
+								},
+							},
+							["amount"] = 209541,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+				},
+			},
+			["level"] = 72,
+			["UnitLockout"] = 1415780430,
+			["LastFightIn"] = 2,
+		},
+		["Temporus"] = {
+			["GUID"] = "Creature-0-1469-269-6974-17880-000063194A",
+			["type"] = "Trivial",
+			["FightsSaved"] = 5,
+			["LastAttackedBy"] = "Incantora",
+			["Owner"] = false,
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 57711,
+			["LastAbility"] = 5234.936,
+			["LastDamageAbility"] = "Frostbolt",
+			["Name"] = "Temporus",
+			["LastActive"] = 1415780716,
+			["Fights"] = {
+				["Fight5"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 53617,
+								},
+								["Frostbolt"] = {
+									["count"] = 91006,
+								},
+								["Icicle"] = {
+									["count"] = 1919,
+								},
+							},
+							["amount"] = 146542,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamagedWho"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 53617,
+								},
+								["Frostbolt"] = {
+									["count"] = 91006,
+								},
+								["Icicle"] = {
+									["count"] = 1919,
+								},
+							},
+							["amount"] = 146542,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamagedWho"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+				},
+			},
+			["level"] = 72,
+			["UnitLockout"] = 1415780713,
+			["LastFightIn"] = 6,
+		},
+		["Aeonus"] = {
+			["GUID"] = "Creature-0-1469-269-6974-17881-0000631A6E",
+			["type"] = "Trivial",
+			["FightsSaved"] = 1,
+			["LastAttackedBy"] = "Incantora",
+			["Owner"] = false,
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 31075,
+			["LastAbility"] = 5234.936,
+			["LastDamageAbility"] = "Frostbolt",
+			["Name"] = "Aeonus",
+			["LastActive"] = 1415781011,
+			["Fights"] = {
+				["Fight1"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+					["DamagedWho"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+					["DamagedWho"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["WhoDamaged"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Ice Lance"] = {
+									["count"] = 15216,
+								},
+								["Frostbolt"] = {
+									["count"] = 183122,
+								},
+								["Icicle"] = {
+									["count"] = 2778,
+								},
+							},
+							["amount"] = 201116,
+						},
+					},
+					["TimeSpent"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+					["DamagedWho"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["TimeDamaging"] = {
+						["Incantora"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.52,
+								},
+							},
+							["amount"] = 9.52,
+						},
+					},
+				},
+			},
+			["level"] = 72,
+			["UnitLockout"] = 1415781000,
+			["LastFightIn"] = 10,
 		},
 	},
 	["FightNum"] = 11,

@@ -1,0 +1,38 @@
+------------------------------------------------------------------------
+r56 | funkydude | 2014-12-05 13:52:16 +0000 (Fri, 05 Dec 2014) | 1 line
+Changed paths:
+   A /tags/r56-release (from /trunk:55)
+
+Tagging as r56-release
+------------------------------------------------------------------------
+r55 | ananhaid | 2014-12-05 11:13:30 +0000 (Fri, 05 Dec 2014) | 1 line
+Changed paths:
+   M /trunk/modules.xml
+
+Load module locale files after the modules.
+------------------------------------------------------------------------
+r54 | funkydude | 2014-11-21 23:18:44 +0000 (Fri, 21 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Ulduar/Mimiron.lua
+
+Mimiron: Fix green texture on engage message.
+------------------------------------------------------------------------
+r52 | funkydude | 2014-11-04 00:13:22 +0000 (Tue, 04 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Naxxramas/Kelthuzad.lua
+   M /trunk/Naxxramas/Maexxna.lua
+
+Final UNIT_HEALTH fixes.
+------------------------------------------------------------------------
+r51 | ethancentaurai | 2014-11-04 00:01:54 +0000 (Tue, 04 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Citadel/Putricide.lua
+
+Citadel/Putricide: Fixed an error on line 144.
+------------------------------------------------------------------------
+r50 | funkydude | 2014-11-03 22:31:37 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Northrend/Malygos.lua
+
+Northrend/Malygos: Fix line 161 error
+------------------------------------------------------------------------

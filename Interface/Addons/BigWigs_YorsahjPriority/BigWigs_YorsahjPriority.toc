@@ -1,5 +1,5 @@
 ## Interface: 60000
-## X-Curse-Packaged-Version: r58-release
+## X-Curse-Packaged-Version: r62-release
 ## X-Curse-Project-Name: BigWigs_YorsahjPriority
 ## X-Curse-Project-ID: bigwigs_yorsahjpriority
 ## X-Curse-Repository-ID: wow/bigwigs_yorsahjpriority/mainline
@@ -24,6 +24,6 @@
 ## X-Category: Raid
 ## X-BigWigs-LoadOn-ZoneId: 824
 
-locales.xml
 Core.lua
+locales.xml
 

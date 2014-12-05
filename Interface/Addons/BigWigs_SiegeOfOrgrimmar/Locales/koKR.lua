@@ -178,7 +178,7 @@ if L then
 L["bombardment"] = "폭격"
 L["bombardment_desc"] = "스톰윈드를 폭격하고, 지면에 불길의 흔적을 남깁니다. 폭격 동안에만 코르크론 강철의 별이 소환될 수 있습니다."
 L["chain_heal_bar"] = "주시: 연쇄 치유"
-L["chain_heal_desc"] = "아군 대상의 최대 생명력의 40%를 치유하고, 인접한 아군 대상에게 튕겨갑니다."
+L["chain_heal_desc"] = "{focus}아군 대상의 최대 생명력의 40%를 치유하고, 인접한 아군 대상에게 튕겨갑니다."
 L["chain_heal_message"] = "당신의 주시 대상이 연쇄 치유를 시전합니다"
 L["clump_check_desc"] = "폭격 동안 3초마다 플레이어들이 뭉쳐있는 지 확인합니다. 뭉쳐있는 것이 발견된다면 코르크론 강철의 별이 소환됩니다."
 L["clump_check_warning"] = "불안정한 강철의 별 생성"

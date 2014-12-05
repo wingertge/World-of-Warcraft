@@ -1,0 +1,38 @@
+------------------------------------------------------------------------
+r223 | funkydude | 2014-12-03 10:18:10 +0000 (Wed, 03 Dec 2014) | 1 line
+Changed paths:
+   A /tags/r223-release (from /trunk:222)
+
+Tagging as r223-release
+------------------------------------------------------------------------
+r222 | funkydude | 2014-12-03 10:17:27 +0000 (Wed, 03 Dec 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+Use module name for BW events.
+------------------------------------------------------------------------
+r221 | nebula169 | 2014-12-03 09:46:11 +0000 (Wed, 03 Dec 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+fix lua error
+------------------------------------------------------------------------
+r219 | nebula169 | 2014-12-03 01:20:03 +0000 (Wed, 03 Dec 2014) | 2 lines
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+fix ignoring BigWigs_CommonAuras
+tweak difficulty names
+------------------------------------------------------------------------
+r218 | funkydude | 2014-11-17 10:55:07 +0000 (Mon, 17 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+Missed a tostring.
+------------------------------------------------------------------------
+r217 | funkydude | 2014-11-16 18:44:49 +0000 (Sun, 16 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Transcriptor.lua
+
+Add CINEMATIC_START and PLAY_MOVIE events.
+------------------------------------------------------------------------

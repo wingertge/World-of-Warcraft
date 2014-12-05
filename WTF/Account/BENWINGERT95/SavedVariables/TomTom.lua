@@ -14,33 +14,36 @@ TomTomDB = {
 		["Trolonom - Mannoroth"] = "Default",
 		["Deslock - Mannoroth"] = "Default",
 		["Ots - Mannoroth"] = "Default",
+		["Worgard - Blade's Edge"] = "Default",
 		["Incantora - Shattered Hand"] = "Default",
 		["Piora - Lightbringer"] = "Default",
 		["Archagon - Aszune"] = "Default",
+		["Paladriano - Aszune"] = "Default",
+		["Alladinae - Teldrassil"] = "Default",
 		["Paladriana - Blade's Edge"] = "Default",
-		["Tôdkommt - Aszune"] = "Default",
-		["Blûbbrbrnd - Anetheron"] = "Default",
-		["Gladimar - Blade's Edge"] = "Default",
-		["Klore - Aszune"] = "Default",
+		["Shamorn - Blade's Edge"] = "Default",
+		["Shagel - Aszune"] = "Default",
 		["Tôdi - Teldrassil"] = "Default",
+		["Klore - Aszune"] = "Default",
+		["Todkommt - Mannoroth"] = "Default",
 		["Manianor - Blade's Edge"] = "Default",
-		["Puckerina - Shattered Hand"] = "Default",
+		["Tôdkommt - Teldrassil"] = "Default",
 		["Oct - Mannoroth"] = "Default",
 		["Schurkêgurkê - Teldrassil"] = "Default",
 		["Monodev - Aszune"] = "Default",
 		["Todkommt - Teldrassil"] = "Default",
-		["Sdfgsdfghsdf - Mannoroth"] = "Default",
-		["Deathanddk - Blade's Edge"] = "Default",
-		["Frantik - Mannoroth"] = "Default",
 		["Defanddk - Shattered Hand"] = "Default",
+		["Deathanddk - Blade's Edge"] = "Default",
+		["Puckerina - Shattered Hand"] = "Default",
+		["Frantik - Mannoroth"] = "Default",
 		["Mograr - Lightbringer"] = "Default",
-		["Todkommt - Mannoroth"] = "Default",
-		["Shagel - Aszune"] = "Default",
-		["Tôdkommt - Teldrassil"] = "Default",
-		["Shamorn - Blade's Edge"] = "Default",
+		["Sdfgsdfghsdf - Mannoroth"] = "Default",
+		["Gnawl - Aszune"] = "Default",
+		["Blûbbrbrnd - Anetheron"] = "Default",
+		["Gladimar - Blade's Edge"] = "Default",
 		["Todkommt - Aman'Thul"] = "Default",
-		["Alladinae - Teldrassil"] = "Default",
-		["Paladriano - Aszune"] = "Default",
+		["Tôdkommt - Aszune"] = "Default",
+		["Alladinae - Blade's Edge"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -69,33 +72,36 @@ TomTomWaypointsMF = {
 		["Trolonom - Mannoroth"] = "Trolonom - Mannoroth",
 		["Deslock - Mannoroth"] = "Deslock - Mannoroth",
 		["Ots - Mannoroth"] = "Ots - Mannoroth",
+		["Worgard - Blade's Edge"] = "Worgard - Blade's Edge",
 		["Incantora - Shattered Hand"] = "Incantora - Shattered Hand",
 		["Piora - Lightbringer"] = "Piora - Lightbringer",
 		["Archagon - Aszune"] = "Archagon - Aszune",
+		["Paladriano - Aszune"] = "Paladriano - Aszune",
+		["Alladinae - Teldrassil"] = "Alladinae - Teldrassil",
 		["Paladriana - Blade's Edge"] = "Paladriana - Blade's Edge",
-		["Tôdkommt - Aszune"] = "Tôdkommt - Aszune",
-		["Blûbbrbrnd - Anetheron"] = "Blûbbrbrnd - Anetheron",
-		["Gladimar - Blade's Edge"] = "Gladimar - Blade's Edge",
-		["Klore - Aszune"] = "Klore - Aszune",
+		["Shamorn - Blade's Edge"] = "Shamorn - Blade's Edge",
+		["Shagel - Aszune"] = "Shagel - Aszune",
 		["Tôdi - Teldrassil"] = "Tôdi - Teldrassil",
+		["Klore - Aszune"] = "Klore - Aszune",
+		["Todkommt - Mannoroth"] = "Todkommt - Mannoroth",
 		["Manianor - Blade's Edge"] = "Manianor - Blade's Edge",
-		["Puckerina - Shattered Hand"] = "Puckerina - Shattered Hand",
+		["Tôdkommt - Teldrassil"] = "Tôdkommt - Teldrassil",
 		["Oct - Mannoroth"] = "Oct - Mannoroth",
 		["Schurkêgurkê - Teldrassil"] = "Schurkêgurkê - Teldrassil",
 		["Monodev - Aszune"] = "Monodev - Aszune",
 		["Todkommt - Teldrassil"] = "Todkommt - Teldrassil",
-		["Sdfgsdfghsdf - Mannoroth"] = "Sdfgsdfghsdf - Mannoroth",
-		["Deathanddk - Blade's Edge"] = "Deathanddk - Blade's Edge",
-		["Frantik - Mannoroth"] = "Frantik - Mannoroth",
 		["Defanddk - Shattered Hand"] = "Defanddk - Shattered Hand",
+		["Deathanddk - Blade's Edge"] = "Deathanddk - Blade's Edge",
+		["Puckerina - Shattered Hand"] = "Puckerina - Shattered Hand",
+		["Frantik - Mannoroth"] = "Frantik - Mannoroth",
 		["Mograr - Lightbringer"] = "Mograr - Lightbringer",
-		["Todkommt - Mannoroth"] = "Todkommt - Mannoroth",
-		["Shagel - Aszune"] = "Shagel - Aszune",
-		["Tôdkommt - Teldrassil"] = "Tôdkommt - Teldrassil",
-		["Shamorn - Blade's Edge"] = "Shamorn - Blade's Edge",
+		["Sdfgsdfghsdf - Mannoroth"] = "Sdfgsdfghsdf - Mannoroth",
+		["Gnawl - Aszune"] = "Gnawl - Aszune",
+		["Blûbbrbrnd - Anetheron"] = "Blûbbrbrnd - Anetheron",
+		["Gladimar - Blade's Edge"] = "Gladimar - Blade's Edge",
 		["Todkommt - Aman'Thul"] = "Todkommt - Aman'Thul",
-		["Alladinae - Teldrassil"] = "Alladinae - Teldrassil",
-		["Paladriano - Aszune"] = "Paladriano - Aszune",
+		["Tôdkommt - Aszune"] = "Tôdkommt - Aszune",
+		["Alladinae - Blade's Edge"] = "Alladinae - Blade's Edge",
 	},
 	["profiles"] = {
 		["Killertyp - Teldrassil"] = {
@@ -124,27 +130,33 @@ TomTomWaypointsMF = {
 		},
 		["Ots - Mannoroth"] = {
 		},
+		["Worgard - Blade's Edge"] = {
+		},
 		["Incantora - Shattered Hand"] = {
 		},
 		["Piora - Lightbringer"] = {
 		},
 		["Archagon - Aszune"] = {
 		},
+		["Paladriano - Aszune"] = {
+		},
+		["Alladinae - Teldrassil"] = {
+		},
 		["Paladriana - Blade's Edge"] = {
 		},
-		["Tôdkommt - Aszune"] = {
+		["Shamorn - Blade's Edge"] = {
 		},
-		["Blûbbrbrnd - Anetheron"] = {
-		},
-		["Gladimar - Blade's Edge"] = {
-		},
-		["Klore - Aszune"] = {
+		["Shagel - Aszune"] = {
 		},
 		["Tôdi - Teldrassil"] = {
 		},
+		["Klore - Aszune"] = {
+		},
+		["Todkommt - Mannoroth"] = {
+		},
 		["Manianor - Blade's Edge"] = {
 		},
-		["Puckerina - Shattered Hand"] = {
+		["Tôdkommt - Teldrassil"] = {
 		},
 		["Oct - Mannoroth"] = {
 		},
@@ -154,29 +166,29 @@ TomTomWaypointsMF = {
 		},
 		["Todkommt - Teldrassil"] = {
 		},
-		["Sdfgsdfghsdf - Mannoroth"] = {
+		["Defanddk - Shattered Hand"] = {
 		},
 		["Deathanddk - Blade's Edge"] = {
 		},
-		["Frantik - Mannoroth"] = {
+		["Puckerina - Shattered Hand"] = {
 		},
-		["Defanddk - Shattered Hand"] = {
+		["Frantik - Mannoroth"] = {
 		},
 		["Mograr - Lightbringer"] = {
 		},
-		["Todkommt - Mannoroth"] = {
+		["Sdfgsdfghsdf - Mannoroth"] = {
 		},
-		["Shagel - Aszune"] = {
+		["Gnawl - Aszune"] = {
 		},
-		["Tôdkommt - Teldrassil"] = {
+		["Blûbbrbrnd - Anetheron"] = {
 		},
-		["Shamorn - Blade's Edge"] = {
+		["Gladimar - Blade's Edge"] = {
 		},
 		["Todkommt - Aman'Thul"] = {
 		},
-		["Alladinae - Teldrassil"] = {
+		["Tôdkommt - Aszune"] = {
 		},
-		["Paladriano - Aszune"] = {
+		["Alladinae - Blade's Edge"] = {
 		},
 	},
 }

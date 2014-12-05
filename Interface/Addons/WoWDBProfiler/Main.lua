@@ -14,8 +14,6 @@ local next = _G.next
 local select = _G.select
 local unpack = _G.unpack
 
-local LOOT_SLOT_CURRENCY, LOOT_SLOT_ITEM, LOOT_SLOT_MONEY = _G.LOOT_SLOT_CURRENCY, _G.LOOT_SLOT_ITEM, _G.LOOT_SLOT_MONEY
-
 
 -- ADDON NAMESPACE ----------------------------------------------------
 
@@ -49,6 +47,10 @@ local PLAYER_FACTION = _G.UnitFactionGroup("player")
 local PLAYER_GUID
 local PLAYER_NAME = _G.UnitName("player")
 local PLAYER_RACE = _G.select(2, _G.UnitRace("player"))
+
+local LOOT_SLOT_CURRENCY = _G.LOOT_SLOT_CURRENCY
+local LOOT_SLOT_ITEM = _G.LOOT_SLOT_ITEM
+local LOOT_SLOT_MONEY = _G.LOOT_SLOT_MONEY
 
 local TIMBER_ITEM_ID = 114781
 
@@ -201,13 +203,7 @@ local function Debug(message, ...)
         local args = { ... }
 
         for index = 1, #args do
-            if args[index] == nil then
-                args[index] = "nil"
-            elseif args[index] == true then
-                args[index] = "true"
-            elseif args[index] == false then
-                args[index] = "false"
-            end
+            args[index] = tostring(args[index])
         end
         _G.print(message:format(unpack(args)))
     else
@@ -1292,6 +1288,10 @@ function WDP:SHOW_LOOT_TOAST(event_name, loot_type, item_link, quantity, spec_ID
     if not loot_type or (loot_type ~= "item" and loot_type ~= "money" and loot_type ~= "currency") then
         Debug("%s: loot_type is %s. Item link is %s, and quantity is %d.", event_name, loot_type, item_link, quantity)
         return
+    -- loot_source of 3 seems to occur only when it is being 'faked' and the item was actually in the loot window, whereas loot_source of 1 or 10 is real
+    -- Ignoring this event when the loot_source is 'faked' should drastically reduce the chances of loot data being misrecorded
+    elseif not loot_source or loot_source == 3 then
+        Debug("%s: Aborting attempts to handle loot toast because it has a loot_source of 3 or nil.", event_name)
     end
     local container_id = private.loot_toast_container_id
     local npc_id = private.raid_boss_id

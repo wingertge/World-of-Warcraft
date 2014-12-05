@@ -62,6 +62,7 @@ L.AMR_SLASH_COMMAND_TEXT_7 = '  /amr export -- export character, bag, and bank d
 --createMainMenu
 L.AMR_UI_MENU_EXPORT = "Export"
 L.AMR_UI_MENU_GEAR = "Load a Gear Set"
+L.AMR_UI_MENU_SETTINGS = "Settings"
 L.AMR_UI_MENU_COMBAT_LOG = "Combat Log"
 L.AMR_UI_MENU_HELP = "Help"
 
@@ -90,13 +91,17 @@ L.AMR_WAIT_BAD_ARGUMENTS = "Bad Arguments to amr__wait"
 
 --dir ui
 --ui/CombatLogTab.lua
+L.AMR_SETTINGSTAB_SETTINGS = "Settings"
 L.AMR_COMBATLOGTAB_COMBAT_LOGGING = "Combat Logging"
 L.AMR_COMBATLOGTAB_START_LOGGING = "Start Logging"
 L.AMR_COMBATLOGTAB_CURRENTLY_LOGGING = "|c0000ff00Currently Logging|r"
 L.AMR_COMBATLOGTAB_STOP_LOGGING = "Stop Logging"
-L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_LABEL = "Always log Siege of Orgrimmar"
-L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_TOOLTIP_TITLE = "Auto-Log Siege of Orgrimmar"
-L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_DESCRIPTION =  "Automatically start logging when you enter SoO and stop when you leave SoO.\n\nNote that you should disable similar features in other addons to avoid conflicts."
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_LABEL = "Always log Highmaul"
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_TOOLTIP_TITLE = "Auto-Log Highmaul"
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_DESCRIPTION =  "Automatically start logging when you enter Highmaul and stop when you leave Highmaul.\n\nNote that you should disable similar features in other addons to avoid conflicts."
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_LABEL = "Always log Blackrock Foundry"
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_TOOLTIP_TITLE = "Auto-Log Blackrock Foundry"
+L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_DESCRIPTION =  "Automatically start logging when you enter Blackrock Foundry and stop when you leave Blackrock Foundry.\n\nNote that you should disable similar features in other addons to avoid conflicts."
 L.AMR_COMBATLOGTAB_HEADLINE_OVER_BUTTON = "Save Characters"
 L.AMR_COMBATLOGTAB_SAVE_CHARACTER = "Save Character Data"
 L.AMR_COMBATLOGTAB_INSTRUCTIONS = "INSTRUCTIONS"

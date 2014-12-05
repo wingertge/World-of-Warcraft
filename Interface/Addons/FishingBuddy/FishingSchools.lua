@@ -33,6 +33,10 @@ local function AddFishingSchool(kind, fishid, zidx, sidx, x, y)
 	local facing = GetPlayerFacing();
 	if ( facing ) then
 		local zone = FishingBuddy_Info["ZoneIndex"][zidx];
+		if ( zone == "UNKNOWN") then
+			return;
+		end
+		
 		local yx, yy = LT:GetZoneYardSize(zone);
 		if ( yx ) then
 			facing = facing + math.pi;
@@ -68,6 +72,10 @@ local function AddFishingSchool(kind, fishid, zidx, sidx, x, y)
 		-- if we're in an instance, don't do math
 		if ( C ) then
 			local Z = FishingBuddy.GetBaseZoneIndex(zidx);
+			if ( Z == "UNKNOWN") then
+				return;
+			end
+			
 			for _,hole in pairs(FishingBuddy_Info["FishSchools"][zidx]) do
 				local d,_,_ = LT:GetYardDistance(Z, x, y, Z, hole.x or x, hole.y or y);
 				

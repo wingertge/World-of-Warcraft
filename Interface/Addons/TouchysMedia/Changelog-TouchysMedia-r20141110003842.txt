@@ -1,0 +1,8 @@
+Colin Stein:
+	- updated version for WoD/6.0
+	- Updated TOC for 5.3. No other changes
+	- Added borders, masque themes, status bars, and textures. Also added silkscreen font
+	- ignoring useless mac files
+	- added some fonts
+	- nuked readme
+	- hello

@@ -472,6 +472,10 @@ FishingItems[88535] = {
 		end,
 	["default"] = false,
 };
+FishingItems[116755] = {
+	["enUS"] = "Nat's Hookshot",
+	spell = 171740,
+};
 FishingBuddy.FishingItems = FishingItems;
 
 local FluffOptions = {
@@ -622,7 +626,7 @@ end
 
 local function UpdateItemOptions()
 	for id,info in pairs(FishingItems) do
-		if (not info.ignore) then
+		if (info.setting and not info.ignore) then
 			local option = {};
 		
 			if (info.visible) then

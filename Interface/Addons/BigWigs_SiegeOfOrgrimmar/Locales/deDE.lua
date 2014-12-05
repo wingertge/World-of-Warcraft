@@ -181,7 +181,7 @@ if L then
 L["bombardment"] = "Bombardement"
 L["bombardment_desc"] = "Bombardiert Sturmwind und hinterlässt Feuer auf dem Boden. Eiserne Sterne der Kor'kron können nur während des Bombardements entstehen."
 L["chain_heal_bar"] = "Fokusziel: Kettenheilung"
-L["chain_heal_desc"] = "Heilt ein verbündetes Ziel um 40% ihrer maximalen Gesundheit. Springt auf nahe verbündete Ziele über."
+L["chain_heal_desc"] = "{focus}Heilt ein verbündetes Ziel um 40% ihrer maximalen Gesundheit. Springt auf nahe verbündete Ziele über."
 L["chain_heal_message"] = "Dein Fokusziel wirkt Kettenheilung!"
 L["clump_check_desc"] = "Prüft alle 3 Sekunden während des Bombardements, ob Spieler eng zusammenstehen, da hierdurch Eiserne Sterne der Kor'kron entstehen."
 L["clump_check_warning"] = "Gruppierung gefunden, Stern kommt"

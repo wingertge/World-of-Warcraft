@@ -7,7 +7,8 @@ local _menuIds = {
 	export = 1,
 	gear = 2,
 	combatLog = 3,
-	help = 4    
+	settings = 4,
+	help = 5    
 }
 
 function AskMrRobot.AmrUI:new()
@@ -69,6 +70,9 @@ function AskMrRobot.AmrUI:new()
     o.combatLogTab = AskMrRobot.CombatLogTab:new(tabArea)
     o.menu[_menuIds["combatLog"]].element = o.combatLogTab
 
+	o.settingsTab = AskMrRobot.SettingsTab:new(tabArea)
+    o.menu[_menuIds["settings"]].element = o.settingsTab	
+	
     o.helpTab = AskMrRobot.HelpTab:new(tabArea)
     o.menu[_menuIds["help"]].element = o.helpTab
     
@@ -121,6 +125,7 @@ function AskMrRobot.AmrUI:createMainMenu()
 	createButton(L.AMR_UI_MENU_EXPORT, -35)
 	createButton(L.AMR_UI_MENU_GEAR, -20)
 	createButton(L.AMR_UI_MENU_COMBAT_LOG, 0)
+	createButton(L.AMR_UI_MENU_SETTINGS, 0)
 	createButton(L.AMR_UI_MENU_HELP, 0)
 
 	return buttons

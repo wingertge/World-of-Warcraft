@@ -100,22 +100,44 @@ function AskMrRobot.getItemUniqueId(item, noUpgrade)
 end
 
 AskMrRobot.instanceIds = {
-	HeartOfFear = 1009,
-	MogushanVaults = 1008,	
-	SiegeOfOrgrimmar = 1136,
-	TerraceOfEndlessSpring = 996,
-	ThroneOfThunder = 1098
+	Auchindoun = 1182,
+	BloodmaulSlagMines = 1175,
+	GrimrailDepot = 1208,
+	IronDocks = 1195,
+	ShadowmoonBurialGrounds = 1176,
+	Skyreach = 1209,
+	TheEverbloom = 1279,
+	UpperBlackrockSpire = 1358,
+	Highmaul = 1228,
+	BlackrockFoundry = 1205
 }
 
 -- instances that we currently support logging for
 AskMrRobot.supportedInstanceIds = {
-	[1136] = true
+	--[1182] = true,
+	--[1175] = true,
+	--[1208] = true,
+	--[1195] = true,
+	--[1176] = true,
+	--[1209] = true,
+	--[1279] = true,
+	--[1358] = true,
+	[1228] = true,
+	[1205] = true
 }
 
 -- returns true if currently in a supported instance
 function AskMrRobot.IsSupportedInstance()
 
 	local zone, _, difficultyIndex, _, _, _, _, instanceMapID = GetInstanceInfo()
+	if AskMrRobot.supportedInstanceIds[tonumber(instanceMapID)] then
+		return true
+	else
+		return false
+	end
+end
+
+function AskMrRobot.IsSupportedInstanceId(instanceMapID)
 	if AskMrRobot.supportedInstanceIds[tonumber(instanceMapID)] then
 		return true
 	else

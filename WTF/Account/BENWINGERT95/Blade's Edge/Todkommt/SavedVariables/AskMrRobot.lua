@@ -1,6 +1,8 @@
 
 AmrDb = {
 	["Talents"] = {
+		"2133323", -- [1]
+		"2232313", -- [2]
 	},
 	["LastCharacterImportDate"] = "",
 	["SendSettings"] = {
@@ -35,7 +37,7 @@ AmrDb = {
 			"|cff0070dd|Hitem:110044:0:0:0:0:0:0:0:100:0:2:2:523:524|h[Ogre Dinner Plate]|h|r", -- [17]
 		}, -- [1]
 		{
-			"|cff0070dd|Hitem:118154:0:0:0:0:0:0:0:100:0:11:0|h[Grounded Headguard]|h|r", -- [1]
+			"|cff0070dd|Hitem:109989:0:0:0:0:0:0:0:100:0:2:1:524|h[Rivet-Sealed Casque]|h|r", -- [1]
 			"|cffa335ee|Hitem:119091:0:0:0:0:0:0:0:100:0:11:1:15|h[Warsong Wolfrider's Gorget]|h|r", -- [2]
 			"|cff0070dd|Hitem:109944:0:0:0:0:0:0:0:100:0:2:1:524|h[Verdant Plate Spaulders]|h|r", -- [3]
 			nil, -- [4]
@@ -54,35 +56,82 @@ AmrDb = {
 			"|cff0070dd|Hitem:110044:0:0:0:0:0:0:0:100:0:2:2:523:524|h[Ogre Dinner Plate]|h|r", -- [17]
 		}, -- [2]
 	},
-	["Class"] = "WARRIOR",
+	["Glyphs"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+	},
 	["Specs"] = {
+		34, -- [1]
+		34, -- [2]
 	},
 	["Options"] = {
 	},
 	["Region"] = "EU",
 	["Currencies"] = {
+		[402] = 1,
+		[515] = 88,
+		[392] = 8,
+		[-1] = 37236797,
+		[823] = 327,
 	},
-	["Glyphs"] = {
-	},
+	["Class"] = "WARRIOR",
 	["LogData"] = {
 		["_wipes"] = {
 		},
 		["_autoLog"] = {
+			[1228] = "disabled",
 			[1136] = "disabled",
+			[1205] = "disabled",
 		},
-		["_lastDiff"] = 0,
-		["_lastZone"] = "Draenor",
+		["_lastZone"] = "SMV Alliance Garrison Level 3",
+		["_lastDiff"] = 1,
 	},
 	["BagItems"] = {
+		"|cff1eff00|Hitem:118376:0:0:0:0:0:0:0:100:0:0:0|h[Auction Control Module]|h|r", -- [1]
+		"|cffffffff|Hitem:118621:0:0:0:0:0:0:0:100:0:2:0|h[Sun Crystal]|h|r", -- [2]
+		"|cffffffff|Hitem:97985:0:0:0:0:0:0:1907999872:100:0:0:0|h[Dusty Old Robot]|h|r", -- [3]
+		"|cff0070dd|Hitem:71715:0:0:0:0:0:0:660153600:100:0:0:0|h[A Treatise on Strategy]|h|r", -- [4]
+		"|cffffffff|Hitem:118183:0:0:0:0:0:0:0:100:0:11:0|h[Riverbeast Lasso]|h|r", -- [5]
+		"|cffffffff|Hitem:71634:0:0:0:0:0:0:410457856:100:0:0:0|h[Darkmoon Adventurer's Guide]|h|r", -- [6]
+		"|cff0070dd|Hitem:113540:0:0:0:0:0:0:0:100:0:0:0|h[Ba'ruun's Bountiful Bloom]|h|r", -- [7]
+		"|cffffffff|Hitem:110560:0:0:0:0:0:0:0:100:0:11:0|h[Garrison Hearthstone]|h|r", -- [8]
+		"|cff0070dd|Hitem:92738:0:0:0:0:0:0:2076949248:100:0:0:0|h[Safari Hat]|h|r", -- [9]
+		"|cff0070dd|Hitem:109964:0:0:0:0:0:0:0:100:0:2:1:524|h[Necklace of Furious Zeal]|h|r", -- [10]
+		"|cff9d9d9d|Hitem:106356:0:0:0:0:0:0:0:100:0:2:0|h[Overstretched Leather Boots]|h|r", -- [11]
+		"|cffffffff|Hitem:113991:0:0:0:0:0:0:0:100:0:11:0|h[Iron Trap]|h|r", -- [12]
+		"|cffffffff|Hitem:118331:0:0:0:0:0:0:0:100:0:2:0|h[Auction Connecting Valve]|h|r", -- [13]
+		"|cff9d9d9d|Hitem:106876:0:0:0:0:0:0:0:100:0:0:0|h[Ritual Stone]|h|r", -- [14]
+		"|cff9d9d9d|Hitem:106825:0:0:0:0:0:0:0:100:0:0:0|h[Razor Talon]|h|r", -- [15]
+		"|cffffffff|Hitem:109136:0:0:0:0:0:0:0:100:0:0:0|h[Raw Boar Meat]|h|r", -- [16]
+		"|cffffffff|Hitem:6948:0:0:0:0:0:0:0:100:0:0:0|h[Hearthstone]|h|r", -- [17]
+		"|cff0070dd|Hitem:116120:0:0:0:0:0:0:0:100:0:0:0|h[Tasty Talador Lunch]|h|r", -- [18]
+		"|cffffffff|Hitem:109152:0:0:0:0:0:0:0:100:0:0:0|h[Draenic Stamina Flask]|h|r", -- [19]
+		"|cff0070dd|Hitem:119134:0:0:0:0:0:0:0:100:0:11:0|h[Sargerei Disguise]|h|r", -- [20]
+		"|cffa335ee|Hitem:49888:0:0:0:0:0:0:0:100:0:11:0|h[Shadow's Edge]|h|r", -- [21]
+		"|cff0070dd|Hitem:116916:0:0:0:0:0:0:0:100:0:0:0|h[Gorepetal's Gentle Grasp]|h|r", -- [22]
+		"|cff9d9d9d|Hitem:118902:0:0:0:0:0:0:0:100:0:0:0|h[Weathered Mining Journal]|h|r", -- [23]
+		"|cff9d9d9d|Hitem:106356:0:0:0:0:0:0:0:100:0:2:0|h[Overstretched Leather Boots]|h|r", -- [24]
 	},
-	["Professions"] = {
-	},
+	["RealmName"] = "Blade's Edge",
 	["LastCharacterImport"] = "",
 	["Reps"] = {
+		[1269] = 3,
+		[1337] = 3,
+		[1341] = 3,
+		[1375] = 0,
+		[1387] = 4,
+		[1376] = 3,
+		[1435] = 3,
+		[1388] = 0,
+		[1270] = 3,
 	},
 	["Faction"] = "Alliance",
 	["IconInfo"] = {
 		["minimapPos"] = 199.265344916983,
+	},
+	["Professions"] = {
 	},
 	["BankItems"] = {
 		"|cffffffff|Hitem:2889:0:0:0:0:0:0:155645952:100:0:0:0|h[Recipe: Beer Basted Boar Ribs]|h|r", -- [1]
@@ -144,8 +193,9 @@ AmrDb = {
 		"|cffa335ee|Hitem:51211:0:0:0:0:0:0:0:100:0:14:0|h[Sanctified Ymirjar Lord's Legplates]|h|r", -- [57]
 		"|cffa335ee|Hitem:49983:0:0:0:0:0:0:0:100:0:0:0|h[Blood-Soaked Saronite Stompers]|h|r", -- [58]
 		"|cffa335ee|Hitem:50412:0:0:0:0:0:0:0:100:0:0:0|h[Bloodvenom Blade]|h|r", -- [59]
+		"|cff0070dd|Hitem:119224:0:0:0:0:0:0:0:100:0:0:0|h[Foereaver Polearm]|h|r", -- [60]
+		"|cffa335ee|Hitem:118293:0:0:0:0:0:0:0:100:0:11:0|h[Solium Band of Endurance]|h|r", -- [61]
 	},
-	["RealmName"] = "Blade's Edge",
 	["BankItemsAndCounts"] = {
 		[116117] = 1,
 		[37431] = 4,
@@ -163,6 +213,7 @@ AmrDb = {
 		[88377] = 1,
 		[88385] = 1,
 		[63193] = 1,
+		[109118] = 200,
 		[71153] = 33,
 		[102276] = 1,
 		[90354] = 1,
@@ -172,6 +223,7 @@ AmrDb = {
 		[29913] = 1,
 		[25603] = 1,
 		[88577] = 1,
+		[119224] = 1,
 		[3679] = 1,
 		[88379] = 10,
 		[92959] = 2,
@@ -191,38 +243,40 @@ AmrDb = {
 		[88579] = 1,
 		[113543] = 1,
 		[49983] = 1,
-		[25772] = 1,
-		[87589] = 1,
+		[118293] = 1,
+		[49908] = 3,
 		[50003] = 1,
+		[51213] = 1,
+		[82984] = 1,
 		[38577] = 3,
 		[119449] = 2,
-		[6662] = 20,
+		[52569] = 1,
 		[45574] = 1,
-		[35618] = 1,
+		[49986] = 1,
 		[44820] = 1,
 		[50412] = 1,
 		[89906] = 26,
-		[23587] = 1,
+		[87399] = 6,
 		[112499] = 19,
-		[88375] = 1,
+		[109585] = 9,
 		[116920] = 1,
 		[45577] = 1,
-		[103977] = 1,
-		[87614] = 1,
-		[102277] = 1,
-		[63182] = 1,
-		[27684] = 1,
-		[113295] = 2,
-		[43352] = 12,
 		[89139] = 1,
+		[87614] = 1,
+		[113295] = 2,
+		[27684] = 1,
+		[63182] = 1,
+		[102277] = 1,
+		[43352] = 12,
+		[103977] = 1,
 		[116053] = 500,
 		[87613] = 1,
-		[109585] = 9,
+		[88375] = 1,
 		[43626] = 30,
-		[52569] = 1,
-		[49986] = 1,
-		[87399] = 6,
-		[82984] = 1,
-		[51213] = 1,
+		[23587] = 1,
+		[35618] = 1,
+		[6662] = 20,
+		[87589] = 1,
+		[25772] = 1,
 	},
 }

@@ -7,7 +7,7 @@ if not mod then return end
 mod:RegisterEnableMob(55312)
 mod.toggleOptions = {"blobs"}
 
-local YL = BigWigs.bossCore:GetModule("Yor'sahj the Unsleeping"):GetLocale()
+local YL = BigWigs:GetBossModule("Yor'sahj the Unsleeping"):GetLocale()
 local chatPrefix = "|cFF33FF99BigWigs_YorsahjPriority|r: "
 
 --------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ function mod:OnBossEnable()
 	InterfaceOptions_AddCategory(yp)
 	local ypTitle = yp:CreateFontString(nil, "ARTWORK", "GameFontNormalHuge")
 	ypTitle:SetPoint("CENTER", yp, "TOP", 0, -30)
-	ypTitle:SetText(yp.name.." r58-release") --wowace magic, replaced with tag version
+	ypTitle:SetText(yp.name.." r62-release") --wowace magic, replaced with tag version
 
 	local raidwarnBtn = CreateFrame("CheckButton", "ypRaidWarnBtn", yp, "OptionsBaseCheckButtonTemplate")
 	raidwarnBtn:SetScript("OnClick", function(frame)

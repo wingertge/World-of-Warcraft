@@ -1,10 +1,10 @@
 
 TidyPlatesOptions = {
-	["DisableSoftTransitions"] = false,
-	["WelcomeShown"] = true,
-	["FriendlyAutomation"] = "No Automation",
 	["EnemyAutomation"] = "No Automation",
-	["primary"] = "Threat Plates",
 	["CompatibilityMode"] = false,
+	["FriendlyAutomation"] = "No Automation",
+	["DisableSoftTransitions"] = false,
+	["primary"] = "Threat Plates",
+	["WelcomeShown"] = true,
 	["secondary"] = "Blizzard",
 }

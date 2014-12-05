@@ -12,38 +12,42 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
+					["x"] = 860.000244140625,
+					["y"] = 51.0003204345703,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 835,
+					["y"] = 121.000640869141,
+					["x"] = 834,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
+					["y"] = 97.9999618530274,
+					["x"] = 858.000122070313,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
+					["y"] = 73.9999771118164,
+					["x"] = 858.999877929688,
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -62,33 +66,36 @@ Quartz3DB = {
 		["Trolonom - Mannoroth"] = "Default",
 		["Deslock - Mannoroth"] = "Default",
 		["Ots - Mannoroth"] = "Default",
+		["Worgard - Blade's Edge"] = "Default",
 		["Incantora - Shattered Hand"] = "Default",
 		["Piora - Lightbringer"] = "Default",
 		["Archagon - Aszune"] = "Default",
+		["Paladriano - Aszune"] = "Default",
+		["Alladinae - Teldrassil"] = "Default",
 		["Paladriana - Blade's Edge"] = "Default",
-		["Tôdkommt - Aszune"] = "Default",
-		["Blûbbrbrnd - Anetheron"] = "Default",
-		["Gladimar - Blade's Edge"] = "Default",
-		["Klore - Aszune"] = "Default",
+		["Shamorn - Blade's Edge"] = "Default",
+		["Shagel - Aszune"] = "Default",
 		["Tôdi - Teldrassil"] = "Default",
+		["Klore - Aszune"] = "Default",
+		["Todkommt - Mannoroth"] = "Default",
 		["Manianor - Blade's Edge"] = "Default",
-		["Puckerina - Shattered Hand"] = "Default",
+		["Tôdkommt - Teldrassil"] = "Default",
 		["Oct - Mannoroth"] = "Default",
 		["Schurkêgurkê - Teldrassil"] = "Default",
 		["Monodev - Aszune"] = "Default",
 		["Todkommt - Teldrassil"] = "Default",
-		["Sdfgsdfghsdf - Mannoroth"] = "Default",
-		["Deathanddk - Blade's Edge"] = "Default",
-		["Frantik - Mannoroth"] = "Default",
 		["Defanddk - Shattered Hand"] = "Default",
+		["Deathanddk - Blade's Edge"] = "Default",
+		["Puckerina - Shattered Hand"] = "Default",
+		["Frantik - Mannoroth"] = "Default",
 		["Mograr - Lightbringer"] = "Default",
-		["Todkommt - Mannoroth"] = "Default",
-		["Shagel - Aszune"] = "Default",
-		["Tôdkommt - Teldrassil"] = "Default",
-		["Shamorn - Blade's Edge"] = "Default",
+		["Sdfgsdfghsdf - Mannoroth"] = "Default",
+		["Gnawl - Aszune"] = "Default",
+		["Blûbbrbrnd - Anetheron"] = "Default",
+		["Gladimar - Blade's Edge"] = "Default",
 		["Todkommt - Aman'Thul"] = "Default",
-		["Alladinae - Teldrassil"] = "Default",
-		["Paladriano - Aszune"] = "Default",
+		["Tôdkommt - Aszune"] = "Default",
+		["Alladinae - Blade's Edge"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

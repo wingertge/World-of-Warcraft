@@ -1083,9 +1083,7 @@ function HealBot_Panel_PanelChanged(disableHealBot)
         end   
 
         for xGUID,xUnit in pairs(HealBot_TrackGUID) do
---            if xGUID~=HealBot_PlayerGUID then
-                HealBot_Panel_RemoveMember(xGUID,xUnit)
---            end
+            HealBot_Panel_RemoveMember(xGUID,xUnit)
         end
         
         for x,_ in pairs(HealBot_TrackGUID) do

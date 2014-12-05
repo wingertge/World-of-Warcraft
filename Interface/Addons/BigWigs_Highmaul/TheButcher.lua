@@ -22,8 +22,8 @@ local frenzied = nil
 
 local L = mod:NewLocale("enUS", true)
 if L then
-	L.frenzy, L.frenzy_desc = EJ_GetSectionInfo(8862)
-	L.frenzy_icon = 156598
+	L.frenzy = -8862 -- Frenzy
+	L.frenzy_icon = "spell_shadow_unholyfrenzy"
 
 	L.adds_multiple = "Adds x%d"
 end
@@ -51,6 +51,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED_DOSE", "Tenderizer", 156151)
 	self:Log("SPELL_CAST_START", "Cleave", 156157)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "GushingWounds", 156152)
+	self:Log("SPELL_AURA_REMOVED", "GushingWoundsRemoved", 156152)
 	self:Log("SPELL_AURA_APPLIED", "Frenzy", 156598)
 	--Mythic
 	self:Log("SPELL_CAST_SUCCESS", "AddSpawn", 163051) -- Paleobomb
@@ -142,22 +143,29 @@ end
 function mod:GushingWounds(args)
 	if self:Me(args.destGUID) and args.amount > 2 then
 		self:StackMessage(args.spellId, args.destName, args.amount, "Personal", "Alarm")
+		self:TargetBar(args.spellId, 15, args.destName)
+	end
+end
+
+function mod:GushingWoundsRemoved(args)
+	if self:Me(args.destGUID) then
+		self:StopBar(args.spellId, args.destName)
 	end
 end
 
 function mod:UNIT_HEALTH_FREQUENT(unit)
 	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
-	if hp < 34 then
-		self:Message("frenzy", "Neutral", "Info", CL.soon:format(L.frenzy), false)
+	if hp < 36 then
 		self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", "boss1")
+		self:Message("frenzy", "Neutral", "Info", CL.soon:format(self:SpellName(L.frenzy)), false)
 	end
 end
 
 function mod:Frenzy(args)
-	self:Message("frenzy", "Important", "Alarm", L.frenzy_icon)
+	self:Message("frenzy", "Important", "Alarm", args.spellName, L.frenzy_icon)
 	frenzied = true
 	-- gains power faster while frenzied
-	local left = 100 - UnitPower("boss1") * (10/3) -- this isn't quite right
+	local left = (100 - UnitPower("boss1")) * 0.3
 	self:Bar(-8860, left) -- Bounding Cleave
 end
 

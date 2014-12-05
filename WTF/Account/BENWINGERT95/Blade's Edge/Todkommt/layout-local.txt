@@ -1,6 +1,6 @@
 Version: 1
 Frame: AtlasLootDefaultFrame
-FrameLevel: 129
+FrameLevel: 127
 Anchor: CENTER
 X: 0
 Y: 0
@@ -14,7 +14,7 @@ Y: 0
 W: 800
 H: 525
 Frame: Recount_MainWindow
-FrameLevel: 23
+FrameLevel: 40
 Anchor: BOTTOMRIGHT
 X: -1
 Y: -3

@@ -70,10 +70,10 @@ function addon:OnInitialize()
 		self.db.profile.firstLoad = false
 	end
 
-	if not self.db.profile.warlordsUpdate then
+	--if not self.db.profile.warlordsUpdate then
 		addon:ConvertSiegeRecords()
-		self.db.profile.warlordsUpdate = true
-	end
+		--self.db.profile.warlordsUpdate = true
+	--end
 
 	self:RegisterChatCommand("bwrk", "SlashHandler")
 	self:RegisterChatCommand("recordkills", "SlashHandler")
@@ -162,11 +162,15 @@ function addon:ImportRecords()
 end
 
 function addon:ConvertSiegeRecords()
-	local diffRef = {["10"] = 3, ["25"] = 4, ["10h"] = 5, ["25h"] = 6, ["lfr"] = 7, ["normal"] = 14, ["heroic"] = 15, ["mythic"] = 16 }	
-
+	local diffRef = {["10"] = 3, ["25"] = 4, ["10h"] = 5, ["25h"] = 6, ["lfr"] = 7, ["normal"] = 14, ["heroic"] = 15, ["mythic"] = 16 }
 	local recordDB = self.db.profile.recordTimes["Siege of Orgrimmar"]
 
+	if (recordDB == nil) then
+		return 
+	end
+
 	for bossName, diffArray in pairs (recordDB) do
+	
 		local normTen = addon:GetBestTime("Siege of Orgrimmar", bossName, 3)
 		local normTwentyFive = addon:GetBestTime("Siege of Orgrimmar", bossName, 4)
 
@@ -190,34 +194,34 @@ end
 --BOSS ENGAGE/WIPE/KILL DETECTION THROUGH BIGWIGS
 --===============================================================================
 function addon:onBossEngage(self, module) 
-	if (not addon:ShouldRecord(addon:InstanceName()) or not module.encounterId) then return end
+	if (not addon:ShouldRecord(addon:InstanceName()) or not module.journalId) then return end
 
 	--add the 'start time' to activeEncounters
-	activeEncounters[module.encounterId] = GetTime() --denotes the start time of a boss
+	activeEncounters[module.journalId] = GetTime() --denotes the start time of a boss
 
 	--add a 'best kill' bar to BW and announce
-	addon:dlog(string.format("Encounter Engaged: %s [%i]", module.moduleName, module.encounterId))
+	addon:dlog(string.format("Encounter Engaged: %s [%i]", module.moduleName, module.journalId))
 end
 
 function addon:onBossWipe(sender, module)
-	if (not addon:ShouldRecord(addon:InstanceName()) or not module.encounterId) then return end
+	if (not addon:ShouldRecord(addon:InstanceName()) or not module.journalId) then return end
 
 	--reset the 'start time' for this activeEncounter 
-	activeEncounters[module.encounterId] = nil
+	activeEncounters[module.journalId] = nil
 
 	--kill the BW 'best kill' bar and announce
-	addon:dlog(string.format("Encounter Wiped: %s [%i]", module.moduleName, module.encounterId))
+	addon:dlog(string.format("Encounter Wiped: %s [%i]", module.moduleName, module.journalId))
 end
 
 function addon:onBossWin(sender, module) 
-	if (not addon:ShouldRecord(addon:InstanceName()) or not module.encounterId) then return end
+	if (not addon:ShouldRecord(addon:InstanceName()) or not module.journalId) then return end
 
 	--determine the current and previous best times
 	local curTime = -1
 	local prevTime = addon:GetBestTime(addon:InstanceName(), module.moduleName, addon:InstanceDiff())
 
-	if activeEncounters[module.encounterId] then
-		curTime = addon:round(GetTime() - activeEncounters[module.encounterId])
+	if activeEncounters[module.journalId] then
+		curTime = addon:round(GetTime() - activeEncounters[module.journalId])
 	else
 		addon:rlog("[ERROR] "..module.moduleName.." defeated, but no engage broadcast was detected.")
 		if BigWigsLoader then

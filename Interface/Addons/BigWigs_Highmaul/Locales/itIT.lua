@@ -30,7 +30,8 @@ end
 
 L = BigWigs:NewBossLocale("Brackenspore", "itIT")
 if L then
-	--L.creeping_moss_heal = "Creeping Moss under BOSS (healing)"
+	--L.creeping_moss_boss_heal = "Moss under BOSS (healing)"
+	--L.creeping_moss_add_heal = "Moss under BIG ADD (healing)"
 end
 
 L = BigWigs:NewBossLocale("Twin Ogron", "itIT")
@@ -47,6 +48,9 @@ if L then
 	--L.suppression_field_trigger4 = "Silence!"
 
 	--L.fire_bar = "Everyone Explodes!"
+
+	--L.custom_off_fel_marker = "Expel Magic: Fel Marker"
+	--L.custom_off_fel_marker_desc = "Mark Expel Magic: Fel targets with {rt1}{rt2}{rt3}, requires promoted or leader.\n|cFFFF0000Only 1 person in the raid should have this enabled to prevent marking conflicts.|r"
 end
 
 L = BigWigs:NewBossLocale("Imperator Mar'gok", "itIT")

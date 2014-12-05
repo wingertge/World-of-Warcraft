@@ -1,0 +1,56 @@
+------------------------------------------------------------------------
+r66 | funkydude | 2014-12-05 13:51:53 +0000 (Fri, 05 Dec 2014) | 1 line
+Changed paths:
+   A /tags/r66-release (from /trunk:65)
+
+Tagging as r66-release
+------------------------------------------------------------------------
+r65 | ananhaid | 2014-12-05 11:13:35 +0000 (Fri, 05 Dec 2014) | 1 line
+Changed paths:
+   M /trunk/modules.xml
+
+Load module locale files after the modules.
+------------------------------------------------------------------------
+r63 | funkydude | 2014-11-30 23:34:41 +0000 (Sun, 30 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Bastion/DoubleDragon.lua
+   M /trunk/Bastion/TwilightAscendants.lua
+   M /trunk/Blackwing/Nefarian.lua
+   M /trunk/DragonSoul/DeathwingMadness.lua
+   M /trunk/DragonSoul/DeathwingSpine.lua
+   M /trunk/DragonSoul/Locales/deDE.lua
+   M /trunk/DragonSoul/Locales/esES.lua
+   M /trunk/DragonSoul/Locales/frFR.lua
+   M /trunk/DragonSoul/Locales/itIT.lua
+   M /trunk/DragonSoul/Locales/koKR.lua
+   M /trunk/DragonSoul/Locales/ptBR.lua
+   M /trunk/DragonSoul/Locales/ruRU.lua
+   M /trunk/DragonSoul/Locales/zhCN.lua
+   M /trunk/DragonSoul/Locales/zhTW.lua
+   M /trunk/DragonSoul/Morchok.lua
+   M /trunk/DragonSoul/Yorsahj.lua
+   M /trunk/DragonSoul/Zonozz.lua
+   M /trunk/Firelands/Alysrazor.lua
+   M /trunk/Firelands/Bethtilac.lua
+
+Remove EJ calls.
+------------------------------------------------------------------------
+r61 | funkydude | 2014-11-10 02:19:52 +0000 (Mon, 10 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/DragonSoul/Morchok.lua
+
+Morchok: bugfix line 178
+------------------------------------------------------------------------
+r60 | funkydude | 2014-11-09 23:39:53 +0000 (Sun, 09 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/DragonSoul/DeathwingSpine.lua
+
+DeathwingSpine: Roll time is 10 seconds when solo, 5 seconds otherwise.
+------------------------------------------------------------------------
+r58 | funkydude | 2014-11-03 14:02:40 +0000 (Mon, 03 Nov 2014) | 1 line
+Changed paths:
+   M /trunk/Bastion/Sinestra.lua
+   M /trunk/Firelands/Staghelm.lua
+
+Use :IterateGroup where required.
+------------------------------------------------------------------------

@@ -1,0 +1,8 @@
+2014-12-04  MMOSimca  <MMOSimca@gmail.com>
+
+[8ca629ec7f57] [6.0.2-7]
+* Main.lua:
+
+Loot toasts with a source of '3' are now ignored, increasing loot data reliability!
+
+

@@ -14,33 +14,36 @@ RecountDB = {
 		["Trolonom - Mannoroth"] = "Trolonom - Mannoroth",
 		["Deslock - Mannoroth"] = "Deslock - Mannoroth",
 		["Ots - Mannoroth"] = "Ots - Mannoroth",
+		["Worgard - Blade's Edge"] = "Worgard - Blade's Edge",
 		["Incantora - Shattered Hand"] = "Incantora - Shattered Hand",
 		["Piora - Lightbringer"] = "Piora - Lightbringer",
 		["Archagon - Aszune"] = "Archagon - Aszune",
+		["Paladriano - Aszune"] = "Paladriano - Aszune",
+		["Alladinae - Teldrassil"] = "Alladinae - Teldrassil",
 		["Paladriana - Blade's Edge"] = "Paladriana - Blade's Edge",
-		["Tôdkommt - Aszune"] = "Tôdkommt - Aszune",
-		["Blûbbrbrnd - Anetheron"] = "Blûbbrbrnd - Anetheron",
-		["Gladimar - Blade's Edge"] = "Gladimar - Blade's Edge",
-		["Klore - Aszune"] = "Klore - Aszune",
+		["Shamorn - Blade's Edge"] = "Shamorn - Blade's Edge",
+		["Shagel - Aszune"] = "Shagel - Aszune",
 		["Tôdi - Teldrassil"] = "Tôdi - Teldrassil",
+		["Klore - Aszune"] = "Klore - Aszune",
+		["Todkommt - Mannoroth"] = "Todkommt - Mannoroth",
 		["Manianor - Blade's Edge"] = "Manianor - Blade's Edge",
-		["Puckerina - Shattered Hand"] = "Puckerina - Shattered Hand",
+		["Tôdkommt - Teldrassil"] = "Tôdkommt - Teldrassil",
 		["Oct - Mannoroth"] = "Oct - Mannoroth",
 		["Schurkêgurkê - Teldrassil"] = "Schurkêgurkê - Teldrassil",
 		["Monodev - Aszune"] = "Monodev - Aszune",
 		["Todkommt - Teldrassil"] = "Todkommt - Teldrassil",
-		["Sdfgsdfghsdf - Mannoroth"] = "Sdfgsdfghsdf - Mannoroth",
-		["Deathanddk - Blade's Edge"] = "Deathanddk - Blade's Edge",
-		["Frantik - Mannoroth"] = "Frantik - Mannoroth",
 		["Defanddk - Shattered Hand"] = "Defanddk - Shattered Hand",
+		["Deathanddk - Blade's Edge"] = "Deathanddk - Blade's Edge",
+		["Puckerina - Shattered Hand"] = "Puckerina - Shattered Hand",
+		["Frantik - Mannoroth"] = "Frantik - Mannoroth",
 		["Mograr - Lightbringer"] = "Mograr - Lightbringer",
-		["Todkommt - Mannoroth"] = "Todkommt - Mannoroth",
-		["Shagel - Aszune"] = "Shagel - Aszune",
-		["Tôdkommt - Teldrassil"] = "Tôdkommt - Teldrassil",
-		["Shamorn - Blade's Edge"] = "Shamorn - Blade's Edge",
+		["Sdfgsdfghsdf - Mannoroth"] = "Sdfgsdfghsdf - Mannoroth",
+		["Gnawl - Aszune"] = "Gnawl - Aszune",
+		["Blûbbrbrnd - Anetheron"] = "Blûbbrbrnd - Anetheron",
+		["Gladimar - Blade's Edge"] = "Gladimar - Blade's Edge",
 		["Todkommt - Aman'Thul"] = "Todkommt - Aman'Thul",
-		["Alladinae - Teldrassil"] = "Alladinae - Teldrassil",
-		["Paladriano - Aszune"] = "Paladriano - Aszune",
+		["Tôdkommt - Aszune"] = "Tôdkommt - Aszune",
+		["Alladinae - Blade's Edge"] = "Alladinae - Blade's Edge",
 	},
 	["profiles"] = {
 		["Killertyp - Teldrassil"] = {
@@ -63,9 +66,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Incantora - Lightbringer"] = {
 			["GraphWindowY"] = 0,
@@ -88,9 +91,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Todkommt - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
@@ -103,6 +106,8 @@ RecountDB = {
 				},
 			},
 			["MainWindowMode"] = 2,
+			["LastInstanceName"] = "Upper Blackrock Spire",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -115,8 +120,6 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Skyreach",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 		},
 		["Käsestange - Teldrassil"] = {
@@ -140,9 +143,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Octalux - Aszune"] = {
 			["GraphWindowY"] = 0,
@@ -165,9 +168,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Tragazar - Aman'Thul"] = {
 			["GraphWindowY"] = 0,
@@ -190,9 +193,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Benigno - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
@@ -205,7 +208,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowMode"] = 2,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Firelands",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -218,8 +221,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Arithlec - Aman'Thul"] = {
 			["GraphWindowY"] = 0,
@@ -241,9 +244,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Defanddk - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
@@ -266,9 +269,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Minkao - Mannoroth"] = {
 			["GraphWindowY"] = 0,
@@ -290,9 +293,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Trolonom - Mannoroth"] = {
 			["GraphWindowY"] = 0,
@@ -312,9 +315,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Deslock - Mannoroth"] = {
 			["GraphWindowY"] = 0,
@@ -334,9 +337,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Ots - Mannoroth"] = {
 			["GraphWindowY"] = 0,
@@ -356,9 +359,35 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Worgard - Blade's Edge"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -441.999851226807,
+					["x"] = 890.999816894531,
+					["w"] = 140.000015258789,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Maraudon",
+			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Incantora - Shattered Hand"] = {
 			["GraphWindowY"] = 0,
@@ -409,9 +438,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Archagon - Aszune"] = {
 			["GraphWindowY"] = 0,
@@ -421,6 +450,52 @@ RecountDB = {
 					["x"] = 888.999694824219,
 					["w"] = 140.000015258789,
 					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Paladriano - Aszune"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -441.00008392334,
+					["x"] = 889.99951171875,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Alladinae - Teldrassil"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.000015258789,
 				},
 			},
 			["Colors"] = {
@@ -462,61 +537,17 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 199.000015258789,
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 168.000061035156,
-			["MainWindowHeight"] = 199.000015258789,
-		},
-		["Tôdkommt - Aszune"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.000015258789,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Blûbbrbrnd - Anetheron"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.000015258789,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Gladimar - Blade's Edge"] = {
+		["Shamorn - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -440.999889373779,
-					["x"] = 890.999816894531,
+					["y"] = -441.000213623047,
+					["x"] = 889.999816894531,
 					["w"] = 140.000015258789,
 					["h"] = 199.999984741211,
 				},
@@ -532,17 +563,18 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["LastInstanceName"] = "Deadmines",
+			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Klore - Aszune"] = {
+		["Shagel - Aszune"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -438.000061035156,
-					["x"] = 888.99951171875,
+					["y"] = -436.999626159668,
+					["x"] = 887.999816894531,
+					["w"] = 140.000015258789,
 					["h"] = 199.999984741211,
 				},
 			},
@@ -557,9 +589,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Tôdi - Teldrassil"] = {
 			["GraphWindowY"] = 0,
@@ -579,256 +611,16 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Manianor - Blade's Edge"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -439.999786376953,
-					["x"] = 888.999816894531,
-					["w"] = 140.000015258789,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Puckerina - Shattered Hand"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -440.000068664551,
-					["x"] = 887.999816894531,
-					["w"] = 140.000015258789,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Oct - Mannoroth"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -435.999847412109,
-					["x"] = 887.999755859375,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Schurkêgurkê - Teldrassil"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.000015258789,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Monodev - Aszune"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -438.999618530273,
-					["x"] = 888.999267578125,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Todkommt - Teldrassil"] = {
+		["Klore - Aszune"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -440.999359130859,
-					["x"] = 892.999755859375,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Sdfgsdfghsdf - Mannoroth"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.000015258789,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
-		},
-		["Deathanddk - Blade's Edge"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -441.000213623047,
-					["x"] = 889.999755859375,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Frantik - Mannoroth"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -440.000255584717,
-					["x"] = 887.999816894531,
-					["w"] = 140.000015258789,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Defanddk - Shattered Hand"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -440.000022888184,
-					["x"] = 888.999816894531,
-					["w"] = 140.000015258789,
-					["h"] = 199.999984741211,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-		},
-		["Mograr - Lightbringer"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -437.999809265137,
-					["x"] = 887.999267578125,
+					["y"] = -438.000061035156,
+					["x"] = 888.99951171875,
 					["h"] = 199.999984741211,
 				},
 			},
@@ -868,20 +660,21 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
-		["Shagel - Aszune"] = {
+		["Manianor - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -436.999626159668,
-					["x"] = 887.999816894531,
+					["y"] = -439.999786376953,
+					["x"] = 888.999816894531,
 					["w"] = 140.000015258789,
 					["h"] = 199.999984741211,
 				},
 			},
+			["MainWindowMode"] = 2,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -892,10 +685,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowY"] = -197.999969482422,
+			["DetailWindowX"] = 393.000061035156,
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Vortex Pinnacle",
+			["CurDataSet"] = "LastFightData",
 		},
 		["Tôdkommt - Teldrassil"] = {
 			["GraphWindowY"] = 0,
@@ -922,12 +716,106 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Shamorn - Blade's Edge"] = {
+		["Oct - Mannoroth"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -441.000213623047,
-					["x"] = 889.999816894531,
+					["y"] = -435.999847412109,
+					["x"] = 887.999755859375,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Schurkêgurkê - Teldrassil"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.000015258789,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Monodev - Aszune"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -438.999618530273,
+					["x"] = 888.999267578125,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Todkommt - Teldrassil"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -440.999359130859,
+					["x"] = 892.999755859375,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Defanddk - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -440.000022888184,
+					["x"] = 888.999816894531,
 					["w"] = 140.000015258789,
 					["h"] = 199.999984741211,
 				},
@@ -943,10 +831,201 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+		},
+		["Deathanddk - Blade's Edge"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -441.000213623047,
+					["x"] = 889.999755859375,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Puckerina - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -440.000068664551,
+					["x"] = 887.999816894531,
+					["w"] = 140.000015258789,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Frantik - Mannoroth"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -440.000255584717,
+					["x"] = 887.999816894531,
+					["w"] = 140.000015258789,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Mograr - Lightbringer"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -437.999809265137,
+					["x"] = 887.999267578125,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Sdfgsdfghsdf - Mannoroth"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.000015258789,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Gnawl - Aszune"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.000015258789,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Blûbbrbrnd - Anetheron"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -439.999824523926,
+					["x"] = 886.999755859375,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Gladimar - Blade's Edge"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -440.999889373779,
+					["x"] = 890.999816894531,
+					["w"] = 140.000015258789,
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Deadmines",
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Todkommt - Aman'Thul"] = {
 			["GraphWindowY"] = 0,
@@ -969,11 +1048,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
-		["Alladinae - Teldrassil"] = {
+		["Tôdkommt - Aszune"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
@@ -995,15 +1074,19 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Paladriano - Aszune"] = {
+		["Alladinae - Blade's Edge"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -441.00008392334,
-					["x"] = 889.99951171875,
-					["h"] = 199.999984741211,
+					["y"] = -440.49974822998,
+					["x"] = 888.999816894531,
+					["w"] = 145.999694824219,
+					["h"] = 200.999938964844,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Shadowfang Keep",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -1015,9 +1098,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 200.999938964844,
+			["MainWindowWidth"] = 145.999893188477,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
 		},
 	},
 }

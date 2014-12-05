@@ -69,12 +69,16 @@ function HealBot_Init_Spells_Defaults()
             end
         end
     end
+    HealBot_ChakraSpells()
 end
 
+local skipSpells={ [HEALBOT_HOLY_WORD_SANCTUARY]=true,[HEALBOT_HOLY_WORD_SERENITY]=true,[HEALBOT_HOLY_WORD_CHASTISE]=true}
 function HealBot_Init_Spells_addSpell(spellId, spellName, spellBookId)
-    if HealBot_FindSpellRangeCast(spellId, spellName, spellBookId) then
-        HealBot_Spells[spellName].id=spellId
-        HealBot_Spells[spellName].known=IsSpellKnown(spellId)
+    if not skipSpells[spellName] then
+        if HealBot_FindSpellRangeCast(spellId, spellName, spellBookId) then
+            HealBot_Spells[spellName].id=spellId
+            HealBot_Spells[spellName].known=IsSpellKnown(spellId)
+        end
     end
 end
 

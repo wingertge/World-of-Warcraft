@@ -468,6 +468,10 @@ FishingInit.UpdateFishingDB = function()
 		FishingBuddy_Player["Settings"]["WatcherLocation"] = nil;
 	end
 	
+	if (type(FishingBuddy_Player["TotalTimeFishing"]) ~= "number") then
+		FishingBuddy_Player["TotalTimeFishing"] = 1;
+	end
+	
 	-- save this for other pieces that might need to update
 	lastVersion = version;
 	lastPlayerVersion = playerversion;

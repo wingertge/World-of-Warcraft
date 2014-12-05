@@ -61,19 +61,23 @@ AmrDb = {
 	["Region"] = "EU",
 	["Currencies"] = {
 	},
-	["Class"] = "PALADIN",
+	["Glyphs"] = {
+	},
 	["LogData"] = {
 		["_wipes"] = {
 		},
 		["_autoLog"] = {
+			[1228] = "disabled",
 			[1136] = "disabled",
+			[1205] = "disabled",
 		},
-		["_lastZone"] = "SMV Alliance Garrison Level 2",
 		["_lastDiff"] = 1,
+		["_lastZone"] = "SMV Alliance Garrison Level 2",
 	},
 	["BagItems"] = {
 	},
-	["RealmName"] = "Blade's Edge",
+	["BankItems"] = {
+	},
 	["LastCharacterImport"] = "",
 	["Reps"] = {
 	},
@@ -83,8 +87,6 @@ AmrDb = {
 	},
 	["Professions"] = {
 	},
-	["BankItems"] = {
-	},
-	["Glyphs"] = {
-	},
+	["RealmName"] = "Blade's Edge",
+	["Class"] = "PALADIN",
 }

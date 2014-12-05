@@ -83,7 +83,9 @@ AmrDb = {
 		["_wipes"] = {
 		},
 		["_autoLog"] = {
+			[1228] = "disabled",
 			[1136] = "disabled",
+			[1205] = "disabled",
 		},
 		["_lastZone"] = "SMV Alliance Garrison Level 3",
 		["_lastDiff"] = 1,

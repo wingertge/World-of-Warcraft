@@ -7,7 +7,7 @@
 ## X-Credits: Kyahx, Rabbit, MysticalOS
 ## X-Category: Development Tools
 ## SavedVariables: TranscriptDB
-## X-Curse-Packaged-Version: r216-release
+## X-Curse-Packaged-Version: r223-release
 ## X-Curse-Project-Name: Transcriptor
 ## X-Curse-Project-ID: transcriptor
 ## X-Curse-Repository-ID: wow/transcriptor/mainline

@@ -240,6 +240,7 @@ do
 		-- 984:1 is Auchindoun, but it unfortunately has 2 cinematics. 1 before the first boss and 1 before the last boss. Workaround?
 		["993:2"] = true, -- Grimrail Depot, boarding the train
 		["993:4"] = true, -- Grimrail Depot, destroying the train
+		["994:3"] = true, -- Highmaul, Kargath Death
 	}
 
 	-- Cinematic skipping hack to workaround an item (Vision of Time) that creates cinematics in Siege of Orgrimmar.
@@ -539,7 +540,16 @@ function addon:GetCustomBossOptions()
 	return customBossOptions
 end
 
-function addon:NewBossLocale(name, locale, default) return AL:NewLocale(("%s_%s"):format(bossCore.name, name), locale, default, true) end
+do
+	local L = GetLocale()
+	if L == "enGB" then L = "enUS" end
+	function addon:NewBossLocale(moduleName, locale)
+		local module = addon:GetBossModule(moduleName, true)
+		if module and L == locale then
+			return module:GetLocale()
+		end
+	end
+end
 
 -------------------------------------------------------------------------------
 -- Module handling

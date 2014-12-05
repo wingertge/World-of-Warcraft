@@ -52,7 +52,7 @@ function mod:GetOptions()
 	return {
 		{162894, "TANK"}, {162892, "TANK"}, 162968,
 		163312,
-		{162288, "TANK"}, {162346, "FLASH"}, "custom_off_barrage_marker", 162475, "adds", "bosskill",
+		{162288, "TANK"}, {162346, "FLASH"}, "custom_off_barrage_marker", 162475, "adds", "berserk", "bosskill",
 	}, {
 		[162894] = -10061, -- Earthwarper
 		[163312] = -10062, -- Berserker
@@ -86,6 +86,10 @@ function mod:OnEngage()
 	--self:CDBar(162346, 6) -- Crystalline Barrage
 	self:CDBar("adds", 11, -10061, L.earthwarper_icon) -- Earthwarper
 	self:CDBar("adds", 21, -10062, L.berserker_icon) -- Berserker
+
+	if not self:LFR() then
+		self:Berserk(self:Mythic() and 480 or 600)
+	end
 end
 
 --------------------------------------------------------------------------------

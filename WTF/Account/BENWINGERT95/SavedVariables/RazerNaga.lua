@@ -14,52 +14,55 @@ RazerNagaDB = {
 		["Trolonom - Mannoroth"] = "Warrior",
 		["Deslock - Mannoroth"] = "Warlock",
 		["Ots - Mannoroth"] = "Shaman",
+		["Worgard - Blade's Edge"] = "Priest",
 		["Incantora - Shattered Hand"] = "Mage",
 		["Piora - Lightbringer"] = "Priest",
 		["Archagon - Aszune"] = "Hunter",
+		["Paladriano - Aszune"] = "Paladin",
+		["Alladinae - Teldrassil"] = "Mage",
 		["Paladriana - Blade's Edge"] = "Paladin",
-		["Tôdkommt - Aszune"] = "Paladin",
-		["Blûbbrbrnd - Anetheron"] = "Rogue",
-		["Gladimar - Blade's Edge"] = "Warrior",
-		["Klore - Aszune"] = "Warrior",
+		["Shamorn - Blade's Edge"] = "Shaman",
+		["Shagel - Aszune"] = "Shaman",
 		["Tôdi - Teldrassil"] = "Shaman",
+		["Klore - Aszune"] = "Warrior",
+		["Todkommt - Mannoroth"] = "Priest",
 		["Manianor - Blade's Edge"] = "Monk",
-		["Puckerina - Shattered Hand"] = "Rogue",
+		["Tôdkommt - Teldrassil"] = "Druid",
 		["Oct - Mannoroth"] = "Rogue",
 		["Schurkêgurkê - Teldrassil"] = "Rogue",
 		["Monodev - Aszune"] = "Monk",
 		["Todkommt - Teldrassil"] = "Death Knight",
-		["Sdfgsdfghsdf - Mannoroth"] = "Druid",
-		["Deathanddk - Blade's Edge"] = "Death Knight",
-		["Frantik - Mannoroth"] = "Death Knight",
 		["Defanddk - Shattered Hand"] = "Death Knight",
+		["Deathanddk - Blade's Edge"] = "Death Knight",
+		["Puckerina - Shattered Hand"] = "Rogue",
+		["Frantik - Mannoroth"] = "Death Knight",
 		["Mograr - Lightbringer"] = "Death Knight",
-		["Todkommt - Mannoroth"] = "Priest",
-		["Shagel - Aszune"] = "Shaman",
-		["Tôdkommt - Teldrassil"] = "Druid",
-		["Shamorn - Blade's Edge"] = "Shaman",
+		["Sdfgsdfghsdf - Mannoroth"] = "Druid",
+		["Gnawl - Aszune"] = "Death Knight",
+		["Blûbbrbrnd - Anetheron"] = "Rogue",
+		["Gladimar - Blade's Edge"] = "Warrior",
 		["Todkommt - Aman'Thul"] = "Warrior",
-		["Alladinae - Teldrassil"] = "Mage",
-		["Paladriano - Aszune"] = "Paladin",
+		["Tôdkommt - Aszune"] = "Paladin",
+		["Alladinae - Blade's Edge"] = "Druid",
 	},
 	["profiles"] = {
 		["Warrior"] = {
 			["firstLoad"] = false,
 			["frames"] = {
 				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
 					["pages"] = {
 						["WARRIOR"] = {
 							["page2"] = 1,
 							["battle"] = 6,
 							["page5"] = 4,
 							["page4"] = 3,
-							["page3"] = 2,
 							["defensive"] = 7,
+							["page3"] = 2,
 							["page6"] = 5,
 						},
 					},
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -162,24 +165,6 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["alwaysShowXP"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
 				["alerts"] = {
 					["y"] = -60,
 					["x"] = 0,
@@ -187,6 +172,24 @@ RazerNagaDB = {
 					["showInOverrideUI"] = false,
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["alwaysShowXP"] = false,
+					["showInOverrideUI"] = false,
 				},
 			},
 			["minimap"] = {
@@ -308,24 +311,6 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["alwaysShowXP"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
 				["alerts"] = {
 					["y"] = -72,
 					["x"] = -1,
@@ -333,6 +318,24 @@ RazerNagaDB = {
 					["showInOverrideUI"] = false,
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["alwaysShowXP"] = false,
+					["showInOverrideUI"] = false,
 				},
 			},
 			["minimap"] = {
@@ -453,9 +456,13 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
+				["alerts"] = {
+					["y"] = -72,
+					["x"] = 1,
+					["point"] = "TOP",
 					["showInOverrideUI"] = false,
+					["hidden"] = false,
+					["showInPetBattleUI"] = false,
 				},
 				["vehicle"] = {
 					["showInPetBattleUI"] = false,
@@ -465,13 +472,9 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["alerts"] = {
-					["y"] = -72,
-					["x"] = 1,
-					["point"] = "TOP",
-					["showInOverrideUI"] = false,
-					["hidden"] = false,
+				["xp"] = {
 					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
 				},
 			},
 			["minimap"] = {
@@ -479,22 +482,24 @@ RazerNagaDB = {
 			},
 		},
 		["Monk"] = {
+			["firstLoad"] = false,
 			["frames"] = {
 				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
 					["pages"] = {
 						["MONK"] = {
-							["page6"] = 5,
+							["ox"] = 7,
 							["page2"] = 1,
-							["page3"] = 2,
+							["serpent"] = 8,
 							["page5"] = 4,
 							["page4"] = 3,
 							["tiger"] = 6,
-							["serpent"] = 8,
-							["ox"] = 7,
+							["page3"] = 2,
+							["page6"] = 5,
 						},
 					},
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
@@ -507,7 +512,6 @@ RazerNagaDB = {
 				{
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
-					["hidden"] = true,
 					["pages"] = {
 						["MONK"] = {
 						},
@@ -572,44 +576,29 @@ RazerNagaDB = {
 				}, -- [10]
 				["encounter"] = {
 					["showInPetBattleUI"] = true,
+					["x"] = 121,
+					["point"] = "LEFT",
 					["showInOverrideUI"] = true,
-					["point"] = "CENTER",
 					["hidden"] = false,
+					["y"] = 113,
 				},
 				["class"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
+					["hidden"] = true,
 				},
 				["pet"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
 				["cast"] = {
-					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 					["hidden"] = true,
+					["showInPetBattleUI"] = false,
 				},
 				["menu"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
-				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["alwaysShowXP"] = true,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
 				},
 				["alerts"] = {
 					["y"] = -69,
@@ -619,8 +608,28 @@ RazerNagaDB = {
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
 				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["alwaysShowXP"] = true,
+					["showInOverrideUI"] = false,
+				},
 			},
-			["firstLoad"] = false,
+			["minimap"] = {
+				["minimapPos"] = 190.750977326884,
+			},
 		},
 		["Rogue"] = {
 			["firstLoad"] = false,
@@ -737,24 +746,6 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["alwaysShowXP"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
 				["alerts"] = {
 					["y"] = -68,
 					["x"] = 2,
@@ -762,6 +753,24 @@ RazerNagaDB = {
 					["showInOverrideUI"] = false,
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["alwaysShowXP"] = false,
+					["showInOverrideUI"] = false,
 				},
 			},
 			["minimap"] = {
@@ -880,13 +889,10 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["alerts"] = {
-					["y"] = -87,
-					["x"] = -1,
-					["point"] = "TOP",
-					["showInOverrideUI"] = false,
-					["hidden"] = false,
+				["xp"] = {
 					["showInPetBattleUI"] = false,
+					["alwaysShowXP"] = true,
+					["showInOverrideUI"] = false,
 				},
 				["vehicle"] = {
 					["showInPetBattleUI"] = false,
@@ -896,10 +902,13 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["alwaysShowXP"] = true,
+				["alerts"] = {
+					["y"] = -87,
+					["x"] = -1,
+					["point"] = "TOP",
 					["showInOverrideUI"] = false,
+					["hidden"] = false,
+					["showInPetBattleUI"] = false,
 				},
 			},
 			["minimap"] = {
@@ -907,6 +916,7 @@ RazerNagaDB = {
 			},
 		},
 		["Druid"] = {
+			["firstLoad"] = false,
 			["frames"] = {
 				{
 					["showInPetBattleUI"] = false,
@@ -1015,12 +1025,26 @@ RazerNagaDB = {
 				["cast"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
+					["hidden"] = true,
 				},
 				["menu"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
+				["alerts"] = {
+					["y"] = -75,
+					["x"] = 0,
+					["point"] = "TOP",
+					["showInOverrideUI"] = false,
+					["hidden"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["vehicle"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
@@ -1028,28 +1052,19 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["vehicle"] = {
+				["xp"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
-				["alerts"] = {
-					["y"] = -60,
-					["x"] = 0,
-					["point"] = "TOP",
-					["showInOverrideUI"] = false,
-					["hidden"] = false,
-					["showInPetBattleUI"] = false,
 				},
 			},
-			["firstLoad"] = false,
+			["minimap"] = {
+				["minimapPos"] = 195.222168451669,
+			},
 		},
 		["Death Knight"] = {
-			["autoBindKeys"] = true,
+			["minimap"] = {
+				["minimapPos"] = 237.669838754316,
+			},
 			["firstLoad"] = false,
 			["frames"] = {
 				{
@@ -1161,6 +1176,23 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
 				["alerts"] = {
 					["y"] = -67,
 					["x"] = -1,
@@ -1169,27 +1201,8 @@ RazerNagaDB = {
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 237.669838754316,
-			},
+			["autoBindKeys"] = true,
 		},
 		["Hunter"] = {
 			["frames"] = {
@@ -1301,137 +1314,15 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["alerts"] = {
-					["y"] = -60,
-					["x"] = 0,
-					["point"] = "TOP",
-					["showInOverrideUI"] = false,
-					["hidden"] = false,
+				["xp"] = {
 					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
 				},
 				["vehicle"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
 				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-			},
-			["firstLoad"] = false,
-		},
-		["Warlock"] = {
-			["firstLoad"] = false,
-			["frames"] = {
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-							["page2"] = 1,
-							["page5"] = 4,
-							["page4"] = 3,
-							["page3"] = 2,
-							["page6"] = 5,
-						},
-					},
-				}, -- [1]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [2]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [3]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [4]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [5]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [6]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [7]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [8]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [9]
-				{
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["pages"] = {
-						["WARLOCK"] = {
-						},
-					},
-				}, -- [10]
-				["encounter"] = {
-					["showInPetBattleUI"] = true,
-					["showInOverrideUI"] = true,
-					["point"] = "CENTER",
-					["hidden"] = false,
-				},
-				["class"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 0,
-				},
-				["pet"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["cast"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["menu"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
@@ -1443,30 +1334,11 @@ RazerNagaDB = {
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
-				},
-				["vehicle"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["extra"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
-				["xp"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
-				},
 			},
-			["autoBindKeys"] = true,
+			["firstLoad"] = false,
 		},
 		["Priest"] = {
-			["minimap"] = {
-				["minimapPos"] = 234.013320355745,
-			},
+			["autoBindKeys"] = true,
 			["firstLoad"] = false,
 			["frames"] = {
 				{
@@ -1579,6 +1451,23 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
+				["xp"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["extra"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["vehicle"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
 				["alerts"] = {
 					["y"] = -84,
 					["x"] = 2,
@@ -1587,12 +1476,123 @@ RazerNagaDB = {
 					["hidden"] = false,
 					["showInPetBattleUI"] = false,
 				},
-				["bags"] = {
+			},
+			["minimap"] = {
+				["minimapPos"] = 195.554573817976,
+			},
+		},
+		["Warlock"] = {
+			["firstLoad"] = false,
+			["frames"] = {
+				{
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
-					["numButtons"] = 5,
+					["pages"] = {
+						["WARLOCK"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+					},
+				}, -- [1]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [2]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [3]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [4]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [5]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [6]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [7]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [8]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [9]
+				{
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["pages"] = {
+						["WARLOCK"] = {
+						},
+					},
+				}, -- [10]
+				["encounter"] = {
+					["showInPetBattleUI"] = true,
+					["showInOverrideUI"] = true,
+					["point"] = "CENTER",
+					["hidden"] = false,
 				},
-				["vehicle"] = {
+				["class"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 0,
+				},
+				["pet"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["menu"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+				},
+				["xp"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
@@ -1600,9 +1600,22 @@ RazerNagaDB = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
 				},
-				["xp"] = {
+				["vehicle"] = {
 					["showInPetBattleUI"] = false,
 					["showInOverrideUI"] = false,
+				},
+				["bags"] = {
+					["showInPetBattleUI"] = false,
+					["showInOverrideUI"] = false,
+					["numButtons"] = 5,
+				},
+				["alerts"] = {
+					["y"] = -60,
+					["x"] = 0,
+					["point"] = "TOP",
+					["showInOverrideUI"] = false,
+					["hidden"] = false,
+					["showInPetBattleUI"] = false,
 				},
 			},
 			["autoBindKeys"] = true,

@@ -82,15 +82,15 @@ function AskMrRobot.CombatLogTab:new(parent)
 	text:SetPoint("LEFT", btn, "RIGHT", 10, 0)
 	tab.loggingStatus = text;
 
-	local autoChk = newCheckbox(content,
-		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_LABEL,
-		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_TOOLTIP_TITLE,
-		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_SOO_DESCRIPTION,
+	local hmAutoChk = newCheckbox(content,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_LABEL,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_TOOLTIP_TITLE,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_HM_DESCRIPTION,
 		function(self, value) 
 			if value then
-				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] = "enabled"
+				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.Highmaul] = "enabled"
 			else
-				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] = "disabled" 
+				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.Highmaul] = "disabled" 
 			end
 
 			AmrDb.LogData._lastZone = nil
@@ -98,14 +98,33 @@ function AskMrRobot.CombatLogTab:new(parent)
 			tab:UpdateAutoLogging()
 		end
 	)
-	autoChk:SetChecked(AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] == "enabled")
-	autoChk:SetPoint("TOPLEFT", btn, "BOTTOMLEFT", 0, -10)
-    autoChk:SetHeight(30)
+	hmAutoChk:SetChecked(AmrDb.LogData._autoLog[AskMrRobot.instanceIds.Highmaul] == "enabled")
+	hmAutoChk:SetPoint("TOPLEFT", btn, "BOTTOMLEFT", 0, -10)
+    hmAutoChk:SetHeight(30)
+	
+	local brfAutoChk = newCheckbox(content,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_LABEL,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_TOOLTIP_TITLE,
+		L.AMR_COMBATLOGTAB_CHECKBOX_AUTOLOG_BRF_DESCRIPTION,
+		function(self, value) 
+			if value then
+				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.BlackrockFoundry] = "enabled"
+			else
+				AmrDb.LogData._autoLog[AskMrRobot.instanceIds.BlackrockFoundry] = "disabled" 
+			end
 
+			AmrDb.LogData._lastZone = nil
+			AmrDb.LogData._lastDiff = nil
+			tab:UpdateAutoLogging()
+		end
+	)
+	brfAutoChk:SetChecked(AmrDb.LogData._autoLog[AskMrRobot.instanceIds.BlackrockFoundry] == "enabled")
+	brfAutoChk:SetPoint("TOPLEFT", hmAutoChk, "BOTTOMLEFT", 0, -10)
+    brfAutoChk:SetHeight(30)	
 
-	local text = CreateText(content, "GameFontNormalLarge", autoChk, 0, -20, L.AMR_COMBATLOGTAB_INFIGHT)
+	local text = CreateText(content, "GameFontNormalLarge", brfAutoChk, 0, -20, L.AMR_COMBATLOGTAB_INFIGHT)
 
-    btn = CreateFrame("Button", "AmrCombatLogWipe", autoChk, "UIPanelButtonTemplate")
+    btn = CreateFrame("Button", "AmrCombatLogWipe", brfAutoChk, "UIPanelButtonTemplate")
 	btn:SetPoint("TOPLEFT", text, "BOTTOMLEFT", 0, -10)
 	btn:SetText("Wipe")
 	btn:SetWidth(70)
@@ -182,7 +201,7 @@ function AskMrRobot.CombatLogTab:new(parent)
     end
     
 	-- if auto-logging is enabled, do a check when the addon is loaded to make sure that state is set correctly
-	if AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] == "enabled" then
+	if tab:IsAutoLoggingEnabled() then
 		tab:UpdateAutoLogging()
 	end
 
@@ -344,6 +363,17 @@ function AskMrRobot.CombatLogTab:Update()
 
 end
 
+-- returns true if any auto-logging options are enabled
+function AskMrRobot.CombatLogTab:IsAutoLoggingEnabled()
+	-- see if any auto-logging is enabled
+	for k,v in pairs(AmrDb.LogData._autoLog) do
+		if v == "enabled" then
+			return true
+		end
+	end
+	return false
+end
+
 -- called to update logging state when auto-logging is enabled
 function AskMrRobot.CombatLogTab:UpdateAutoLogging()
 
@@ -364,14 +394,15 @@ function AskMrRobot.CombatLogTab:UpdateAutoLogging()
 	AmrDb.LogData._lastZone = zone
 	AmrDb.LogData._lastDiff = difficultyIndex
 
-	if AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] == "enabled" then
-		if tonumber(instanceMapID) == AskMrRobot.instanceIds.SiegeOfOrgrimmar then
-			-- if in SoO, make sure logging is on
+	if self:IsAutoLoggingEnabled() then
+		if AskMrRobot.IsSupportedInstanceId(instanceMapID) and AmrDb.LogData._autoLog[tonumber(instanceMapID)] == "enabled" then
+			-- we are in a supported zone that we want to auto-log, turn logging on 
+			-- (supported check is probably redundant, but just in case someone has old settings lying around)
 			if not AskMrRobot.CombatLogTab.IsLogging() then
 				self:StartLogging()
 			end
 		else
-			-- not in SoO, turn logging off
+			-- not in a zone that we want to auto-log, turn logging off
 			if AskMrRobot.CombatLogTab.IsLogging() then
 				self:StopLogging()
 			end
@@ -419,9 +450,13 @@ end
 function AskMrRobot.CombatLogTab.InitializeVariable()
     if not AmrDb.LogData then AmrDb.LogData = {} end
 	if not AmrDb.LogData._autoLog then AmrDb.LogData._autoLog = {} end
-	if not AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] then 
-		AmrDb.LogData._autoLog[AskMrRobot.instanceIds.SiegeOfOrgrimmar] = "disabled" 
+	
+	for k,v in pairs(AskMrRobot.supportedInstanceIds) do
+		if not AmrDb.LogData._autoLog[k] then
+			AmrDb.LogData._autoLog[k] = "disabled"
+		end
 	end
+	
 	AmrDb.LogData._wipes = AmrDb.LogData._wipes or {}
 end
 

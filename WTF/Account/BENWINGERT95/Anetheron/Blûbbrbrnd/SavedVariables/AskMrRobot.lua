@@ -30,7 +30,7 @@ AmrDb = {
 			"|cff1eff00|Hitem:62168:0:0:0:0:0:0:2137102720:39:0:0:0|h[Glimmering Ring]|h|r", -- [12]
 			nil, -- [13]
 			nil, -- [14]
-			"|cffe6cc80|Hitem:62039:0:0:0:0:0:0:0:39:0:0:0|h[Inherited Cape of the Black Baron]|h|r", -- [15]
+			nil, -- [15]
 			"|cffe6cc80|Hitem:42944:0:0:0:0:0:0:0:39:0:0:0|h[Balanced Heartseeker]|h|r", -- [16]
 			"|cffe6cc80|Hitem:42944:0:0:0:0:0:0:0:39:0:0:0|h[Balanced Heartseeker]|h|r", -- [17]
 		}, -- [1]
@@ -42,21 +42,21 @@ AmrDb = {
 	["Region"] = "EU",
 	["Currencies"] = {
 	},
-	["Glyphs"] = {
-	},
+	["Class"] = "ROGUE",
 	["LogData"] = {
 		["_wipes"] = {
 		},
 		["_autoLog"] = {
+			[1228] = "disabled",
 			[1136] = "disabled",
+			[1205] = "disabled",
 		},
-		["_lastDiff"] = 0,
 		["_lastZone"] = "Eastern Kingdoms",
+		["_lastDiff"] = 0,
 	},
 	["BagItems"] = {
 	},
-	["BankItems"] = {
-	},
+	["RealmName"] = "Anetheron",
 	["LastCharacterImport"] = "",
 	["Reps"] = {
 	},
@@ -65,6 +65,8 @@ AmrDb = {
 	},
 	["Professions"] = {
 	},
-	["RealmName"] = "Anetheron",
-	["Class"] = "ROGUE",
+	["BankItems"] = {
+	},
+	["Glyphs"] = {
+	},
 }

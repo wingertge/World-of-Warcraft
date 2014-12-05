@@ -3,6 +3,7 @@ FishingBuddy_Player = {
 	["MinimapData"] = {
 		["hide"] = false,
 	},
+	["TotalTimeFishing"] = 1,
 	["Settings"] = {
 	},
 	["WasWearing"] = {

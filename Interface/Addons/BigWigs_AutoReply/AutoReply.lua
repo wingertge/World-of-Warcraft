@@ -107,7 +107,7 @@ function addon:shouldIgnore(msg)
 end
 
 function addon:onBossEngage(self, module)
-	if (not module.moduleName or not module.encounterId) then return end
+	if (not module.moduleName or not module.journalId) then return end
 	addon:dprint("Boss Engaged: "..module.moduleName)
 
 	arEncounterName = module.moduleName
@@ -123,7 +123,7 @@ function addon:onBossEngage(self, module)
 end
 
 function addon:onBossEnd(self, module)
-	if (not module.moduleName or not module.encounterId) then return end
+	if (not module.moduleName or not module.journalId) then return end
 	addon:dprint("Boss End: "..module.moduleName)
 
 	local result = ""

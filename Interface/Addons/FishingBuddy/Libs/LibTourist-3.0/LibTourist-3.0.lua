@@ -1,6 +1,6 @@
 ﻿--[[
 Name: LibTourist-3.0
-Revision: $Rev: 172 $
+Revision: $Rev: 175 $
 Author(s): ckknight (ckknight@gmail.com), Arrowmaster, Odica (maintainer)
 Website: http://ckknight.wowinterface.com/
 Documentation: http://www.wowace.com/addons/libtourist-3-0/
@@ -10,7 +10,7 @@ License: MIT
 ]]
 
 local MAJOR_VERSION = "LibTourist-3.0"
-local MINOR_VERSION = 90000 + tonumber(("$Revision: 172 $"):match("(%d+)"))
+local MINOR_VERSION = 90000 + tonumber(("$Revision: 175 $"):match("(%d+)"))
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub") end
 
@@ -297,6 +297,10 @@ function Tourist:GetLevel(zone)
 		-- Find the most suitable bracket
 		if playerLvl >= MAX_PLAYER_LEVEL then
 			return MAX_PLAYER_LEVEL, MAX_PLAYER_LEVEL
+		elseif playerLvl >= 95 then
+			return 95, 99
+		elseif playerLvl >= 90 then
+			return 90, 94
 		elseif playerLvl >= 85 then
 			return 85, 89
 		elseif playerLvl >= 80 then
@@ -445,23 +449,15 @@ local kalXOffset = -8310.762035321373
 local kalYOffset = 1815.149000954498
 
 function Tourist:GetYardDistance(zone1, x1, y1, zone2, x2, y2)
-	local zone1_yardXOffset = yardXOffsets[zone1]
-	if not zone1_yardXOffset then
-		return nil
-	end
-	local zone2_yardXOffset = yardXOffsets[zone2]
-	if not zone2_yardXOffset then
-		return nil
-	end
-	local zone1_yardYOffset = yardYOffsets[zone1]
-	local zone2_yardYOffset = yardYOffsets[zone2]
-
 	local zone1_continent = continents[zone1]
 	local zone2_continent = continents[zone2]
 	if (zone1_continent == Outland) ~= (zone2_continent == Outland) then
 		return nil
 	end
-
+	if (zone1_continent == Draenor) ~= (zone2_continent == Draenor) then
+		return nil
+	end
+	
 	local zone1_yardWidth = yardWidths[zone1]
 	local zone1_yardHeight = yardHeights[zone1]
 	local zone2_yardWidth = yardWidths[zone2]
@@ -473,6 +469,17 @@ function Tourist:GetYardDistance(zone1, x1, y1, zone2, x2, y2)
 	local y2_yard = zone2_yardHeight*y2
 
 	if zone1 ~= zone2 then
+		local zone1_yardXOffset = yardXOffsets[zone1]
+		if not zone1_yardXOffset then
+			return nil
+		end
+		local zone2_yardXOffset = yardXOffsets[zone2]
+		if not zone2_yardXOffset then
+			return nil
+		end
+		local zone1_yardYOffset = yardYOffsets[zone1]
+		local zone2_yardYOffset = yardYOffsets[zone2]	
+	
 		x1_yard = x1_yard + zone1_yardXOffset
 		y1_yard = y1_yard + zone1_yardYOffset
 
@@ -3749,8 +3756,8 @@ do
 	}
 
 	zones[BZ["Upper Blackrock Spire"]] = {
-		low = 90,
-		high = 90,
+		low = 100,
+		high = 100,
 		continent = Eastern_Kingdoms,
 		paths = {
 			[BZ["Blackrock Mountain"]] = true,
@@ -6586,6 +6593,7 @@ do
 		},
 		faction = "Horde",
 		type = "City",
+        fishing_min = 950,
 		battlepet_low = 25,
 		battlepet_high = 25,
 	}
@@ -6600,6 +6608,7 @@ do
 		},
 		faction = "Alliance",
 		type = "City",
+        fishing_min = 950,
 		battlepet_low = 25,
 		battlepet_high = 25,
 	}
@@ -6628,7 +6637,6 @@ do
         faction = "Horde",
         fishing_min = 950,
     }
-	
 	
 	-- Warlords of Draenor (WoD) dungeons and raids
 	

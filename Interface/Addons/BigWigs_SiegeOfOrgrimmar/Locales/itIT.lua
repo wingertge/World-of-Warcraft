@@ -178,7 +178,7 @@ if L then
 L["bombardment"] = "Bombardmento"
 L["bombardment_desc"] = "Bombardamendo di Roccavento che lascia dei fuochi sul terreno. Le Pirostelle Kor'kron possono apparire soltanto durante il bombardmento."
 L["chain_heal_bar"] = "Focus: Catena di Guarigione"
-L["chain_heal_desc"] = "Cura un bersaglio amico per il 40% della sua vita massima, e a catena anche i bersagli amici vicini."
+L["chain_heal_desc"] = "{focus}Cura un bersaglio amico per il 40% della sua vita massima, e a catena anche i bersagli amici vicini."
 L["chain_heal_message"] = "Il tuo focus sta lanciando Catena di Guarigione!"
 L["clump_check_desc"] = "Controlla ogni 3 secondi durante il Bombardamento i giocatori ammucchiati, se viene rilevato un gruppo, verrà creata una Pirostella Kor'kron."
 L["clump_check_warning"] = "Rilevato ammucchiamento, Pirostella in arrivo"

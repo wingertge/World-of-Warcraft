@@ -1,5 +1,5 @@
 ## Interface: 60000
-## X-Curse-Packaged-Version: r39-release
+## X-Curse-Packaged-Version: r41-release
 ## X-Curse-Project-Name: BigWigs_BurningCrusade
 ## X-Curse-Project-ID: bigwigs_burningcrusade
 ## X-Curse-Repository-ID: wow/bigwigs_burningcrusade/mainline

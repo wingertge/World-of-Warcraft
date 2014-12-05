@@ -1,45 +1,7 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["Killertyp - Teldrassil"] = "Default",
-		["Incantora - Lightbringer"] = "Default",
-		["Todkommt - Blade's Edge"] = "Default",
-		["Käsestange - Teldrassil"] = "Default",
-		["Tôdi - Teldrassil"] = "Default",
-		["Tragazar - Aman'Thul"] = "Default",
-		["Benigno - Blade's Edge"] = "Default",
-		["Arithlec - Aman'Thul"] = "Default",
-		["Defanddk - Blade's Edge"] = "Default",
-		["Minkao - Mannoroth"] = "Default",
-		["Trolonom - Mannoroth"] = "Default",
-		["Deslock - Mannoroth"] = "Default",
-		["Ots - Mannoroth"] = "Default",
-		["Incantora - Shattered Hand"] = "Default",
-		["Paladriano - Aszune"] = "Default",
-		["Archagon - Aszune"] = "Default",
-		["Paladriana - Blade's Edge"] = "Default",
-		["Tôdkommt - Aszune"] = "Default",
-		["Tôdkommt - Teldrassil"] = "Default",
-		["Klore - Aszune"] = "Default",
-		["Gladimar - Blade's Edge"] = "Default",
-		["Manianor - Blade's Edge"] = "Default",
-		["Shagel - Aszune"] = "Default",
-		["Oct - Mannoroth"] = "Default",
-		["Schurkêgurkê - Teldrassil"] = "Default",
-		["Monodev - Aszune"] = "Default",
-		["Todkommt - Teldrassil"] = "Default",
-		["Frantik - Mannoroth"] = "Default",
-		["Deathanddk - Blade's Edge"] = "Default",
-		["Puckerina - Shattered Hand"] = "Default",
-		["Sdfgsdfghsdf - Mannoroth"] = "Default",
-		["Mograr - Lightbringer"] = "Default",
-		["Todkommt - Mannoroth"] = "Default",
-		["Octalux - Aszune"] = "Default",
-		["Defanddk - Shattered Hand"] = "Default",
-		["Shamorn - Blade's Edge"] = "Default",
-		["Todkommt - Aman'Thul"] = "Default",
-		["Alladinae - Teldrassil"] = "Default",
-		["Piora - Lightbringer"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1417786339,
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -86,12 +48,12 @@ DecursiveDB = {
 		},
 		["PRIEST"] = {
 			["CureOrder"] = {
-				-11, -- [1]
-				-13, -- [2]
+				2, -- [1]
+				1, -- [2]
 				nil, -- [3]
 				-14, -- [4]
 				[8] = -15,
-				[16] = -12,
+				[16] = 3,
 				[32] = -16,
 			},
 		},
@@ -106,14 +68,14 @@ DecursiveDB = {
 				[32] = 1,
 			},
 		},
-		["PALADIN"] = {
+		["ROGUE"] = {
 			["CureOrder"] = {
-				-13, -- [1]
+				-11, -- [1]
 				-15, -- [2]
 				nil, -- [3]
-				-14, -- [4]
-				[8] = 1,
-				[16] = 2,
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
 				[32] = -16,
 			},
 		},
@@ -136,7 +98,7 @@ DecursiveDB = {
 				1, -- [4]
 				[8] = 2,
 				[16] = -15,
-				[32] = 3,
+				[32] = -13,
 			},
 		},
 		["MONK"] = {
@@ -145,25 +107,67 @@ DecursiveDB = {
 				-15, -- [2]
 				nil, -- [3]
 				-14, -- [4]
-				[8] = -11,
-				[16] = -12,
+				[8] = 1,
+				[16] = 2,
 				[32] = -16,
 			},
 		},
-		["ROGUE"] = {
+		["PALADIN"] = {
 			["CureOrder"] = {
-				-11, -- [1]
+				-13, -- [1]
 				-15, -- [2]
 				nil, -- [3]
-				-12, -- [4]
-				[8] = -13,
-				[16] = -14,
+				-14, -- [4]
+				[8] = 1,
+				[16] = 2,
 				[32] = -16,
 			},
 		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1417134318,
+	["profileKeys"] = {
+		["Killertyp - Teldrassil"] = "Default",
+		["Incantora - Lightbringer"] = "Default",
+		["Todkommt - Blade's Edge"] = "Default",
+		["Käsestange - Teldrassil"] = "Default",
+		["Tôdi - Teldrassil"] = "Default",
+		["Tragazar - Aman'Thul"] = "Default",
+		["Benigno - Blade's Edge"] = "Default",
+		["Arithlec - Aman'Thul"] = "Default",
+		["Defanddk - Blade's Edge"] = "Default",
+		["Minkao - Mannoroth"] = "Default",
+		["Trolonom - Mannoroth"] = "Default",
+		["Deslock - Mannoroth"] = "Default",
+		["Ots - Mannoroth"] = "Default",
+		["Worgard - Blade's Edge"] = "Default",
+		["Incantora - Shattered Hand"] = "Default",
+		["Paladriano - Aszune"] = "Default",
+		["Archagon - Aszune"] = "Default",
+		["Blûbbrbrnd - Anetheron"] = "Default",
+		["Alladinae - Teldrassil"] = "Default",
+		["Paladriana - Blade's Edge"] = "Default",
+		["Shamorn - Blade's Edge"] = "Default",
+		["Shagel - Aszune"] = "Default",
+		["Octalux - Aszune"] = "Default",
+		["Klore - Aszune"] = "Default",
+		["Todkommt - Mannoroth"] = "Default",
+		["Manianor - Blade's Edge"] = "Default",
+		["Tôdkommt - Teldrassil"] = "Default",
+		["Defanddk - Shattered Hand"] = "Default",
+		["Schurkêgurkê - Teldrassil"] = "Default",
+		["Monodev - Aszune"] = "Default",
+		["Todkommt - Teldrassil"] = "Default",
+		["Frantik - Mannoroth"] = "Default",
+		["Deathanddk - Blade's Edge"] = "Default",
+		["Puckerina - Shattered Hand"] = "Default",
+		["Oct - Mannoroth"] = "Default",
+		["Mograr - Lightbringer"] = "Default",
+		["Sdfgsdfghsdf - Mannoroth"] = "Default",
+		["Gnawl - Aszune"] = "Default",
+		["Piora - Lightbringer"] = "Default",
+		["Gladimar - Blade's Edge"] = "Default",
+		["Todkommt - Aman'Thul"] = "Default",
+		["Tôdkommt - Aszune"] = "Default",
+		["Alladinae - Blade's Edge"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

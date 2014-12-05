@@ -183,7 +183,7 @@ if L then
 L["bombardment"] = "Bombardeo"
 L["bombardment_desc"] = "Bombardea Ventormenta, dejando manchas de fuego en el suelo. La Estrella de hierro Kor'kron solo puede aparecer durante el bombardeo."
 L["chain_heal_bar"] = "Foco: Sanación en cadena"
-L["chain_heal_desc"] = "Cura un objetivo amistoso el 40% de su vida máxima, extendiéndose a los objetivos amistosos cercanos."
+L["chain_heal_desc"] = "{focus}Cura un objetivo amistoso el 40% de su vida máxima, extendiéndose a los objetivos amistosos cercanos."
 L["chain_heal_message"] = "¡Tu foco está casteando Sanación en cadena!"
 L["clump_check_desc"] = "Comprueba cada 3 segundos durante el bombardeo los jugadores agrupados, si un grupo es encontrado por una Estrella de hierro Kor'kron aparecerá."
 L["clump_check_warning"] = "Grupo encontrado, Estrella pronto"

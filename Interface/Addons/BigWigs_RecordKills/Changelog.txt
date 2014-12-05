@@ -10,7 +10,11 @@
 --------------------------------------------------------
 -- CHANGELOG --
 --------------------------------------------------------
---- v2.01 -- 
+--- v2.02 ---
+-Fix an error converting SoO records for people w/o records
+-Update to work with BigWigs for WoD (journalId)
+
+--- v2.01 ---
 -Fix a bug with converting SoO records
 
 --- v2.0 ---

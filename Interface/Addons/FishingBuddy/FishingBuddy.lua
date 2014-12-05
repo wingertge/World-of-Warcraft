@@ -305,7 +305,7 @@ local InvisibleOptions = {
 		["default"] = FBConstants.DEFAULT_MINIMAP_RADIUS,
 	},
 	["TotalTimeFishing"] = {
-		["default"] = true,
+		["default"] = 1,
 	},
 	["FishDebug"] = {
 		["default"] = false,
@@ -1029,6 +1029,18 @@ local function GetFishieRaw(fishid)
 	end
 end
 FishingBuddy.GetFishieRaw = GetFishieRaw;
+
+local function OnNatPagleQuest()
+	local i = 1;
+	while GetQuestLogTitle(i) do
+		local questTitle, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID = GetQuestLogTitle(i)
+		if ( questID == 36611) then
+			return true;
+		end
+		i = i + 1;
+	end
+	-- return nil;
+end
 
 local function GetUpdateLure()
 	local GSB = FishingBuddy.GetSettingBool;

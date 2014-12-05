@@ -1,6 +1,17 @@
-﻿Version 1.4i
+﻿Version 1.4m
+- Don't try and remember fish schools if we're not sure where we are (Curse Bug #240)
+
+Version 1.4k
+- Fix math error in watcher when you are fishing for the first time
+
+Version 1.4j
+- Make sure Nat's Hookshot is applied whenever we're doing the Lunker quest
+- Use the Worm Supreme, if we need it to get over 950
+- Use the latest LibTourist, and notice if we're in the Draenor zones for skill check
+
+Version 1.4i
 - One last "boolean instead of 1" error in the locations frame
-- Latest version of LibTourist
+- Latest version of LibTourist (hacked for 950 skill everywhere)
 
 Version 1.4h
 - Actually fix the issue with checkboxes (Curse bug #234)

@@ -1,5 +1,5 @@
 
 SlideBarConfig = {
 	["anchor"] = "top",
-	["position"] = 264.999989857897,
+	["position"] = 304.999986505136,
 }

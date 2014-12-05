@@ -1,4 +1,4 @@
-local revision = tonumber(("$Revision: 215 $"):sub(12, -3))
+local revision = tonumber(("$Revision: 222 $"):sub(12, -3))
 
 local logName = nil
 local currentLog = nil
@@ -300,6 +300,14 @@ end
 sh.ZONE_CHANGED_INDOORS = sh.ZONE_CHANGED
 sh.ZONE_CHANGED_NEW_AREA = sh.ZONE_CHANGED
 
+function sh.CINEMATIC_START(...)
+	SetMapToCurrentZone()
+	local areaId = GetCurrentMapAreaID() or 0
+	local areaLevel = GetCurrentMapDungeonLevel() or 0
+	local id = ("%d:%d"):format(areaId, areaLevel)
+	return strjoin("#", "Fake ID:", id, "Real Args:", tostringall(...))
+end
+
 local function eventHandler(self, event, ...)
 	if TranscriptDB.ignoredEvents[event] then return end
 	local line
@@ -368,6 +376,8 @@ local wowEvents = {
 	"ZONE_CHANGED",
 	"ZONE_CHANGED_INDOORS",
 	"ZONE_CHANGED_NEW_AREA",
+	"PLAY_MOVIE",
+	"CINEMATIC_START",
 }
 local bwEvents = {
 	"BigWigs_Message",
@@ -468,8 +478,8 @@ init:RegisterEvent("PLAYER_LOGIN")
 --
 
 local function BWEventHandler(event, module, ...)
-	if module == "BigWigs_Plugins_Common Auras" then return end
-	eventHandler(eventFrame, event, module, ...)
+	if module and module.baseName == "BigWigs_CommonAuras" then return end
+	eventHandler(eventFrame, event, module and module.moduleName, ...)
 end
 
 local function DBMEventHandler(...)
@@ -499,7 +509,9 @@ function Transcriptor:StartLog(silent)
 		elseif diff == 6 then
 			diff = "HC25M"
 		elseif diff == 7 then
-			diff = "LFR25"
+			diff = "LFR25M"
+		elseif diff == 8 then
+			diff = "CM5M"
 		elseif diff == 14 then
 			diff = "Normal"
 		elseif diff == 15 then
@@ -508,12 +520,10 @@ function Transcriptor:StartLog(silent)
 			diff = "Mythic"
 		elseif diff == 17 then
 			diff = "LFR"
-		elseif diff == 18 then--Example, UBRS 90
-			diff = "Event40"
-		elseif diff == 19 then--Example, Molten Core 40 man LFR
-			diff = "Event5"
-		elseif diff == 20 then--Example, Unknown use, scenario 20?
-			diff = "Event20"
+		elseif diff == 18 then
+			diff = "Event40M"
+		elseif diff == 19 then
+			diff = "Event5M"
 		else
 			diff = tostring(diff)
 		end

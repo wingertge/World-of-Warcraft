@@ -7,7 +7,7 @@ Licensed under a Creative Commons "Attribution Non-Commercial Share Alike" Licen
 --]]
 
 local MAJOR_VERSION = "LibFishing-1.0"
-local MINOR_VERSION = 90000 + tonumber(("$Rev: 855 $"):match("%d+"))
+local MINOR_VERSION = 90000 + tonumber(("$Rev: 912 $"):match("%d+"))
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub") end
 
@@ -82,12 +82,32 @@ end
 
 -- Lure library
 local FISHINGLURES = {
+	{	["id"] = 88710,
+		["n"] = "Nat's Hat",						-- 150 for 10 mins
+		["b"] = 150,
+		["s"] = 100,
+		["d"] = 10,
+		["w"] = true,
+	},
+	{	["id"] = 33820,
+		["n"] = "Weather-Beaten Fishing Hat",		  -- 75 for 10 minutes
+		["b"] = 75,
+		["s"] = 1,
+		["d"] = 10,
+		["w"] = true,
+	},
 	{	["id"] = 34832,
 		["n"] = "Captain Rumsey's Lager",			     -- 10 for 3 mins
 		["b"] = 10,
 		["s"] = 1,
 		["d"] = 3,
 		["u"] = 1,
+	},
+	{	["id"] = 67404,
+		["n"] = "Glass Fishing Bobber",				-- ???
+		["b"] = 15,
+		["s"] = 1,
+		["d"] = 10,
 	},
 	{	["id"] = 6529,
 		["n"] = "Shiny Bauble",							  -- 25 for 10 mins
@@ -106,13 +126,6 @@ local FISHINGLURES = {
 		["b"] = 50,
 		["s"] = 50,
 		["d"] = 10,
-	},
-	{	["id"] = 33820,
-		["n"] = "Weather-Beaten Fishing Hat",		  -- 75 for 10 minutes
-		["b"] = 75,
-		["s"] = 1,
-		["d"] = 10,
-		["w"] = true,
 	},
 	{	["id"] = 7307,
 		["n"] = "Flesh Eating Worm",					  -- 75 for 10 mins
@@ -157,18 +170,11 @@ local FISHINGLURES = {
 		["s"] = 250,
 		["d"] = 5,
 	},
-	{	["id"] = 67404,
-		["n"] = "Glass Fishing Bobber",				-- ???
-		["b"] = 15,
-		["s"] = 1,
-		["d"] = 10,
-	},
-	{	["id"] = 88710,
-		["n"] = "Nat's Hat",						-- 150 for 10 mins
-		["b"] = 150,
+	{	["id"] = 118391,
+		["n"] = "Worm Supreme",						-- 200 for 10 mins
+		["b"] = 200,
 		["s"] = 100,
 		["d"] = 10,
-		["w"] = true,
 	},
 }
 
@@ -834,6 +840,9 @@ function FishLib:GetZoneInfo()
 		zone = "Ironforge";
 	end
 	
+	local continent = GetCurrentMapContinent();
+	zone = LT:GetUniqueZoneNameForLookup(zone, continent)
+
 	return zone, subzone;
 end
 

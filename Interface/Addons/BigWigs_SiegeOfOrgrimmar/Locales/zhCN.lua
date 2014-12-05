@@ -181,7 +181,7 @@ if L then
 L["bombardment"] = "呼叫轰炸"
 L["bombardment_desc"] = "轰击暴风城，并在地面上留下火焰。 库卡隆钢铁之星只会在呼叫轰炸阶段出现。"
 L["chain_heal_bar"] = "焦点：先祖治疗链"
-L["chain_heal_desc"] = "治疗一个友方目标40%最大生命，会跳到附近友方目标身上。"
+L["chain_heal_desc"] = "{focus}治疗一个友方目标40%最大生命，会跳到附近友方目标身上。"
 L["chain_heal_message"] = "你的焦点目标正在施放先祖治疗链！"
 L["clump_check_desc"] = "在呼叫轰炸阶段时每3秒检查扎堆的玩家，如果检查到群体存在库卡隆钢铁之星将会出现。"
 L["clump_check_warning"] = "发现呼叫轰炸，即将 >钢铁之星<！"

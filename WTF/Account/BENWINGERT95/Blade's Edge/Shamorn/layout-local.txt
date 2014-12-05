@@ -6,15 +6,8 @@ X: 0
 Y: 0
 W: 170
 H: 40
-Frame: DBMMinimapButton
-FrameLevel: 3
-Anchor: TOPRIGHT
-X: -136
-Y: -115
-W: 32
-H: 32
 Frame: f1_HealBot_Action
-FrameLevel: 46
+FrameLevel: 38
 Anchor: LEFT
 X: 336
 Y: 209
